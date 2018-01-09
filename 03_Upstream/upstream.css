@@ -222,3 +222,7 @@ h2 {
 	font-style: italic;
 	color:rgb(255, 253, 226);
 }
+
+/* Comments:
+I incoporated a bunch of &nbsp;, which i normally wouldn't do, because it's a poem and the specifics of where each word is really matters.. not sure if there would have been a better way to do it..?
+Also... just realized I should have made borders for the whole body instead of margins for each # line of code.. */
