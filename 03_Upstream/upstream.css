@@ -1,0 +1,224 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:300,300i');
+
+* {	
+	padding: 0;
+	margin:0;
+}
+
+.intro{
+	color:rgb(255, 253, 226);
+	width: auto;
+	height: 250px;
+	background-color:rgb(62, 88, 23);
+	padding: 40% 30% 0% 20%;
+	margin: 0px 0px 120px 0px;
+}
+
+p {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 2.5em;
+	border: none;
+	margin:0% 25% 5% 20%;
+	line-height: 150%;
+}
+
+h1 {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 4em;
+	font-weight: 300;
+	}
+
+
+h5 {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-style: normal;
+	font-size: 1.5em;
+	font-weight: 300;
+
+}
+
+body { 
+	color:rgb(62, 88, 23);
+	background-color:rgb(255, 253, 226);
+	}
+
+em {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	text-transform: lowercase;
+	font-style: normal; 
+	font-weight: 300;
+	color:rgb(81, 128, 10);
+}
+
+.italic {
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 400i;
+	text-transform: none;
+	font-style: italic;
+	color:rgb(62, 88, 23);
+}
+
+.right-aligned{
+	text-align: right;	
+	color: rgb(148, 64, 9);
+	line-height:150%;
+	margin:0% 25% 5% 30%;
+}
+
+#right-aligned-italic{
+	color: rgb(148, 64, 9);
+}
+
+#asterix {
+	text-align: left;
+	margin:16% 0% 1% 20%;
+}
+
+#asterix-after{
+	margin:8% 0% 14% 0%;
+}
+
+
+.space-before{
+	margin:10% 25% 5% 20%;
+}
+
+#right-aligned-space-before{
+	margin:15% 25% 5% 33%;
+}
+
+/* Body Images */
+
+#pinaccae-img {
+	max-width: 24%;
+	float:left;
+	margin:0% 3% 1% 20%;
+	
+}
+
+#violacea-img {
+	max-width: 24%;
+	float:right;
+	margin:1% 18% 0% 3%;
+}
+
+#beginning-img {
+	margin:20% 25% 5% 69%;
+	margin-bottom: 4%;
+	max-width: 7%;
+	display: block;
+}
+
+
+#growth-1-img {
+	margin:20% 25% 5% 69%;
+	margin-bottom: 4%;
+	max-width: 5%;
+	display: block;
+}
+
+#growth-2-img {
+	margin:15% 25% 5% 71%;
+	margin-bottom: 4%;
+	max-width: 4%;
+	display: block;
+}
+
+#growth-3-img {
+	margin:13% 25% 5% 69%;
+	margin-bottom: 4%;
+	max-width: 8%;
+	display: block;
+}
+
+#growth-4-img {
+	margin:13% 25% 5% 63%;
+	margin-bottom: 4%;
+	max-width: 15%;
+	display: block;	
+}
+
+
+#black-oak-img {
+	max-width: 20%;
+	float:left;
+	margin:0% 3% 0% 20%;
+	
+}
+
+
+/* Flower Names - Colors */
+
+#em-tom {
+	color:rgb(229, 105, 61);
+}
+
+#em-andy {
+	color:rgb(228, 168, 16);
+}
+
+#em-archibald {
+	color:rgb(144, 138, 202);
+}
+
+#em-clarissa {
+	color:rgb(83, 129, 186);
+}
+
+#em-lilian {
+	color:rgb(52, 117, 17);
+}
+
+#em-noah {
+	color:rgb(173, 100, 21);
+}
+
+
+/* Footer Area */
+footer {
+	padding: 4% 23% 4% 20%;
+	margin: 15% 0% 0% 0%;
+	background-color:rgb(62, 88, 23);
+}
+
+.footer-image {
+	background: url(img/maryoliver.jpg) no-repeat center center;
+	background-size: cover;
+	height: 270px;
+	width: 270px;
+	float: left;
+	margin:5% 4% 2% 0%;
+	border-radius: 50%;
+}
+
+.bio { 
+	font-size: 1.3em;
+	font-family: 'Alegreya Sans', sans-serif;
+	color:rgb(255, 253, 226);
+	font-weight: 300;
+	margin:1% 0% 1% 0%;
+	line-height: 150%;
+}
+
+h2 {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 3em;
+	font-weight: 300;
+	color:rgb(255, 253, 226);
+	text-transform: lowercase;
+	padding: 0% 0% 1% 0%;
+
+}
+
+#em-footer {
+	color:rgb(255, 253, 226);
+}
+
+#em-footer-italic {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-style: italic;
+	color:rgb(255, 253, 226);
+}
