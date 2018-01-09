@@ -1,4 +1,5 @@
 # Syllabus
+
 * Wintersession: WEB DESIGN | RISD GRAPH-3217
 * 3 credits
 * Section 1: Bobby Joe Smith (bsmith07@risd.edu) | Room 408
