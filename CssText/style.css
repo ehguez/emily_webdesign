@@ -4,7 +4,7 @@
 
 
 body {
-	background-color: rgb(220,212,189);
+	background-color:#fff;
 	width: 800px;
 	margin:100px;
 	background-size: border;
@@ -12,19 +12,98 @@ body {
 
 .grid-container {
 	display: grid; 
-	grid-template-columns: 30px 30px 30px 30px 30px;
-	grid-gap: 100px;
+	grid-template-columns: 35px 35px 35px 35px 35px 35px 35px;
 	height: 610px;
 	width: 550px;
 }
 
-/*Graphic Element - Shapes */
-.rounded-rectangle-1{
-	width: 30px;
-	height: 60px;
-	border-radius: 30px;
-	mix-blend-mode: soft-light;
+
+#two {
+
 }
+
+/*Graphic Element - Shapes */
+.element-1{
+	width: 30px;
+	height: 15px;
+	transform: translateX(18px);
+}
+
+.element-1b{
+	width: 30px;
+	height: 15px;
+	transform: translateX(18px) translateY(250px);
+}
+
+.element-1c{
+	width: 30px;
+	height: 15px;
+	transform: translateX(-15px) translateY(-20px);
+}
+
+.element-1d{
+	width: 30px;
+	height: 15px;
+	transform: translateX(-17px) translateY(230px);
+}
+
+#one{
+	transform: translateX(21px) translateY(-20px);
+	background: #000;
+}
+
+#oneb{
+	transform: translateX(21px) translateY(230px);
+	background: #000;
+}
+
+#two{
+	transform: translateX(-15px);
+	background: #000;
+}
+
+#twob{
+	transform: translateX(-15px) translateY(250px);
+	background: #000;
+}
+
+
+.element-2{
+	width: 35px;
+	height: 35px;
+}
+
+.element-2a{
+	width: 35px;
+	height: 35px;
+	border-top-right-radius: 25px;
+}
+.element-3{
+	width: 35px;
+	height: 20px;	
+	transform: translateY(125px);
+}
+
+.element-3a{
+	width: 35px;
+	height: 35px;
+	transform: translateY(25px);
+
+}
+
+
+.element-1a{
+	width: 35px;
+	height: 35px;
+	transform: translateY(-40px);
+	border-top-left-radius: 10px;
+	transform: translateX(32px);
+
+}
+
+
+
+
 
 .rounded-rectangle-2{
 	width: 30px;
@@ -60,9 +139,8 @@ body {
 }
 
 /* Graphic Elements - Colors*/
-#grey {
-	background: #6a5e52;
-	background:radial-gradient(farthest-corner, #6a5e52 0%, #6a5e52 50%, #d3c8b4 100%);
+#black {
+	background: #000;
 }
 
 #red {
@@ -87,36 +165,17 @@ body {
 
 
 
-/*Copy Section*/
-
-h1 {
-	font-size: 2.2em;
-	font-family: roboto, sans-serif;
-	font-weight: 500;
-	padding-bottom: 35%;
-	border: 1px ;
-	line-height: 100%;
-	letter-spacing: -1px;
-	margin-top: 0;
-	margin-right: 48px;
+/*Copy Section
+.element-1{
+	width: 30px;
+	height: 35px;
+	border-top-left-radius: 20px;
+	transform: translateX(18px);
 }
+*/
 
-p {
-	font-size: 0.89em;
-	line-height: 125%;
-	font-family: roboto, sans-serif;
-	font-weight: 400;
-	float: right;
-	border: 1px ;
-	margin-top: 0px;
-	width: 285px;
-}
 
-h6 {
-	font-size: 4px;
-	font-family: roboto, sans-serif;
-	font-weight: 700;
-	transform: translateY(-6px);
+
 }
 
 .grid {
