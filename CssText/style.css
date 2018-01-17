@@ -155,22 +155,22 @@ body {
 
 #one{
 	transform: translateX(21px) translateY(-20px);
-	background: #yellow;
+	background-color:yellow;
 }
 
 #oneb{
 	transform: translateX(21px) translateY(230px);
-	background: #yellow;
+	background-color:yellow;
 }
 
 #two{
 	transform: translateX(-15px);
-	background: #yellow;
+	background-color: yellow;
 }
 
 #twob{
 	transform: translateX(-15px) translateY(250px);
-	background: #yellow;
+	background:yellow;
 }
 
 
