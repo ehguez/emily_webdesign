@@ -1,13 +1,8 @@
-
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
-
-
-
 body {
 	width: 1000px;
-	margin:100px;
+	margin:80px;
 	background-size: border;
-	background-color: #fff;
+	background-color: #fde331;
 }
 
 .grid-container {
@@ -800,13 +795,13 @@ body {
 .z-element18 {
 	width: 6px;
 	height: 4px;
-	transform: translateX(40px) translateY(-33px);
+	transform: translateX(41px) translateY(-33px);
 }
 
 .z-element18-2 {
-	width: 12px;
+	width: 11px;
 	height: 4px;
-	transform: translateX(40px) translateY(-21px);
+	transform: translateX(40px) translateY(-19px);
 }
 .z-element17c1 {
 	width: 6px;
@@ -816,25 +811,25 @@ body {
 
 .z-element17d1 {
 	width: 6px;
-	height: 11px;
+	height: 10px;
 	transform: translateX(36px) translateY(-21px);
 }
 
 .z-element17-2 {
 	width: 6px;
 	height: 10px;
-	transform: translateX(45px) translateY(-40px);
+	transform: translateX(45px) translateY(-39px);
 }
 
 .z-element17a-2 {
 	width: 6px;
 	height: 10px;
-	transform: translateX(47px) translateY(-40px);
+	transform: translateX(47px) translateY(-39px);
 }
 
 .z-element17b-2 {
 	width: 6px;
-	height: 10px;
+	height: 11px;
 	transform: translateX(49px) translateY(-40px);
 }
 
