@@ -107,7 +107,7 @@ $(document).ready(function(){
 //BODY CLICK FUNCTION
 $(document).ready(function(){
     $('body').dblclick(function(){
-        window.location.replace("index.html");
+        window.location.replace("pageone.html");
   });
 });
 
