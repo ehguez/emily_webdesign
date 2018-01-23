@@ -1,16 +1,15 @@
-//BACKGROUND, shiftig gradient code I got from https://codepen.io/quasimondo/pen/lDdrF
-//YELLOW
+//BACKGROUND, shiftig gradient code  I got from https://codepen.io/quasimondo/pen/lDdrF
+//BLUE
 var colors = new Array(
- [255,195,27],
-  [255,157,27],
-  [255,241,37],
-  [255,251,119],
-  [255,203,28],
-  [255,127,28],
-  [255,251,94],
-  [255,247,0],
-  [255,207,44],
-  [255,248,26]);
+  [20,38,62],
+  [8,44,90],
+  [21,65,120],
+  [15,91,186],
+  [175,210,255],
+  [39,119,220],
+  [211,230,254],
+  [91,148,220],
+  [37,80,136]);
 
 var step = 0;
 //color table indices for: 
@@ -44,7 +43,7 @@ var g2 = Math.round(istep * c1_0[1] + step * c1_1[1]);
 var b2 = Math.round(istep * c1_0[2] + step * c1_1[2]);
 var color2 = "rgb("+r2+","+g2+","+b2+")";
 
- $('#gradient-yellow').css({
+ $('#gradient-blue').css({
    background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
    background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
   
@@ -64,9 +63,7 @@ var color2 = "rgb("+r2+","+g2+","+b2+")";
 }
 
 setInterval(updateGradient,10);
-
 // END BACKGROUND CODE
-
 
 //HOVER FUNCTION
 $(document).ready(function(){
