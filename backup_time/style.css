@@ -1,0 +1,132 @@
+body{
+   background:radial-gradient(circle, #90bdf5, #71adf8, #042248);
+   padding: 0px;
+ }
+
+#gradient-blue {
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  border-radius: 50%;
+  margin-top: 13%;  
+  margin-bottom: 10%;
+  position: relative;
+}
+
+
+.circlecontainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1000px;
+ }
+
+
+.circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+}
+
+#circle-1{
+  transform: translateY(110px) translateX(825px);
+  background-color: lightblue;
+}
+
+#circle-2{
+  transform: translateY(150px) translateX(955px);
+  background-color: yellow;
+}
+
+#circle-3{
+  transform: translateY(250px) translateX(1000px);
+  background-color: red;
+}
+
+#circle-4{
+  transform: translateY(345px) translateX(960px);
+  background-color: blue;
+}
+
+#circle-5{
+  transform: translateY(385px) translateX(830px);
+  background-color: red;
+}
+
+#circle-6{
+  transform: translateY(345px) translateX(630px);
+  background-color: yellow;
+}
+
+#circle-7{
+  transform: translateY(205px) translateX(440px);
+  background-color: green;
+}
+
+#circle-8{
+  transform: translateY(-15px) translateX(305px);
+  background-color: red;
+}
+
+#circle-9{
+  transform: translateY(-290px) translateX(260px);
+  background-color: lightblue;
+}
+
+#circle-10{
+  transform: translateY(-570px) translateX(305px);
+  background-color: yellow;
+}
+
+#circle-11{
+  transform: translateY(-790px) translateX(430px);
+  background-color: green;
+}
+
+#circle-12{
+  transform: translateY(-930px) translateX(630px);
+  background-color: blue;
+}
+
+
+
+
+.image {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  margin-left: 31.5%;
+  margin-top: 11.5%;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 1;
+  display: none;
+ }
+
+#image-1{
+  background-image: url(images/test-sleep.jpg) ;
+  mix-blend-mode: multiply;
+}
+
+
+
+ display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+
+.element {
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	background-color: blue;
+}
+
+.element:hover{
+	cursor: pointer;
+}s
