@@ -34,12 +34,12 @@ body{
 
 #circle-1{
   transform: translateY(110px) translateX(825px);
-  background: linear-gradient(to left, #fdf79f, #ffec15, #fdcf31);
+  background: linear-gradient(to left, #ff990a, #ffec15, #fdcf31);
 }
 
 #circle-2{
   transform: translateY(150px) translateX(955px);
-  background: linear-gradient(to left, #fdf79f, #ffec1d, #fdcf31 );
+  background: linear-gradient(to left, #ff990a, #ffec1d, #fdcf31 );
 }
 
 #circle-3{
@@ -49,17 +49,17 @@ body{
 
 #circle-4{
   transform: translateY(345px) translateX(960px);
-  background: linear-gradient(to right, #fdf79f, #ffec1d, #fdcf31 );
+  background: linear-gradient(to right, #ff990a, #ffec1d, #fdcf31 );
 }
 
 #circle-5{
   transform: translateY(385px) translateX(830px);
-  background: linear-gradient(to right, #fdf79f, #ffec15, #fdcf31);
+  background: linear-gradient(to right, #ff990a, #ffec15, #fdcf31);
 }
 
 #circle-6{
   transform: translateY(345px) translateX(630px);
-  background: linear-gradient(to right, #fdf79f, #fdcf31, #fdcf31);
+  background: linear-gradient(to right, #ff990a, #fdcf31, #fdcf31);
 }
 
 #circle-7{
@@ -89,7 +89,7 @@ body{
 
 #circle-12{
   transform: translateY(-930px) translateX(630px);
-  background: linear-gradient(to left, #fdf79f, #fdcf31, #fdcf31);
+  background: linear-gradient(to left, #ff990a, #fdcf31, #fdcf31);
 }
 
 
@@ -114,23 +114,23 @@ body{
  }
 
 #image-1{
-  background-image: url(images/eagle.gif) ;
+  background-image: url(images/dog/tennis.gif) ;
   background-attachment: relative;
   background-repeat: no-repeat;
   background-position: center; 
-  background-size: 100%;
+  background-size: 135%;
 }
 
 #image-2{
-  background-image: url(images/water-forest.gif) ;
+  background-image: url(images/dog/lemon.gif) ;
   background-attachment: relative;
   background-repeat: no-repeat;
   background-position: center; 
-  background-size: 151%;
+  background-size: 145%;
 }
 
 #image-3{
-  background-image: url(images/dolphins.gif) ;
+  background-image: url(images/dog/bath.gif) ;
   background-attachment: relative;
   background-repeat: no-repeat;
   background-position: center; 
@@ -139,73 +139,73 @@ body{
 
 
 #image-4{
-  background-image: url(images/hummingbird.gif) ;
+ background-image: url(images/dog/showoff.gif) ;
   background-attachment: relative;
   background-repeat: no-repeat;
   background-position: center; 
-  background-size: 180%;
+  background-size: 115%;
 }
 
 #image-5{
-  background-image: url(images/polarbears.gif) ;
+  background-image: url(images/dog/food.gif) ;
   background-attachment: relative;
   background-repeat: no-repeat;
   background-position: center; 
-  background-size: 180%;
+  background-size: 135%;
 }
 
 #image-6{
-  background-image: url(images/flower.gif) ;
+  background-image: url(images/dog/pb&j.gif) ;
   background-attachment: relative;
   background-repeat: no-repeat;
   background-position: center; 
-  background-size: 150%;
+  background-size: 180%;
 }
 
 #image-7{
-  background-image: url(images/clear-water.gif) ;
+  background-image: url(images/dog/sleepy.gif) ;
   background-attachment: relative;
   background-repeat: no-repeat;
   background-position: center; 
-  background-size: 185%;
+  background-size: 130%;
 }
 
 #image-8{
-  background-image: url(images/jellyfish.gif) ;
+  background-image: url(images/dog/pat.gif) ;
   background-attachment: relative;
   background-repeat: no-repeat;
   background-position: center; 
-  background-size: 190%;
+  background-size: 100%;
 }
 
 #image-9{
-  background-image: url(images/field.gif) ;
-  background-repeat: no-repeat;
+  background-image: url(images/dog/runrun.gif) ;
   background-attachment: relative;
+  background-repeat: no-repeat;
   background-position: center; 
-  background-size: 180%;
+  background-size: 187%;
 }
 
 #image-10{
-  background-image: url(images/wolf.gif) ;
+  background-image: url(images/dog/friends.gif) ;
   background-attachment: relative;
   background-repeat: no-repeat;
   background-position: center; 
-  background-size: 205%;
+  background-size: 121%;
 }
 
 #image-11{
-  background-image: url(images/babyelephant.gif) ;
+  background-image: url(images/dog/cozy.gif) ;
   background-attachment: relative;
   background-repeat: no-repeat;
   background-position: center; 
-  background-size: 184%;
+  background-size: 137%;
 }
 
 #image-12{
-  background-image: url(images/mushroom-rain.gif) ;
+  background-image: url(images/dog/boop.gif) ;
   background-attachment: relative;
   background-repeat: no-repeat;
   background-position: center; 
-  background-size: 180%;
+  background-size: 157%;
 }
