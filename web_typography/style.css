@@ -3,20 +3,406 @@
 
 
 body {
-	background-color: rgb(220,212,189);
-	width: 800px;
-	margin:100px;
-	background-size: border;
+	background-color: #353434;
+	width:62%;
+	margin: auto;
 }
 
+
 h1 {
-	font-size: 2.2em;
-	font-family: lores-15-bold-alt-oakland, sans-serif;
-	font-weight: 500;
-	padding-bottom: 35%;
-	border: 1px ;
+	font-size: 900%;
+	font-family: lores-22-bold-oakland, sans-serif;
+	text-align: center;
+	padding-bottom: 30%;
 	line-height: 100%;
-	letter-spacing: -1px;
-	margin-top: 0;
-	margin-right: 48px;
+	margin-top: 40%;
+	color: #cffb1f;
+}
+
+p {
+	font-size: 2.1em;
+	font-family: lores-21-serif, sans-serif;
+	font-weight:400;
+	text-align: center;
+	line-height: 120%;
+	margin-top: 15%;
+	color: #fff;
+}
+
+
+a {
+    color: #cffb1f;
+}
+
+a:hover {
+    color: #ff6dd4;
+}
+
+a:visited {
+    color: #cffb1f;
+}
+
+h2 {
+	font-size: 600%;
+	font-family: lores-22-bold-oakland, sans-serif;
+	text-align: center;
+	padding-bottom: 5%;
+	line-height: 100%;
+	margin-top: 40%;
+	color: #cffb1f;
+}
+
+
+h4 {
+	font-size: 200%;
+	font-family: lores-22-bold-oakland, sans-serif;
+	text-align: center;
+	padding-bottom: 0%;
+	line-height: 100%;
+	margin-top: 10%;
+	color: #cffb1f;
+}
+
+
+h3 {
+	font-size: 400%;
+	font-family: lores-22-bold-oakland, sans-serif;
+	text-align: center;
+	padding-bottom: 5%;
+	line-height: 100%;
+	margin-top: 25%;
+	color: #cffb1f;
+}
+
+em {
+	font-style: normal;
+	color: #cffb1f;
+}
+
+
+#caption{
+	font-size: 1.3em;
+	font-family: lores-28, sans-serif;
+	font-weight:400;
+	text-align: right;
+	line-height: 100%;
+	margin-top: 3%;
+	margin-right:3%;
+	color: #fff;
+	margin-bottom: 40%;
+}
+
+#caption2{
+	font-size: 1.3em;
+	font-family: lores-28, sans-serif;
+	font-weight:400;
+	text-align: center;
+	line-height: 100%;
+	margin-top: 3%;
+	margin-right:3%;
+	color: #fff;
+	margin-bottom: 10%;
+}
+
+
+#alt {
+	font-size: 2em;
+	font-family: lores-15-bold-alt-oakland, sans-serif;
+	font-weight:400;
+	text-align: center;
+	line-height: 100%;
+	margin-top: 15%;
+	color: #cffb1f;
+}
+
+#space-below{
+	margin-bottom: 30%;
+	
+}
+
+#Georgia{
+	font-size: 5em;
+	font-family: "Georgia", sans-serif;
+	color: #ffd71c;
+}
+
+#Verdana{
+	font-size: 4em;
+	font-family: "Verdana", sans-serif;
+	color: #bc5efa;
+}
+
+#Comic{
+	font-size: 4em;
+	font-family: "Comic Sans MS", sans-serif;
+	color: #3bfbf4;
+}
+
+
+.smaller {
+	font-size: 1.7em;
+	font-family: lores-21-serif, sans-serif;
+	font-weight:400;
+	text-align: center;
+	line-height: 100%;
+	margin-top: 10%;
+	margin-left: 12%;
+	margin-right: 12%;
+	line-height: 140%;
+	color: #fff;
+}
+
+#separator {
+	width: 140px;
+	height: 1px;
+	background-color:  #cffb1f;
+	margin:auto;
+	margin-top: 10%;
+}
+
+#first-website-image{
+	background: url(images/worldwideweb.png) no-repeat center center;
+	background-size: cover;
+	max-width:800px;
+	height: 500px;
+	margin:auto;
+	margin-bottom: 0px;
+	outline:10px solid #cffb1f ;
+}
+
+#early-mac-image{
+	background: url(images/earlymac.png) no-repeat center center;
+	background-size: cover;
+	max-width:100%;
+	height: 450px;
+	margin:auto;
+	margin-top: 10%;
+	margin-bottom: 0px;
+	outline:10px solid #cffb1f ;
+}
+
+#chicago-typeface-image{
+	background: url(images/chicago_title.gif) no-repeat center center;
+	background-size: cover;
+	max-width:75%;
+	height: 300px;
+	margin:auto;
+	margin-top: 10%;
+	margin-bottom: 0px;
+	outline:10px solid #cffb1f ;
+}
+
+
+#chicago-bad-scan{
+	background: url(images/chicago-bad-scan.png) no-repeat center center;
+	background-size: cover;
+	width:720px;
+	height: 550px;
+	margin:auto;
+	margin-top: 10%;
+	margin-bottom: 0px;
+	outline:10px solid #cffb1f ;
+}
+
+#kare-icons01{
+	background: url(images/01_macicons.png) no-repeat center center;
+	background-size: cover;
+	max-width:100%;
+	height: 65px;
+	margin:auto;
+	margin-top: 10%;
+	margin-bottom: 0px;
+	outline:10px solid #cffb1f ;
+}
+
+#kare-icons02{
+	background: url(images/02_macicons.png) no-repeat center center;
+	background-size: cover;
+	max-width:100%;
+	height: 65px;
+	margin:auto;
+	margin-top: 4%;
+	margin-bottom: 0px;
+	outline:10px solid #cffb1f ;
+}
+
+#hello-mac{
+	background: url(images/hello-mac.png) no-repeat center center;
+	background-size: cover;
+	max-width:400px;
+	height: 390px;
+	margin:auto;
+	margin-top: 10%;
+	margin-bottom: 0px;
+	outline:10px solid #cffb1f ;
+}
+
+#emigre-sample{
+	background: url(images/Licko-Emigre-Sample.gif) no-repeat center center;
+	background-size: cover;
+	max-width:700px;
+	height: 400px;
+	margin:auto;
+	margin-top: 10%;
+	margin-bottom: 0px;
+	outline:10px solid #cffb1f ;
+}
+
+#licko-oackland{
+	background: url(images/Licko-Oakland.jpg) no-repeat center center;
+	background-size: cover;
+	max-width:500px;
+	height: 350px;
+	margin:auto;
+	margin-top: 10%;
+	margin-bottom: 0px;
+	outline:10px solid #cffb1f ;
+}
+
+#Emigre-Type-Issue{
+	background: url(images/Emigre-Type-Issue.png) no-repeat center center;
+	background-size: cover;
+	max-width:500px;
+	height: 400px;
+	margin:auto;
+	margin-top: 10%;
+	margin-bottom: 0px;
+	outline:10px solid #cffb1f ;
+}
+
+#Emigre-Spread{
+	background: url(images/Emigre-Spread.png) no-repeat center center;
+	background-size: cover;
+	max-width:550px;
+	height: 450px;
+	margin:auto;
+	margin-top: 10%;
+	margin-bottom: 0px;
+	outline:10px solid #cffb1f ;
+}
+
+
+#Ed-Fella-Alphabet{
+	background: url(images/Ed-Fella-Alphabet.jpg) no-repeat center center;
+	background-size: cover;
+	max-width:400px;
+	height: 500px;
+	margin:auto;
+	margin-top: 10%;
+	margin-bottom: 0px;
+	outline:10px solid #cffb1f ;
+}
+
+
+#comic-sans-original{
+	background: url(images/comicsans-original-intent.png) no-repeat center center;
+	background-size: cover;
+	max-width:900px;
+	height: 300px;
+	margin:auto;
+	margin-top:10%;
+	margin-bottom: 0px;
+	outline:10px solid #cffb1f ;
+}
+
+#web-safe-fonts{
+	background: url(images/web-safe-fonts.jpg) no-repeat center center;
+	background-size: cover;
+	max-width:720px;
+	height: 300px;
+	margin:auto;
+	margin-top: 10%;
+	margin-bottom: 0px;
+	outline:10px solid #cffb1f ;
+}
+
+#early-google{
+	background: url(images/early-google.png) no-repeat center center;
+	background-size: cover;
+	max-width:600px;
+	height: 400px;
+	margin:auto;
+	margin-top: 10%;
+	margin-bottom: 0px;
+	outline:10px solid #cffb1f ;
+}
+
+#early-apple{
+	background: url(images/early-apple.jpg) no-repeat center center;
+	background-size: cover;
+	max-width:600px;
+	height: 400px;
+	margin:auto;
+	margin-top: 10%;
+	margin-bottom: 0px;
+	outline:10px solid #cffb1f ;
+}
+
+#Garamond-Caslon{
+	background: url(images/Garamond-Caslon.png) no-repeat center center;
+	background-size: cover;
+	max-width:700px;
+	height: 400px;
+	margin:auto;
+	margin-top: 4%;
+	margin-bottom: 0px;
+	outline:10px solid #cffb1f ;
+}
+
+#hinting{
+	background: url(images/font-hinting-example.png) no-repeat center center;
+	background-size: cover;
+	max-width:600px;
+	height: 310px;
+	margin:auto;
+	margin-top: 10%;
+	margin-bottom: 0px;
+	outline:10px solid #cffb1f ;
+}
+
+
+
+#Beowulf-1{
+	background: url(images/beowulf-2phases.png) no-repeat center center;
+	background-size: cover;
+	width:100%;
+	height: 350px;
+	margin:auto;
+	margin-top: 10%;
+	margin-bottom: 0px;
+	outline:10px solid #cffb1f ;
+}
+
+#Beowulf-2{
+	background: url(images/beowulf-more.jpg) no-repeat center center;
+	background-size: cover;
+	width:400px;
+	height: 400px;
+	margin:auto;
+	margin-top: 10%;
+	margin-bottom: 0px;
+	outline:10px solid #cffb1f ;
+}
+
+
+#DeadHistory-1{
+	background: url(images/dead-history-specimen.png) no-repeat center center;
+	background-size: cover;
+	width:100%;
+	height: 360px;
+	margin:auto;
+	margin-top: 10%;
+	margin-bottom: 0px;
+	outline:10px solid #cffb1f ;
+}
+
+#DeadHistory-2{
+	background: url(images/dead-history-2.png) no-repeat center center;
+	background-size: cover;
+	width:100%;
+	height: 340px;
+	margin:auto;
+	margin-top: 10%;
+	margin-bottom: 0px;
+	outline:10px solid #cffb1f ;
 }
