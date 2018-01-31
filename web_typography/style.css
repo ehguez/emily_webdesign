@@ -15,7 +15,7 @@ h1 {
 	text-align: center;
 	padding-bottom: 30%;
 	line-height: 100%;
-	margin-top: 40%;
+	margin-top: 30%;
 	color: #cffb1f;
 }
 
@@ -57,12 +57,21 @@ h4 {
 	font-size: 200%;
 	font-family: lores-22-bold-oakland, sans-serif;
 	text-align: center;
-	padding-bottom: 0%;
+	padding-bottom: 1%;
 	line-height: 100%;
 	margin-top: 10%;
 	color: #cffb1f;
 }
 
+h5 {
+	font-size: 200%;
+	font-family: lores-22-bold-oakland, sans-serif;
+	text-align: center;
+	padding-bottom: 40%;
+	line-height: 100%;
+	margin-top: 10%;
+	color: #cffb1f;
+}
 
 h3 {
 	font-size: 400%;
@@ -158,6 +167,26 @@ em {
 	background-color:  #cffb1f;
 	margin:auto;
 	margin-top: 10%;
+}
+
+#loResGif{
+	background: url(images/loRes2_deco.gif) no-repeat center center;
+	background-size: cover;
+	max-width:180px;
+	height: 101px;
+	margin:auto;
+	margin-bottom: 0px;
+	transform: translateY(250px);
+}
+
+#loResGif2{
+	background: url(images/loRes_small.gif) no-repeat center center;
+	background-size: cover;
+	max-width:180px;
+	height: 101px;
+	margin:auto;
+	margin-bottom: 0px;
+	transform: translateY(-330px);
 }
 
 #first-website-image{
