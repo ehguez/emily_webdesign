@@ -1,0 +1,22 @@
+
+@import url("https://use.typekit.net/ers2ngk.css");
+
+
+body {
+	background-color: rgb(220,212,189);
+	width: 800px;
+	margin:100px;
+	background-size: border;
+}
+
+h1 {
+	font-size: 2.2em;
+	font-family: lores-15-bold-alt-oakland, sans-serif;
+	font-weight: 500;
+	padding-bottom: 35%;
+	border: 1px ;
+	line-height: 100%;
+	letter-spacing: -1px;
+	margin-top: 0;
+	margin-right: 48px;
+}
