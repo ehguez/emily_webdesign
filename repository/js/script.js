@@ -55,15 +55,44 @@ $(document).ready(function(){
     // });
 
     $(document).ready(function() {
-     var colors = ["#739600", "#1F5EA8", "#F72C2C", "#FA5021", "#FB9F54", "#FFAD00", "#FFEB3B", "#55C934", "#4CAF58", "#1FA895", "#1FD2DB", "#2196F3", "#61338F", "#8F3378", "#E91E63", "#B32E37"];
+     var colors = ["#9d3a56", "#eee6a4", "#ff5eb9", "#ff1e33"];
      var rand = Math.floor(Math.random() * colors.length);
-     $('.change').css("background-color", colors[rand]);
+     $('.pixel').css("background", colors[rand]);
 
-
-
-     var colors = ["#739600", "#1F5EA8", "#F72C2C", "#FA5021", "#FB9F54", "#FFAD00", "#FFEB3B", "#55C934", "#4CAF58", "#1FA895", "#1FD2DB", "#2196F3", "#61338F", "#8F3378", "#E91E63", "#B32E37"];
+     var colors = ["#FF830D", "#D1731A", "FEC48D"];
      var rand = Math.floor(Math.random() * colors.length);
-     $('.change2').css("background-color", colors[rand]);
+     $('.pixel:nth-child(3n+0)').css("background", colors[rand]);
+
+     var colors = ["#D8C622", "#FFF05E", "#D8C40D", "#F2DA00"];
+     var rand = Math.floor(Math.random() * colors.length);
+     $('.pixel:nth-child(odd)').css("background", colors[rand]);
+
+     var colors = ['#fff7ec', '#7f0000'];
+     var rand = Math.floor(Math.random() * colors.length);
+     $('.pixel:nth-child(6n+0)').css("background", colors[rand]);
+
+     var colors = ["#9d3a56", "#eee6a4", "#ff5eb9", "#ff1e33"];
+     var rand = Math.floor(Math.random() * colors.length);
+     $('.pixel:nth-child(7n+0)').css("background", colors[rand]);
+
+    var colors = ["#7ffe5d", "#78aec0", "#cdff6c", "#95dab0", "#ff5e5e"];
+     var rand = Math.floor(Math.random() * colors.length);
+     $('.pixel:nth-child(8n+1)').css("background", colors[rand]);
+
+     var colors = ["#444332", "#356789", "#354678", "#FB9F54", "#FFAD00"];
+     var rand = Math.floor(Math.random() * colors.length);
+     $('.pixel:nth-child(9n+0)').css("background", colors[rand]);
+
+     var colors = ["#444332", "#356789", "#354678", "#FB9F54", "#FFAD00"];
+     var rand = Math.floor(Math.random() * colors.length);
+     $('.pixel:nth-child(11n+0)').css("background", colors[rand]);
+
+     var colors = ["#444332", "#356789", "#354678", "#FB9F54", "#FFAD00"];
+     var rand = Math.floor(Math.random() * colors.length);
+     $('.pixel:nth-child(13n+1)').css("background", colors[rand]);
+
+
+
     });
 
     
