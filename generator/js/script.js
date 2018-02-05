@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     let numberMade = [
-    'one',
+    'a series of two',
     'a series of three', 
     'a series of five', 
     'a series of eight', 
@@ -21,13 +21,17 @@ $(document).ready(function(){
 
 
     let projectOptions = [
-    'a 2D project',
-    'a 3D structure', 
-    'an animated gif', 
-    'a generative', 
-    'a pattern',
-    'a handmade project',
-    'a poster'
+    '2D drawings',
+    '3D structures',
+    'typographic projects',
+    'illustrations', 
+    'animated gifs',
+    'interactive projects', 
+    'generative systems', 
+    'patterns',
+    'collages',
+    'a form project',
+    'posters'
     ]
 
     console.log(projectOptions);
@@ -48,8 +52,10 @@ $(document).ready(function(){
     'digital tools (photocopy, scan..)',
     'a camera',   
     'illustrator',
+    'code',
     'child-like materials (play-doh, stickers..)',
     'paint',
+    'handmade materials',
     'natural materials (fruits, rain..)',
     'type only',
     'found imagery',
@@ -70,13 +76,13 @@ $(document).ready(function(){
 
 
     let timeOptions = [
-    '5 minutes',
-    '15 minutes', 
-    '30 minutes', 
-    '45 minutes', 
-    '1 hour', 
-    '3 hours',
-    '5 hours'
+    '5&nbsp;minutes',
+    '15&nbsp;minutes', 
+    '30&nbsp;minutes', 
+    '45&nbsp;minutes', 
+    '1&nbsp;hour', 
+    '3&nbsp;hours',
+    '5&nbsp;hours'
     ]
 
     console.log(timeOptions);
@@ -91,11 +97,21 @@ $(document).ready(function(){
 
 
     let inspirationOptions = [
-    'inpiration1',
-    'inpiration1b', 
-    'inpiration1c', 
-    'inpiration1d', 
-    'inpiration1e'
+    "Anni Albers's woven tapestries",
+    "Susan Kare's bitmap illustrations", 
+    "glitch art", 
+    "the work of Tauba Auerbach", 
+    "the concept of repetition",
+    "Agnes Martin's paintings",
+    "James Turell",
+    "today's breaking news",
+    "a featured New Yorker article",
+    "Bruce Nauman's 'Square Dance'",
+    "Dieter Rot's artist books",
+    "a leaf",
+    "the sky",
+    "relational aesthetics",
+    "Yayoi Kusama"
     ]
 
     console.log(inspirationOptions);
@@ -107,7 +123,6 @@ $(document).ready(function(){
     console.log(inspirationSelect)
 
     document.getElementById('inspiration').innerHTML = inspirationSelect;
-
 
 
     $('#reload').click(function(){ 
@@ -137,16 +152,22 @@ $(document).ready(function(){
      var rand = Math.floor(Math.random() * backgroundShape.length);
      $('.background-2').css("background-image", backgroundShape[rand]);
 
-     var backgroundShape = ['url(img/bckElement_2.png)', 'url(img/bckElement_3.png)', 
-     'url(img/bckElement_4.png)', 'url(img/bckElement_5.png)', 'url(img/bckElement_6.png)',
-     'url(img/bckElement_7.png)', 'url(img/bckElement_8.png)', 'url(img/bckElement_9.png)',
-     'url(img/bckElement_10.png)', 'url(img/bckElement_11.png)', 'url(img/bckElement_12.png)',
-     'url(img/bckElement_13.png)', 'url(img/bckElement_14.png)', 'url(img/bckElement_15.png)']
-     var rand = Math.floor(Math.random() * backgroundShape.length);
-     $('.background-2').css("background-image", backgroundShape[rand]);
+    var extraShape = ['url(img/shape_1.png)', 'url(img/shape_2.png)', 
+    'url(img/shape_3.png)', 'url(img/shape_4.png)', 'url(img/shape_5.png)',
+    'url(img/shape_6.png)', 'url(img/shape_7.png)',  'url(img/shape_8.png)',
+    'url(img/shape_9.png)', 'url(img/shape_10.png)', 'url(img/shape_11.png)',
+    'url(img/shape_12.png)', 'url(img/shape_13.png)', 'url(img/shape_14.png)']
+    var rand = Math.floor(Math.random() * extraShape.length);
+    $('.shape1').css("background-image", extraShape[rand]);
 
+    var extraShape = ['url(img/shape_1.png)', 'url(img/shape_2.png)', 
+    'url(img/shape_3.png)', 'url(img/shape_4.png)', 'url(img/shape_5.png)',
+    'url(img/shape_6.png)', 'url(img/shape_7.png)',  'url(img/shape_8.png)',
+    'url(img/shape_9.png)', 'url(img/shape_10.png)', 'url(img/shape_11.png)',
+    'url(img/shape_12.png)', 'url(img/shape_13.png)', 'url(img/shape_14.png)']
+    var rand = Math.floor(Math.random() * extraShape.length);
+    $('.shape2').css("background-image", extraShape[rand]);
 
-     var countDownDate = new Date("Sep 5, 2018 15:37:25").getTime();
 
 
 });
