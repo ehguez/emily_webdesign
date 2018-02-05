@@ -76,13 +76,14 @@ $(document).ready(function(){
 
 
     let timeOptions = [
-    '5&nbsp;minutes',
     '15&nbsp;minutes', 
     '30&nbsp;minutes', 
     '45&nbsp;minutes', 
     '1&nbsp;hour', 
+    '2&nbsp;hours',
     '3&nbsp;hours',
-    '5&nbsp;hours'
+    '5&nbsp;hours',
+    'a&nbsp;day'
     ]
 
     console.log(timeOptions);

@@ -212,7 +212,7 @@ span {
   background-size: contain;
   width: 500px;
   height: 100%;
-  z-index: 2;
+  z-index: 1;
   position: absolute;
   margin-top: -5%;
   margin-left: 10%;
@@ -226,7 +226,7 @@ span {
   background-size: contain;
   width: 370px;
   height: 100%;
-  z-index: 2;
+  z-index: 1;
   position: absolute;
   margin-top: -20%;
   margin-left: 65%;
