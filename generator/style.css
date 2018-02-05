@@ -53,19 +53,20 @@ button {
   width: 180px;
   height: 50px;
   line-height: 25px;
+  text-align: center;
   color: #cbffaf;
   letter-spacing: 2px;
   background-color: #927a99;
   font-family: modula-round-ribbed, sans-serif;
   font-size: 1.6em;
   border-radius: 5px;
-  position: absolute;
   z-index: 2;
   margin:0 auto;
-  display:block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 2.5%;
   text-shadow: 2px 2px 3px #6b4e73;
-
 
 }
 
