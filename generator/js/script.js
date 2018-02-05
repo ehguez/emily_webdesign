@@ -111,7 +111,9 @@ $(document).ready(function(){
     "a leaf",
     "the sky",
     "relational aesthetics",
-    "Yayoi Kusama"
+    "Yayoi Kusama",
+    "today's Wikipedia featured article",
+    "intergalactic travel"
     ]
 
     console.log(inspirationOptions);

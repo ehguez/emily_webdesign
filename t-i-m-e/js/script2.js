@@ -106,7 +106,7 @@ $(document).ready(function(){
 
 //BODY CLICK FUNCTION
 $(document).ready(function(){
-    $('body').dblclick(function(){
+    $('body').click(function(){
         window.location.replace("pageone.html");
   });
 });
