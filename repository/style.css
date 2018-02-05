@@ -1,21 +1,112 @@
 /* Text */
+@import url("https://use.typekit.net/ers2ngk.css");
+
 .intro {
   width: 220px;
-  height: 100px;
-  margin-top: 80px;
-  margin-left: 80px;
+  height: 80px;
+  margin-top: 60px;
+  margin-left: 60px;
   position: absolute;
   z-index: 1;
   background-color: white;
 }
 
+.work {
+  width: 500px;
+  height: 290px;
+  margin-top: 320px;
+  margin-left: 540px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  }
+
+
+/*
+
+.extra {
+  width: 500px;
+  height: 40px;
+  margin-top: 580px;
+  margin-left: 540px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  text-align: center;
+  color: red;
+}
+ */ 
 .intro-text {
   padding: 10%;
 }
 
-p {
-  font-family: 'Space Mono', monospace;
+.work-text {
+  padding: 9%;
+}
 
+.extra-text {
+  padding: 2%;
+}
+
+
+.refresh{
+  width: 40px;
+  height: 40px;
+  margin-top: 260px;
+  margin-left: 1000px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+}
+
+.refreshButton {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+  background: url(img/reload-button.svg);
+}
+
+.refreshButton:hover {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  z-index: 3;
+  cursor: pointer;
+  background: url(img/reload-button-2.svg);
+}
+
+
+p {
+ font-family: lores-21-serif, sans-serif;
+}
+
+.main {
+ font-family: lores-21-serif, sans-serif;
+ font-size: 1.5em;
+ line-height: 140%;
+}
+
+a:link {
+  color: #000;
+}
+
+a:hover{
+  color: #ff00ff;
+
+}
+
+a:visited {
+  color: #505050;
+}
+
+a:active {
+    color: #ff00ff;
 }
 
 /* Background */
@@ -28,7 +119,7 @@ p {
   width: 10px;
   height: 10px;
   float: left;
-  background:yellow;
+  background:#ff;
 }
 
 .pixel:nth-child(odd) {

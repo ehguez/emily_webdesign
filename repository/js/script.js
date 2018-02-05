@@ -1,5 +1,3 @@
-console.log('HELLO')
-
 $(document).ready(function(){
     //pick random id
     var firstRandom = [
@@ -91,9 +89,16 @@ $(document).ready(function(){
      var rand = Math.floor(Math.random() * colors.length);
      $('.pixel:nth-child(13n+1)').css("background", colors[rand]);
 
+    /*var colors = ["#444332", "#356789", "#354678", "#FB9F54", "#FFAD00"];
+     var rand = Math.floor(Math.random() * colors.length);
+     $('.work:hover').css("color", colors[rand]);*/
 
-
+    $('.refresh').click(function(){ 
+        location.reload(true); 
     });
+
+
+});
 
     
     });
