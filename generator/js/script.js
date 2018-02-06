@@ -21,8 +21,6 @@ $(document).ready(function(){
 
     document.getElementById('number').innerHTML = numberSelect;
 
-
-
     
 
 if (numberSelect === "one"){
@@ -230,7 +228,9 @@ if (numberSelect === "one"){
          window.location("index.html"); 
     });
 
-
+    $('#about').click(function(){
+        $('#about-text').toggle();
+    });
    
      var colorTheme = ['#DEFFFF', "#B8FF69", "#FF6C07", "#C911AC", "#FFF0F0", 
      "#FFF0F0", "#E2FF53", "#7E1B46", "#FF4595", "#542C2C", "#333333", "#FFE987",
@@ -269,189 +269,6 @@ if (numberSelect === "one"){
 
     console.log(extraShape[rand])
 
+  
 
-
-//TIME TEST
-
-    let timeForClock = [
-    '00:15:00', 
-    '00:30:00', 
-    '00:45:00', 
-    '01:00:00', 
-    '02:00:00',
-    '03:00:00',
-    '05:00:00',
-    '24:00:00'
-    ]
-
-    console.log(timeForClock);
- 
-    var randSelector = Math.floor(Math.random() * timeForClock.length)
-    console.log(randSelector);
-
-    let timeForClockSelect = timeForClock[randSelector];
-    console.log(timeForClockSelect)
-
-
-/*
-
-    var countDownDate = new Date(timeForClockSelect).getTime();
-
-    // Update the count down every 1 second
-    var x = setInterval(function() {
-
-    // Get todays date and time
-    var now = new Date().getTime();
-
-    // Find the distance between now an the count down date
-    var distance = countDownDate - now;
-
-    // Time calculations for days, hours, minutes and seconds
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-    // Display the result in the element with id="demo"
-    document.getElementById("clock").innerHTML = hours + "h "
-    + minutes + "m " + seconds + "s ";
-
-    // If the count down is finished, write some text 
-    if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("clock").innerHTML = "EXPIRED";
-    }
-    }, 1000); */
-
-
-    /*$("#startClock").click(function() {
-    var counter = 5;
-    setInterval(function() {
-     counter--;
-      if (counter >= 0) {
-         span = document.getElementById("timeOptions");
-         span.innerHTML = counter;
-      }
-      if (counter === 0) {
-         alert('sorry, out of time');
-         clearInterval(counter);
-       }
-     }, 1000);*/
 });
-
-
-
-
-
-
-/*   let materialOptions = [
-    'material1',
-    'material2', 
-    'material3'
-    ]
-
-    console.log(materialOptions);
- 
-    var randMaterialSelector = Math.floor(Math.random() * materialOptions.length)
-    console.log(randMaterialSelector);
-
-    let materialSelect = materialOptions[randMaterialSelector];
-    console.log(materialSelect)
-
-    document.getElementById('material').innerHTML = materialSelect;
-*/
-
-    /*
-     let colorOptions = [
-    '#F8FF7E',
-    '#F39485', 
-    '#F39485'
-    ];
-    var colorSelector = Math.floor(Math.random() * colorOptions.length)
-    console.log(colorSelector);
-
-    let colorNew = colorOptions[colorSelector];
-    console.log(colorNew)
-
-    document.getElementById('p').css = "color", colorNew;
-*/
-
-
-
-
-
-/*
-THIS THING WORKS TO SELECT ONE
-var rand = firstRandom [Math.floor(Math.random() * firstRandom.length)];
-console.log(rand);
-
-$(document).ready(function(){
-     $(rand).addClass(".display");
-});
-
-
-
-
-function.display(rand){
-    document.getRand(rand).style.display = "none";
-}
-
-
-/*
-     var type = ['test', "test2", "test3", "test4"];
-     var rand = Math.floor(Math.random() * type.length);
-     $('.test1').css(".test1", type[rand]);
-
-     var colors = ["#FF830D", "#D1731A", "FEC48D"];
-     var rand = Math.floor(Math.random() * colors.length);
-     $('.pixel:nth-child(3n+0)').css("background", colors[rand]);
-
-     var colors = ["#D8C622", "#FFF05E", "#D8C40D", "#F2DA00"];
-     var rand = Math.floor(Math.random() * colors.length);
-     $('.pixel:nth-child(odd)').css("background", colors[rand]);
-
-     var colors = ['#fff7ec', '#7f0000'];
-     var rand = Math.floor(Math.random() * colors.length);
-     $('.pixel:nth-child(6n+0)').css("background", colors[rand]);
-
-     var colors = ["#9d3a56", "#eee6a4", "#ff5eb9", "#ff1e33"];
-     var rand = Math.floor(Math.random() * colors.length);
-     $('.pixel:nth-child(7n+0)').css("background", colors[rand]);
-
-    var colors = ["#7ffe5d", "#78aec0", "#cdff6c", "#95dab0", "#ff5e5e"];
-     var rand = Math.floor(Math.random() * colors.length);
-     $('.pixel:nth-child(8n+1)').css("background", colors[rand]);
-
-     var colors = ["#444332", "#356789", "#354678", "#FB9F54", "#FFAD00"];
-     var rand = Math.floor(Math.random() * colors.length);
-     $('.pixel:nth-child(9n+0)').css("background", colors[rand]);
-
-     var colors = ["#444332", "#356789", "#354678", "#FB9F54", "#FFAD00"];
-     var rand = Math.floor(Math.random() * colors.length);
-     $('.pixel:nth-child(11n+0)').css("background", colors[rand]);
-
-     var colors = ["#444332", "#356789", "#354678", "#FB9F54", "#FFAD00"];
-     var rand = Math.floor(Math.random() * colors.length);
-     $('.pixel:nth-child(13n+1)').css("background", colors[rand]);
-*/
-
-/* $(document).ready(function(){
-	 $("#shape1").animate({
-   	    left: '250px',
-        opacity: '0.5',
-        height: '150px',
-        width: '150px'
-});
-});
-
-
-
-
-/* $("#shape1").click(function(){
-	console.log('click')
-    $("#shape1").animate({
-        left: '250px',
-        opacity: '0.5',
-        height: '150px',
-        width: '150px'
-    });
-}); */
