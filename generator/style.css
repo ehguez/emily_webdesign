@@ -397,7 +397,7 @@ a:active {
   margin-left: -20%;
 }
 
-@media (max-width: 640px) {
+@media  only screen and (max-width: 640px) {
 .pTwo {
   font-family: matrix-ii, serif;
   font-style: normal;
@@ -437,7 +437,7 @@ a:active {
 }
 
 
-@media (max-width: 590px) {
+@media  only screen and (max-width: 590px) {
 .pTwo {
   font-family: matrix-ii, serif;
   font-style: normal;
@@ -540,7 +540,7 @@ p {
 }
 
 
-@media (max-width: 450px) {
+@media only screen and (max-width: 450px) {
 
 .background-1{
   background-image: url(img/bckElement_1.png);
@@ -557,7 +557,7 @@ p {
 
 
 
-@media (max-width: 400px) {
+@media  only screen and (max-width: 400px) {
 .pTwo {
   font-family: matrix-ii, serif;
   font-style: normal;
