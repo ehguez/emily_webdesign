@@ -1,12 +1,14 @@
 $(document).ready(function(){
 
     let numberMade = [
+    'one',
     'a series of two',
     'a series of three', 
     'a series of five', 
     'a series of eight', 
     'a series of ten', 
-    'a series of one hundred'
+    'a series of twenty-five', 
+    'a series of one hundred',
     ]
 
     console.log(numberMade);
@@ -20,18 +22,73 @@ $(document).ready(function(){
     document.getElementById('number').innerHTML = numberSelect;
 
 
-    let projectOptions = [
+
+    
+
+if (numberSelect === "one"){
+ var  projectSingular = [
+    '2D drawing',
+    '3D structure',
+    'typographic project',
+    'illustration', 
+    'animated gif',
+    'interactive project', 
+    'functional object', 
+    'pattern',
+    'collage',
+    '3D drawing',
+    'form project',
+    'still-life',
+    'speculative concept',
+    'poster',
+    'abstract painting',
+    'flag',
+    'portrait',
+    'lanscape drawing',
+    'handmade project',
+    'zine',
+    'map',
+    'book cover',
+    'comic strip',
+    'album cover'
+    ]
+    console.log(projectSingular);
+ 
+    var singProjectSelector = Math.floor(Math.random() * projectSingular.length)
+    console.log(singProjectSelector);
+
+    let singularSelect = projectSingular[singProjectSelector];
+    console.log(singularSelect)
+
+    document.getElementById('projectType').innerHTML = singularSelect;
+
+} else {
+    
+    var projectOptions = [
     '2D drawings',
     '3D structures',
     'typographic projects',
     'illustrations', 
     'animated gifs',
     'interactive projects', 
-    'generative systems', 
+    'functional objects', 
     'patterns',
     'collages',
-    'a form project',
-    'posters'
+    '3D drawings',
+    'form projects',
+    'still-lives',
+    'speculative concepts',
+    'posters',
+    'abstract paintings',
+    'flags',
+    'portraits',
+    'lanscape drawings',
+    'handmade projects',
+    'zines',
+    'maps',
+    'book covers',
+    'comic strips',
+    'album covers'
     ]
 
     console.log(projectOptions);
@@ -44,23 +101,33 @@ $(document).ready(function(){
 
     document.getElementById('projectType').innerHTML = projectSelect;
 
+}
 
 
     let materialOptions = [
     'found materials',
     'photoshop',
-    'digital tools (photocopy, scan..)',
+    'digital tools',
+    'a scanner',
+    'a photocopier',
     'a camera',   
     'illustrator',
     'code',
-    'child-like materials (play-doh, stickers..)',
+    'child-like materials',
+    'play-doh',
+    'stickers',
     'paint',
-    'handmade materials',
-    'natural materials (fruits, rain..)',
+    'traditional art materials',
+    'organic materials',
     'type only',
     'found imagery',
     'a material you’ve never used before',
-    'paper'
+    'one color',
+    'outdated technology',
+    'paper',
+    'items from your kitchen',
+    'liquids',
+    'flyers'
     ]
 
     console.log(materialOptions)
@@ -97,6 +164,7 @@ $(document).ready(function(){
     document.getElementById('time').innerHTML = timeSelect;
 
 
+
     let inspirationOptions = [
     "Anni Albers's woven tapestries",
     "Susan Kare's bitmap illustrations", 
@@ -104,7 +172,6 @@ $(document).ready(function(){
     "the work of Tauba Auerbach", 
     "the concept of repetition",
     "Agnes Martin's paintings",
-    "James Turell",
     "today's breaking news",
     "a featured New Yorker article",
     "Bruce Nauman's 'Square Dance'",
@@ -113,8 +180,35 @@ $(document).ready(function(){
     "the sky",
     "relational aesthetics",
     "Yayoi Kusama",
-    "today's Wikipedia featured article",
-    "intergalactic travel"
+    "today's featured Wikipedia article",
+    "intergalactic travel",
+    "Keetra Dean Dixon's lettering",
+    "the Gutenberg bible",
+    "Ed Rusha's paintings",
+    "medieval stained glass",
+    "Giorgio Morandi's paintings",
+    "concrete poetry",
+    "the work of Shahzia Sikander",
+    "Glenn Ligon's artwork",
+    "everyday objects",
+    "DADA",
+    "Reid Miles' album covers",
+    "DADA",
+    "El Lissitzky",
+    "psychedelic posters",
+    "Carmen Herrera's paintings",
+    "Cremaster 3",
+    "Islamic geometric patterns",
+    "ancient Greek scuplture",
+    "Japanese woodblock prints",
+    "Olafur Eliasson's work",
+    "Anette Lenz's posters",
+    "daguerreotpye images",
+    "an animal",
+    "bird flight patterns",
+    "puzzle",
+    "sci-fi",
+    "woven Navajo blankets"
     ]
 
     console.log(inspirationOptions);
@@ -146,6 +240,7 @@ $(document).ready(function(){
      $('body').css("background-color", colorTheme[rand]);
      $('.pTwo').css("color", colorTheme[rand]);
      $('.background-2').css("background-color", colorTheme[rand]);
+     $('#reload').css("color", colorTheme[rand]);
 
      var backgroundShape = ['url(img/bckElement_2.png)', 'url(img/bckElement_3.png)', 
      'url(img/bckElement_4.png)', 'url(img/bckElement_5.png)', 'url(img/bckElement_6.png)',
@@ -155,25 +250,52 @@ $(document).ready(function(){
      var rand = Math.floor(Math.random() * backgroundShape.length);
      $('.background-2').css("background-image", backgroundShape[rand]);
 
-    var extraShape = ['url(img/shape_1.png)', 'url(img/shape_2.png)', 
-    'url(img/shape_3.png)', 'url(img/shape_4.png)', 'url(img/shape_5.png)',
-    'url(img/shape_6.png)', 'url(img/shape_7.png)',  'url(img/shape_8.png)',
-    'url(img/shape_9.png)', 'url(img/shape_10.png)', 'url(img/shape_11.png)',
-    'url(img/shape_12.png)', 'url(img/shape_13.png)', 'url(img/shape_14.png)']
+    var extraShape = ['url(img/shape_1.svg)', 'url(img/shape_2.svg)', 
+    'url(img/shape_3.svg)', 'url(img/shape_4.svg)', 'url(img/shape_5.svg)',
+    'url(img/shape_6.svg)', 'url(img/shape_7.svg)',  'url(img/shape_8.svg)',
+    'url(img/shape_9.svg)', 'url(img/shape_10.svg)', 'url(img/shape_11.svg)',
+    'url(img/shape_12.svg)', 'url(img/shape_13.svg)', 'url(img/shape_14.svg)']
     var rand = Math.floor(Math.random() * extraShape.length);
     $('.shape1').css("background-image", extraShape[rand]);
+    console.log(extraShape[rand])
 
-    var extraShape = ['url(img/shape_1.png)', 'url(img/shape_2.png)', 
-    'url(img/shape_3.png)', 'url(img/shape_4.png)', 'url(img/shape_5.png)',
-    'url(img/shape_6.png)', 'url(img/shape_7.png)',  'url(img/shape_8.png)',
-    'url(img/shape_9.png)', 'url(img/shape_10.png)', 'url(img/shape_11.png)',
-    'url(img/shape_12.png)', 'url(img/shape_13.png)', 'url(img/shape_14.png)']
+    var extraShape = ['url(img/shape_1.svg)', 'url(img/shape_2.svg)', 
+    'url(img/shape_3.svg)', 'url(img/shape_4.svg)', 'url(img/shape_5.svg)',
+    'url(img/shape_6.svg)', 'url(img/shape_7.svg)',  'url(img/shape_8.svg)',
+    'url(img/shape_9.svg)', 'url(img/shape_10.svg)', 'url(img/shape_11.svg)',
+    'url(img/shape_12.svg)', 'url(img/shape_13.svg)', 'url(img/shape_14.svg)']
     var rand = Math.floor(Math.random() * extraShape.length);
     $('.shape2').css("background-image", extraShape[rand]);
 
+    console.log(extraShape[rand])
 
 
-    var countDownDate = new Date("Sep 5, 2018 15:37:25").getTime();
+
+//TIME TEST
+
+    let timeForClock = [
+    '00:15:00', 
+    '00:30:00', 
+    '00:45:00', 
+    '01:00:00', 
+    '02:00:00',
+    '03:00:00',
+    '05:00:00',
+    '24:00:00'
+    ]
+
+    console.log(timeForClock);
+ 
+    var randSelector = Math.floor(Math.random() * timeForClock.length)
+    console.log(randSelector);
+
+    let timeForClockSelect = timeForClock[randSelector];
+    console.log(timeForClockSelect)
+
+
+/*
+
+    var countDownDate = new Date(timeForClockSelect).getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function() {
@@ -185,13 +307,12 @@ $(document).ready(function(){
     var distance = countDownDate - now;
 
     // Time calculations for days, hours, minutes and seconds
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result in the element with id="demo"
-    document.getElementById("clock").innerHTML = days + "d " + hours + "h "
+    document.getElementById("clock").innerHTML = hours + "h "
     + minutes + "m " + seconds + "s ";
 
     // If the count down is finished, write some text 
@@ -199,7 +320,7 @@ $(document).ready(function(){
     clearInterval(x);
     document.getElementById("clock").innerHTML = "EXPIRED";
     }
-    }, 1000);
+    }, 1000); */
 
 
     /*$("#startClock").click(function() {
