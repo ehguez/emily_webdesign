@@ -1,8 +1,9 @@
 /* Text */
 @import url("https://use.typekit.net/ers2ngk.css");
 
+
 .intro {
-  width: 220px;
+  width: 200px;
   height: 80px;
   margin-top: 60px;
   margin-left: 60px;
@@ -13,7 +14,7 @@
 
 .work {
   width: 500px;
-  height: 290px;
+  height: 260px;
   margin-top: 320px;
   margin-left: 540px;
   position: absolute;
@@ -38,6 +39,8 @@
  */ 
 .intro-text {
   padding: 10%;
+  margin-left: 2px;
+
 }
 
 .work-text {
@@ -59,16 +62,56 @@
   background-color: white;
 }
 
-.refreshButton {
-  margin-top: 10px;
-  margin-left: 10px;
-  width: 20px;
-  height: 20px;
+#refreshButton {
+  margin-top: 7px;
+  margin-left: 8px;
+  width: 25px;
+  height: 25px;
   position: absolute;
   z-index: 2;
   cursor: pointer;
-  background: url(img/reload-button.svg);
+ }
+
+#refresh-button{
+  fill:#000;
 }
+
+#intro-arrow-1{
+  fill:#000;
+}
+
+#intro-arrow-2{
+  fill:#000;
+}
+
+#intro-arrow-3{
+  fill:#000;
+}
+
+#intro-arrow-4{
+  fill:#000;
+}
+
+#list-arrow-1{
+  fill:#000;
+}
+
+#list-arrow-2{
+  fill:#000;
+}
+
+#list-arrow-3{
+  fill:#000;
+}
+
+#list-arrow-4{
+  fill:#000;
+}
+
+#list-arrow-5{
+  fill:#000;
+}
+
 
 .refreshButton:hover {
   margin-top: 10px;
@@ -81,9 +124,131 @@
   background: url(img/reload-button-2.svg);
 }
 
+.moreInfo{
+  width: 30px;
+  height: 40px;
+  margin-top: 420px;
+  margin-left: 1100px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+}
+
+#moreInfoButton {
+  margin-top: 7px;
+  margin-left: 3px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+ }
+
+.moreInfoTextBox{
+  width: 200px;
+  height: 110px;
+  margin-top: 420px;
+  margin-left: 1130px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  display: none;
+}
+
+#moreInfoText{
+  font-size: 0.9em;
+  padding: 10px;
+  line-height: 18px;
+  margin-left: 3px;
+}
+
+
+
+
+.moreCode{
+  width: 50px;
+  height: 40px;
+  margin-top: 500px;
+  margin-left: 430px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+}
+
+#moreCodeButton {
+  margin-top: 7px;
+  margin-left: 4px;
+  width: 42px;
+  height: 25px;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+ }  
+
+.moreCodeBox{
+  width: 200px;
+  height: 80px;
+  margin-top: 420px;
+  margin-left: 280px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  display: none;
+}
+
+#moreCodeText{
+  font-size: 0.9em;
+  padding: 12px;
+  line-height: 18px;
+  margin-right: 3px;
+  text-align: right;
+}
+
+
+
+.resizeTip{
+  width: 40px;
+  height: 30px;
+  margin-top: 630px;
+  margin-left: 660px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+}
+
+#resizeTipButton {
+  margin-top: 5px;
+  margin-left: 2.5px;
+  width: 35px;
+  height: 20px;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+ }  
+
+.resizeTipBox{
+  width: 200px;
+  height: 50px;
+  margin-top: 630px;
+  margin-left: 700px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  display: none;
+}
+
+#resizeTipText{
+  font-size: 0.9em;
+  padding: 7px;
+  line-height: 18px;
+  margin-left: 3px;
+}
+
+
 
 p {
  font-family: lores-21-serif, sans-serif;
+ font-size: 1.2em;
 }
 
 .main {
@@ -92,13 +257,25 @@ p {
  line-height: 140%;
 }
 
-a:link {
+a {
+  color: #000;
+}
+
+#a2 {
+  color: #000;
+}
+
+#a3 {
+  color: #000;
+}
+
+#a4:hover {
   color: #000;
 }
 
 a:hover{
-  color: #ff00ff;
-
+  color: #fff;
+ /* cursor: url('img/refresh-button.svg'), auto;*/
 }
 
 a:visited {
@@ -115,13 +292,24 @@ a:active {
   height: 100%;
 }
 
+.canvas2 {
+  width: 100%;
+  height: 100%;
+}
+
 .pixel {
   width: 10px;
   height: 10px;
   float: left;
-  background:#ff;
+  background:#fff;
 }
 
+.pixel2 {
+  width: 20px;
+  height: 20px;
+  float: left;
+  background:#fff;
+}
 .pixel:nth-child(odd) {
   background: #fff;
 }

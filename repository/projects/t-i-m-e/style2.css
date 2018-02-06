@@ -1,0 +1,212 @@
+body{
+   background:radial-gradient(circle, #90bdf5, #1955a0, #021227);
+   padding: 0px;
+   cursor: pointer;
+   width: 1350px;
+ }
+
+#gradient-blue {
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  border-radius: 50%;
+  margin-top: 13%;  
+  margin-bottom: 10%;
+  position: relative;
+}
+
+
+.circlecontainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1000px;
+ }
+
+
+.circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+}
+
+#circle-1{
+  transform: translateY(110px) translateX(825px);
+  background: linear-gradient(to left, #77aef3, #264d7e, #021d3f);
+}
+
+#circle-2{
+  transform: translateY(150px) translateX(955px);
+  background: linear-gradient(to left, #77aef3, #4975ad, #021d3f );
+}
+
+#circle-3{
+  transform: translateY(250px) translateX(1000px);
+  background: linear-gradient(to right, #34629d, #9dc3f3);
+}
+
+#circle-4{
+  transform: translateY(345px) translateX(960px);
+  background: linear-gradient(to right, #77aef3, #4975ad, #021d3f );
+}
+
+#circle-5{
+  transform: translateY(385px) translateX(830px);
+  background: linear-gradient(to right, #77aef3, #264d7e, #021d3f);
+}
+
+#circle-6{
+  transform: translateY(345px) translateX(630px);
+  background: linear-gradient(to right, #77aef3, #021d3f, #021d3f);
+}
+
+#circle-7{
+  transform: translateY(205px) translateX(440px);
+  background: linear-gradient(to right, #6185b1, #021d3f, #021d3f);
+}
+
+#circle-8{
+  transform: translateY(-15px) translateX(305px);
+  background: linear-gradient(to right, #3a6191, #021d3f, #021d3f);
+}
+
+#circle-9{
+  transform: translateY(-290px) translateX(260px);
+  background: linear-gradient(to left, #193457, #021d3f, #021d3f);
+}
+
+#circle-10{
+  transform: translateY(-570px) translateX(305px);
+  background: linear-gradient(to left, #3a6191, #021d3f, #021d3f);
+}
+
+#circle-11{
+  transform: translateY(-790px) translateX(430px);
+  background: linear-gradient(to left, #6185b1, #021d3f, #021d3f);
+}
+
+#circle-12{
+  transform: translateY(-930px) translateX(630px);
+  background: linear-gradient(to left, #77aef3, #021d3f, #021d3f);
+}
+
+
+
+.images {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1000px;
+}
+
+.image {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  margin-left: 42.5%;
+  margin-top: 22.5%;
+  top:0;
+  left:0;
+  z-index: 1;
+  display: none;
+ }
+
+#image-1{
+  background-image: url(images/cat-trashcan.gif) ;
+  background-attachment: relative;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 130%;
+}
+
+#image-2{
+  background-image: url(images/dog-bath.gif) ;
+  background-attachment: relative;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 185%;
+}
+
+#image-3{
+  background-image: url(images/cat-box.gif) ;
+  background-attachment: relative;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 180%;
+}
+
+
+#image-4{
+  background-image: url(images/sleepy-sloth.gif) ;
+  background-attachment: relative;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 100%;
+}
+
+#image-5{
+  background-image: url(images/cat-door.gif) ;
+  background-attachment: relative;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 130%;
+}
+
+#image-6{
+  background-image: url(images/cat-overlord.gif) ;
+  background-attachment: relative;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 180%;
+}
+
+#image-7{
+  background-image: url(images/cat-upsidedown.gif) ;
+  background-attachment: relative;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 135%;
+}
+
+#image-8{
+  background-image: url(images/midnight-snack.gif) ;
+  background-attachment: relative;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 135%;
+}
+
+#image-9{
+  background-image: url(images/cat-internet.gif) ;
+  background-repeat: no-repeat;
+  background-attachment: relative;
+  background-position: center; 
+  background-size: 130%;
+}
+
+#image-10{
+  background-image: url(images/ghost-pong.gif) ;
+  background-attachment: relative;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 110%;
+}
+
+#image-11{
+  background-image: url(images/cat-meow.gif) ;
+  background-attachment: relative;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 143%;
+}
+
+#image-12{
+  background-image: url(images/cat-dreams.gif) ;
+  background-attachment: relative;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 160%;
+}
