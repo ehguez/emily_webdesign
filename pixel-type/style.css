@@ -1,0 +1,75 @@
+body {
+	margin:80px;
+	background-color: white;
+	 position: absolute;
+
+}
+
+.canvas {
+  width: 50%;
+  height: 100%;
+}
+
+
+/*Graphic Element - Shapes */
+.element-1{
+	width: 10px;
+	height: 10px;
+	float:left;
+	background: black;
+	}
+
+
+/* Graphic Elements - Colors*/
+#color0 {
+	background: white;
+}
+
+#colorA {
+	background: gold;
+}
+
+#colorB {
+	background: hotpink;
+}
+
+#colorC {
+	background: greenyellow;
+}
+
+#colorD {
+	background: lavender;
+}
+
+#colorE {
+	background: lightseagreen;
+}
+
+#colorF {
+	background: mediumpurple;
+}
+
+#color-2 {
+	background: orangered;
+}
+
+/*.img-fix {
+	background:url(stand_in.png) no-repeat;
+	background-size: 50%;
+	transform: translateY(604px) translateX(428px);
+	height:50px;
+	margin-bottom: 100px;
+
+}
+
+
+/*Copy Section
+.element-1{
+	width: 30px;
+	height: 35px;
+	border-top-left-radius: 20px;
+	transform: translateX(18px);
+}
+*/
+
+
