@@ -1,0 +1,356 @@
+
+* { 
+  padding:0;
+  margin:0;
+  border: 0;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("img/1_Angela.jpg");
+
+    /* Set a specific height */
+    min-height: 1800px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.background {
+     background-image: url("img/4_Ji.jpg");
+     height: 1000px;
+     background-size: contain;
+     background-position: center;
+}
+
+
+.parallax-2 {
+    /* The image used */
+    background-image: url("img/2_June.jpg");
+
+    /* Set a specific height */
+    min-height: 2000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax-3 {
+    /* The image used */
+    background-image: url("img/3_BobbyJoe.jpg");
+
+    /* Set a specific height */
+    min-height: 2000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll;
+    background-position: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax-4 {
+    /* The image used */
+    background-image: url("img/4_Ji.jpg");
+
+    /* Set a specific height */
+    min-height: 2000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-5 {
+    /* The image used */
+    background-image: url("img/5_Chris.jpg");
+
+    /* Set a specific height */
+    min-height: 2000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-6 {
+    /* The image used */
+    background-image: url("img/6_Lauren.jpg");
+
+    /* Set a specific height */
+    min-height: 2000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax-7 {
+    /* The image used */
+    background-image: url("img/7_Marcus.jpg");
+
+    /* Set a specific height */
+    min-height: 2000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax-8 {
+    /* The image used */
+    background-image: url("img/8_Elaine.jpg");
+
+    /* Set a specific height */
+    min-height: 2000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax-9 {
+    /* The image used */
+    background-image: url("img/9_Wei.jpg");
+
+    /* Set a specific height */
+    min-height: 2000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax-10 {
+    /* The image used */
+    background-image: url("img/10_Jenn.jpg");
+
+    /* Set a specific height */
+    min-height: 2000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-11 {
+    /* The image used */
+    background-image: url("img/11_Dominic.jpg");
+
+    /* Set a specific height */
+    min-height: 2000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-12 {
+    /* The image used */
+    background-image: url("img/12_Marie.jpg");
+
+    /* Set a specific height */
+    min-height: 2000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-13 {
+    /* The image used */
+    background-image: url("img/13_Hilary.jpg");
+
+    /* Set a specific height */
+    min-height: 2000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-14 {
+    /* The image used */
+    background-image: url("img/14_Calle.jpg");
+
+    /* Set a specific height */
+    min-height: 2000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-15 {
+    /* The image used */
+    background-image: url("img/15_Elena.jpg");
+
+    /* Set a specific height */
+    min-height: 2000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-16 {
+    /* The image used */
+    background-image: url("img/16_Reid.jpg");
+
+    /* Set a specific height */
+    min-height: 2000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-17 {
+    /* The image used */
+    background-image: url("img/17_Goeun.jpg");
+
+    /* Set a specific height */
+    min-height: 2000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-18 {
+    /* The image used */
+    background-image: url("img/18_Mukul.jpg");
+
+    /* Set a specific height */
+    min-height: 2000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-19 {
+    /* The image used */
+    background-image: url("img/19_Maria.jpg");
+
+    /* Set a specific height */
+    min-height: 2000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-20 {
+    /* The image used */
+    background-image: url("img/20_Ramon.jpg");
+
+    /* Set a specific height */
+    min-height: 2000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-21 {
+    /* The image used */
+    background-image: url("img/21_Mo.jpg");
+
+    /* Set a specific height */
+    min-height: 2000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-22 {
+    /* The image used */
+    background-image: url("img/22_Olivia.jpg");
+
+    /* Set a specific height */
+    min-height: 2000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-23 {
+    /* The image used */
+    background-image: url("img/23_Robert.jpg");
+
+    /* Set a specific height */
+    min-height: 2000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-24 {
+    /* The image used */
+    background-image: url("img/24_Amy.jpg");
+
+    /* Set a specific height */
+    min-height: 2000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
