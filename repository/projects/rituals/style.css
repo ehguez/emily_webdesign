@@ -150,11 +150,32 @@ button:hover {
   transform: translateY(-500px) translateX(500px);
   mix-blend-mode: normal;
   display: none;
-  padding: 30px;
+  padding: 40px;
   box-shadow: 4px 4px 15px #c470e0
 }
  
  #wordsWisdom {
+  font-family: henriette, sans-serif;
+  font-weight: 400;  
+  font-style: normal;
+  font-size: 1.8em;
+  color: #fff;
+ }
+
+ #wisdomDiv2{
+  background-color: red;
+  width: 570px;
+  height: 400px;
+  z-index: 2;
+  position: absolute;
+  transform: translateY(-300px) translateX(100px);
+  mix-blend-mode: normal;
+  display: none;
+  padding: 30px;
+  box-shadow: 4px 4px 15px #c470e0
+}
+
+ #wordsWisdom2 {
   font-family: henriette, sans-serif;
   font-weight: 400;  
   font-style: normal;
@@ -224,21 +245,37 @@ button:hover {
   position: absolute;
   margin-top: -35%;
   margin-left: 0%;
+
 }
 
 
-.wisdom{
+#wisdom{
   background-image: url(img/bckElement_2.png);
   background-repeat: no-repeat;
   background-size: contain;
-  width: 250px;
-  height: 350px;
+  width: 310px;
+  height: 100%;
   z-index: 1;
   position: absolute;
   margin-top: -17%;
   margin-left: 3%;
-  mix-blend-mode: screen;
+  mix-blend-mode: normal;
+  transform: translateY(0px) translateX(0px);
 
+}
+
+#wisdomBck{
+  background-image: url(img/Test_ButlerBck.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 310px;
+  height: 100%;
+  z-index: 0;
+  position: absolute;
+  margin-top: -17%;
+  margin-left: 3%;
+  mix-blend-mode: screen;
+  display: none;
 }
 
 
@@ -246,7 +283,7 @@ button:hover {
   background-image: url(img/bckElement_2.png) ;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 320px;
+  width: 310px;
   height: 100%;
   z-index: 1;
   position: absolute;

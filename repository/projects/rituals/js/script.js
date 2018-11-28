@@ -10,16 +10,21 @@ $(document).ready(function(){
          window.location("index.html"); 
     });
 
-    $('.wisdom').click(function(){
-        $('#wisdomDiv').toggle();
+    $('#wisdom').click(function(){
+    $('#wisdomDiv').toggle();
+    $('#wisdomDiv2').toggle();
+
+    });
+ 
+$('#wisdom').hover(function(){
+    $('#wisdomBck').toggle();
     });
  
 
-
-    var extraShape = ['url(img/EmilyDickinson.png)', 'url(img/1_OctaviaButler.png)']
+    var extraShape = ['url(img/0_EmilyDickinson.png)', 'url(img/1_OctaviaButler.png)', 'url(img/2_SisterCorita.png)']
     var rand = Math.floor(Math.random() * extraShape.length);
     console.log([rand]);
-    $('.wisdom').css("background-image", extraShape[rand]);
+    $('#wisdom').css("background-image", extraShape[rand]);
     console.log(extraShape[rand])
 
 
@@ -33,13 +38,54 @@ $(document).ready(function(){
     $('.shape2').css("background-image", extraShape[rand2]);
     console.log(extraShape[rand2])
   
-    //Clickables
-    if (rand == '1'){
-        console.log('shape2');
-        document.getElementById('wordsWisdom').innerHTML = '"You don’t start out writing good stuff. You start out writing crap and thinking it’s good stuff, and then gradually you get better at it. That’s why I say one of the most valuable traits is persistence."';
-        document.getElementById('wisdomDiv').style.height = "310px";
-        document.getElementsByClassName('wisdom').style.transform = "310px";
+    //Wisdom Clickables
+    if (rand == '0'){
+        console.log('dickinson');
+        document.getElementById('wordsWisdom').innerHTML = '"I’m nobody! Who are you?  <br> Are you — Nobody — too?<br>  Then there’s a pair of us! <br> Don’t tell!  they ’d advertise - you know! <br><br> How dreary - to be - Somebody!  <br> How public - like a frog  - <br> To tell one’s name - the livelong June - <br>To an admiring Bog!"';
+        document.getElementById('wisdomDiv').style.height = "300px";
+        document.getElementById('wisdomDiv').style.width = "440px";
+        document.getElementById('wisdomDiv').style.fontSize = "0.8em";
+        document.getElementById('wordsWisdom').style.height = "400px";
+        document.getElementById('wisdomDiv').style.backgroundColor = "#46e66c";
+        document.getElementById('wisdom').style.width = "210px";
+        document.getElementById('wisdomBck').style.backgroundImage = "url(img/DickinsonBck.png)";
+        document.getElementById('wisdomBck').style.width = "208px";
+        document.getElementById('wordsWisdom2').innerHTML = '“If I read a book [and] it makes my whole body so cold no fire can ever warm me, I know <i>that</i> is poetry. If I feel physically as if the top of my head were taken off, I know <i>that</i> is poetry. These are the only ways I know it. Is there any other way?”';
+        document.getElementById('wisdomDiv2').style.backgroundColor = "#c470e0";
+        document.getElementById('wisdomDiv2').style.height = "350px";
+        document.getElementById('wisdomDiv2').style.transform = "translateY(-600px) translateX(210px)";
 
+    }
+
+    if (rand == '1'){
+        console.log('butler');
+        document.getElementById('wordsWisdom').innerHTML = '“You don’t start out writing good stuff. <br>You start out writing crap and thinking it’s good stuff, and then gradually you get better at it. That’s why I say one of the most <br>valuable traits is persistence.”';
+        document.getElementById('wisdomDiv').style.height = "210px";
+        document.getElementById('wisdomDiv2').style.backgroundColor = "#c470e0";
+        document.getElementById('wisdomDiv2').style.height = "310px";
+        document.getElementById('wordsWisdom2').innerHTML = '“First forget inspiration. Habit is more dependable. Habit will sustain you whether you’re inspired or not. Habit will help you finish and polish your stories. Inspiration won’t. Habit is persistence in practice.”';
+        document.getElementById('wisdomBck').style.backgroundImage = "url(img/1_OctaviaButler_Bck.png)";
+    }
+
+
+    if (rand == '2'){
+        console.log('corita');
+        //image 
+        document.getElementById('wisdom').style.width = "380px";
+        document.getElementById('wisdom').style.transform = "translateY(-10px) translateX(-30px)";
+   
+        //image background
+        document.getElementById('wisdomBck').style.backgroundImage = "url(img/2_SisterCorita_Bck.png)";
+        document.getElementById('wisdomBck').style.width = "380px";
+        document.getElementById('wisdomBck').style.transform = "translateY(-10px) translateX(-30px)";
+
+        //text 1
+        document.getElementById('wordsWisdom').innerHTML = '“You don’t start out writing good stuff. <br>You start out writing crap and thinking it’s good stuff, and then gradually you get better at it. That’s why I say one of the most <br>valuable traits is persistence.”';
+        document.getElementById('wisdomDiv').style.height = "210px";
+        //text 2
+        document.getElementById('wordsWisdom2').innerHTML = '“First forget inspiration. Habit is more dependable. Habit will sustain you whether you’re inspired or not. Habit will help you finish and polish your stories. Inspiration won’t. Habit is persistence in practice.”';
+        document.getElementById('wisdomDiv2').style.backgroundColor = "#c470e0";
+        document.getElementById('wisdomDiv2').style.height = "310px";
     }
 
 
@@ -57,6 +103,7 @@ $(document).ready(function(){
 //Dragging
 
 dragElement(document.getElementById("wisdomDiv"));
+dragElement(document.getElementById("wisdomDiv2"));
 
 
 function dragElement(elmnt) {
