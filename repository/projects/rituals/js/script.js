@@ -19,17 +19,35 @@ $('#bottomLeft').hover(function(){
     $('#wisdomBck').toggle();
     });
 
+
+
 $('#topRight').click(function(){
     $('#topRightContainer').toggle();
     $('#topImg1').toggle();
     $('#topImg2').toggle();
     $('#topImg3').toggle();
     $('#topImg4').toggle();
+});
+
+ $('#topRight').hover(function(){
+    $('#topRightBack').toggle();
+    });
+
+
+$('#topLeft').click(function(){
+    $('#topLeftContainer').toggle();
+    $('#topLeftContainer2').toggle();
+    $('#topImg1Left').toggle();
+    $('#topImg2Left').toggle();
+    $('#topImg3Left').toggle();
+    $('#topImg4Left').toggle();
+    $('#videoPlayer').toggle();
 
 });
- 
-$('#topRight').hover(function(){
-    $('#topRightBack').toggle();
+
+
+ $('#topLeft').hover(function(){
+    $('#topLeftBack').toggle();
     });
 
 
@@ -42,7 +60,7 @@ $('#topRight').hover(function(){
     console.log(extraShape[rand])
 
     //Top Left
-    var extraShape = ['url(img/0_moon.png)', 'url(img/1_rock.png)']
+    var extraShape = ['url(img/0_shell.png)', 'url(img/1_apple.png)']
     var rand0 = Math.floor(Math.random() * extraShape.length);
     console.log([rand0]);
     $('#topLeft').css("background-image", extraShape[rand0]);
@@ -130,6 +148,7 @@ $('#topRight').hover(function(){
         //text
         document.getElementById('topRightText').innerHTML = 'Take three long, audible breaths.';
         document.getElementById('topRightContainer').style.height = "70px";
+        document.getElementById('topRight').style.width = "235px";
         document.getElementById('topRightContainer').style.backgroundColor = "#46e66c";
          //img1
         document.getElementById('topImg1').style.backgroundImage = "url(img/moon_wave.gif)";
@@ -146,12 +165,76 @@ $('#topRight').hover(function(){
 
         //hover
         document.getElementById('topRightBack').style.backgroundImage = "url(img/0_moon_bck.png)";
+        document.getElementById('topRightBack').style.width = "235px";
 
-        document.getElementById('wordsWisdom2').innerHTML = '“If I read a book [and] it makes my whole body so cold no fire can ever warm me, I know <i>that</i> is poetry. If I feel physically as if the top of my head were taken off, I know <i>that</i> is poetry. These are the only ways I know it. Is there any other way?”';
-        document.getElementById('wisdomDiv2').style.backgroundColor = "#c470e0";
-        document.getElementById('wisdomDiv2').style.height = "350px";
-        document.getElementById('wisdomDiv2').style.transform = "translateY(-600px) translateX(210px)";
+       
 
+    }
+  if (rand2 == '1'){
+        console.log('rock');
+        //text
+        document.getElementById('topRightText').innerHTML = 'oh captain my captain';
+        document.getElementById('topRightContainer').style.height = "70px";
+        document.getElementById('topRightContainer').style.backgroundColor = "#46e66c";
+         //img1
+        document.getElementById('topImg1').style.backgroundImage = "url(img/moon_wave.gif)";
+        document.getElementById('topImg1').style.transform = "translateY(20px) translateX(400px)";
+         //img2
+        document.getElementById('topImg2').style.backgroundImage = "url(img/moon_tide.gif)";
+        document.getElementById('topImg2').style.transform = "translateY(-450px) translateX(200px)";
+         //img3
+        document.getElementById('topImg3').style.backgroundImage = "url(img/moon_dolphin.gif)";
+        document.getElementById('topImg3').style.transform = "translateY(-180px) translateX(900px)";
+         //img4
+        document.getElementById('topImg4').style.backgroundImage = "url(img/moon_turtle.gif)";
+        document.getElementById('topImg4').style.transform = "translateY(-300px) translateX(-50px)";
+
+        //hover
+        document.getElementById('topRightBack').style.backgroundImage = "url(img/1_rock_bck.png)";
+
+    }
+
+//Top Left Clickables    
+
+    if (rand0 == '0'){
+        console.log('shell');
+    //hover
+        document.getElementById('topLeftBack').style.backgroundImage = "url(img/0_shell_bck.png)";
+
+        //text
+        document.getElementById('topLeftText').innerHTML = 'Listen to the sounds around you, <br>then repeat one of your choice.';
+        document.getElementById('topLeftContainer').style.height = "120px";
+        document.getElementById('topLeftContainer').style.width = "620px";
+        document.getElementById('topLeftContainer').style.backgroundColor = "#737bee";
+        document.getElementById('topLeftContainer2').style.height = "350px";
+
+        document.getElementById('topLeftText2').innerHTML = '“When you speak a word to a listener, the speaking is an act. And it is a mutual act: the listener’s listening enables the speaker’s speaking. It is a shared event, intersubjective: the listener and speaker entrain with each other. Both the amoebas are equally responsible, equally physically, immediately involved in sharing bits of themselves.”';
+        document.getElementById('quoteName2').innerHTML = 'ursula k. leguin';
+
+         //img1
+        document.getElementById('topImg1Left').style.backgroundImage = "url(img/UrsulaLeguin.png)";
+        document.getElementById('topImg1Left').style.transform = "translateY(20px) translateX(200px)";
+        document.getElementById('topImg1Left').style.height = "300px";
+        document.getElementById('topImg1Left').style.zIndex = "5";
+        
+
+         //img2
+        document.getElementById('topImg2Left').style.backgroundImage = "url(img/moon_tide.gif)";
+        document.getElementById('topImg2Left').style.transform = "translateY(-450px) translateX(200px)";
+        document.getElementById('topImg2Left').style.visibility = "hidden";
+
+         //img3
+        document.getElementById('topImg3Left').style.backgroundImage = "url(img/moon_dolphin.gif)";
+        document.getElementById('topImg3Left').style.transform = "translateY(-180px) translateX(900px)";
+        document.getElementById('topImg3Left').style.visibility = "hidden";
+
+         //img4
+        document.getElementById('topImg4Left').style.backgroundImage = "url(img/moon_turtle.gif)";
+        document.getElementById('topImg4Left').style.transform = "translateY(-300px) translateX(-50px)";
+        document.getElementById('topImg4Left').style.visibility = "hidden";
+
+
+        
     }
 
 });
@@ -168,7 +251,9 @@ dragElement(document.getElementById('topImg2'));
 dragElement(document.getElementById('topImg3'));
 dragElement(document.getElementById('topImg4'));
 dragElement(document.getElementById('topRightContainer'));
-
+dragElement(document.getElementById('topLeftContainer'));
+dragElement(document.getElementById('topLeftContainer2'));
+dragElement(document.getElementById('videoPlayer'));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -343,8 +428,8 @@ function startTime() {
     }
 
     if (h=="02"){
-    document.getElementById('hourlyTask').innerHTML = "go to bed";
-    document.getElementById('body').style.backgroundColor = "yellow";
+    document.getElementById('hourlyTask').innerHTML = "Lie down, then stretch your legs up on a wall for 10 minutes.";
+    document.getElementById('body').style.backgroundColor = "#f08f68";
     document.getElementById('morning').innerHTML = " AM";
 
     }
