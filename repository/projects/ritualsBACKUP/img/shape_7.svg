@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="244px" height="250px" viewBox="0 0 244 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle Copy 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="3.09311224%" fx="50%" fy="3.09311224%" r="93.3713329%" gradientTransform="translate(0.500000,0.030931),scale(1.000000,0.979601),rotate(90.000000),translate(-0.500000,-0.030931)" id="radialGradient-1">
+            <stop stop-color="#5BEFE3" offset="0%"></stop>
+            <stop stop-color="#A07EFF" offset="100%"></stop>
+        </radialGradient>
+        <path d="M5.60316485,157.734193 C-6.92234334,126.300979 -0.480673551,88.9400202 45.8500958,73.964418 C92.1808651,58.9888158 99.5742543,89.6907956 111.578686,89.6907956 C123.583117,89.6907956 118.441959,72.6579911 126.08404,46.6749171 C131.085886,29.6686396 131.085886,20.1651315 153.594195,5.65977716 C176.102503,-8.84557721 218.618197,6.15996179 230.622628,32.1695627 C258.662681,92.9230099 234.080019,122.692344 233.045123,166.157969 C230.269727,282.724637 123.32775,254.912887 97.796716,212.020751 C72.2656823,169.128614 30.0485903,219.080869 5.60316485,157.734193 Z" id="path-2"></path>
+        <filter x="-5.7%" y="-5.6%" width="111.5%" height="111.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="2" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="11.5" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="3" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.970775187   0 0 0 0 0.907238424   0 0 0 0 0.109462149  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle-Copy-8">
+            <use fill="url(#radialGradient-1)" fill-rule="evenodd" style="mix-blend-mode: overlay;" xlink:href="#path-2"></use>
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+        </g>
+    </g>
+</svg>

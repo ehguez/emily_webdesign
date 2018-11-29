@@ -10,34 +10,57 @@ $(document).ready(function(){
          window.location("index.html"); 
     });
 
-    $('#wisdom').click(function(){
+    $('#bottomLeft').click(function(){
     $('#wisdomDiv').toggle();
     $('#wisdomDiv2').toggle();
-
     });
  
-$('#wisdom').hover(function(){
+$('#bottomLeft').hover(function(){
     $('#wisdomBck').toggle();
     });
- 
 
+$('#topRight').click(function(){
+    $('#topRightContainer').toggle();
+    $('topRightContent').toggle();});
+
+
+ 
+$('#topRight').hover(function(){
+    $('#topRightBack').toggle();
+    });
+
+
+    
+    //Bottom Left
     var extraShape = ['url(img/0_EmilyDickinson.png)', 'url(img/1_OctaviaButler.png)', 'url(img/2_SisterCorita.png)']
     var rand = Math.floor(Math.random() * extraShape.length);
     console.log([rand]);
-    $('#wisdom').css("background-image", extraShape[rand]);
+    $('#bottomLeft').css("background-image", extraShape[rand]);
     console.log(extraShape[rand])
 
-
-    var extraShape = ['url(img/shape_1.svg)', 'url(img/shape_2.svg)', 
-    'url(img/shape_3.svg)', 'url(img/shape_4.svg)', 'url(img/shape_5.svg)',
-    'url(img/shape_6.svg)', 'url(img/shape_7.svg)',  'url(img/shape_8.svg)',
-    'url(img/shape_9.svg)', 'url(img/shape_10.svg)', 'url(img/shape_11.svg)',
-    'url(img/shape_12.svg)', 'url(img/shape_13.svg)', 'url(img/shape_14.svg)']
+    //Top Left
+    var extraShape = ['url(img/0_moon.png)', 'url(img/1_rock.png)']
+    var rand0 = Math.floor(Math.random() * extraShape.length);
+    console.log([rand0]);
+    $('#topLeft').css("background-image", extraShape[rand0]);
+    console.log(extraShape[rand0])
+   
+    //Top Right
+    var extraShape = ['url(img/0_moon.png)', 'url(img/1_rock.png)']
     var rand2 = Math.floor(Math.random() * extraShape.length);
     console.log([rand2]);
-    $('.shape2').css("background-image", extraShape[rand2]);
+    $('#topRight').css("background-image", extraShape[rand2]);
     console.log(extraShape[rand2])
+
+    //Bottom Right
+    var extraShape = ['url(img/0_moon.png)', 'url(img/1_rock.png)']
+    var rand3 = Math.floor(Math.random() * extraShape.length);
+    console.log([rand3]);
+    $('#bottomRight').css("background-image", extraShape[rand3]);
+    console.log(extraShape[rand3])
   
+  
+
     //Wisdom Clickables
     if (rand == '0'){
         console.log('dickinson');
@@ -47,7 +70,7 @@ $('#wisdom').hover(function(){
         document.getElementById('wisdomDiv').style.fontSize = "0.8em";
         document.getElementById('wordsWisdom').style.height = "400px";
         document.getElementById('wisdomDiv').style.backgroundColor = "#46e66c";
-        document.getElementById('wisdom').style.width = "210px";
+        document.getElementById('bottomLeft').style.width = "210px";
         document.getElementById('wisdomBck').style.backgroundImage = "url(img/DickinsonBck.png)";
         document.getElementById('wisdomBck').style.width = "208px";
         document.getElementById('wordsWisdom2').innerHTML = '“If I read a book [and] it makes my whole body so cold no fire can ever warm me, I know <i>that</i> is poetry. If I feel physically as if the top of my head were taken off, I know <i>that</i> is poetry. These are the only ways I know it. Is there any other way?”';
@@ -71,8 +94,8 @@ $('#wisdom').hover(function(){
     if (rand == '2'){
         console.log('corita');
         //image 
-        document.getElementById('wisdom').style.width = "380px";
-        document.getElementById('wisdom').style.transform = "translateY(-10px) translateX(-30px)";
+        document.getElementById('bottomLeft').style.width = "380px";
+        document.getElementById('bottomLeft').style.transform = "translateY(-10px) translateX(-30px)";
    
         //image background
         document.getElementById('wisdomBck').style.backgroundImage = "url(img/2_SisterCorita_Bck.png)";
@@ -80,22 +103,53 @@ $('#wisdom').hover(function(){
         document.getElementById('wisdomBck').style.transform = "translateY(-10px) translateX(-30px)";
 
         //text 1
-        document.getElementById('wordsWisdom').innerHTML = '“You don’t start out writing good stuff. <br>You start out writing crap and thinking it’s good stuff, and then gradually you get better at it. That’s why I say one of the most <br>valuable traits is persistence.”';
-        document.getElementById('wisdomDiv').style.height = "210px";
+        document.getElementById('wordsWisdom').innerHTML = '“Be happy whenever you can manage it. Enjoy yourself. It’s lighter than you think.”';
+        document.getElementById('wisdomDiv').style.height = "180px";
+        document.getElementById('wisdomDiv').style.fontSize = "1.3em";
+        document.getElementById('wisdomDiv').style.backgroundColor = "#0c2342";
+        document.getElementById('wisdomDiv').style.boxShadow = "4px 4px 15px #dff208";
+
+
         //text 2
-        document.getElementById('wordsWisdom2').innerHTML = '“First forget inspiration. Habit is more dependable. Habit will sustain you whether you’re inspired or not. Habit will help you finish and polish your stories. Inspiration won’t. Habit is persistence in practice.”';
+        document.getElementById('wordsWisdom2').innerHTML = '“Consider everything <br> an experiment.”';
+        document.getElementById('wisdomDiv2').style.backgroundColor = "#0011ff";
+        document.getElementById('wisdomDiv2').style.boxShadow = "4px 4px 15px #dff208";
+        document.getElementById('wisdomDiv2').style.fontSize = "1.6em";
+        document.getElementById('wisdomDiv2').style.height = "180px";
+        document.getElementById('wisdomDiv2').style.transform = "translateY(-400px) translateX(610px)";
+
+    }
+
+
+//Top Right Clickables
+    if (rand2 == '0'){
+        console.log('moon');
+        //text
+        document.getElementById('topRightText').innerHTML = 'Take three long, audible breaths.';
+        document.getElementById('topRightContainer').style.height = "70px";
+        document.getElementById('topRightContainer').style.backgroundColor = "#46e66c";
+         //img1
+        document.getElementById('topImg1').style.backgroundImage = "url(img/moon_wave.gif)";
+        document.getElementById('topImg1').style.transform = "translateY(250px) translateX(-250px)";
+         //img2
+        document.getElementById('topImg2').style.backgroundImage = "url(img/moon_tide.gif)";
+        document.getElementById('topImg2').style.transform = "translateY(-220px) translateX(-360px)";
+         //img3
+        document.getElementById('topImg3').style.backgroundImage = "url(img/moon_dolphin.gif)";
+        document.getElementById('topImg3').style.transform = "translateY(200px) translateX(-500px)";
+         //img4
+        document.getElementById('topImg4').style.backgroundImage = "url(img/moon_turtle.gif)";
+        document.getElementById('topImg4').style.transform = "translateY(80px) translateX(550px)";
+
+        //hover
+        document.getElementById('topRightBack').style.backgroundImage = "url(img/0_moon_bck.png)";
+
+        document.getElementById('wordsWisdom2').innerHTML = '“If I read a book [and] it makes my whole body so cold no fire can ever warm me, I know <i>that</i> is poetry. If I feel physically as if the top of my head were taken off, I know <i>that</i> is poetry. These are the only ways I know it. Is there any other way?”';
         document.getElementById('wisdomDiv2').style.backgroundColor = "#c470e0";
-        document.getElementById('wisdomDiv2').style.height = "310px";
+        document.getElementById('wisdomDiv2').style.height = "350px";
+        document.getElementById('wisdomDiv2').style.transform = "translateY(-600px) translateX(210px)";
+
     }
-
-
-    if (rand2 == '2'){
-        console.log('shape2');
-        document.getElementById('wordsWisdom').innerHTML = "hiya witch";
-    }
-
-
-
 
 });
 
@@ -104,6 +158,11 @@ $('#wisdom').hover(function(){
 
 dragElement(document.getElementById("wisdomDiv"));
 dragElement(document.getElementById("wisdomDiv2"));
+dragElement(document.getElementById('topImg1'));
+dragElement(document.getElementById('topImg2'));
+dragElement(document.getElementById('topImg3'));
+dragElement(document.getElementById('topImg4'));
+dragElement(document.getElementById('topRightText'));
 
 
 function dragElement(elmnt) {
@@ -240,12 +299,12 @@ function startTime() {
     }
 
     if (h=="19"){
-    document.getElementById('hourlyTask').innerHTML = "Sing a song.";
+    document.getElementById('hourlyTask').innerHTML = "Sing a song <br>out loud. Maybe dance, too.";
     document.getElementById('body').style.backgroundColor = "#4c2f9e";
     }
 
     if (h=="20"){
-    document.getElementById('hourlyTask').innerHTML = "Close your eyes and try to relax every part of your body, starting from the head. 10 minutes.";
+    document.getElementById('hourlyTask').innerHTML = "Close your eyes. Try to relax every part of your body, starting from the head. <br>10 minutes.";
     document.getElementById('body').style.backgroundColor = "#708536";
     }
 
