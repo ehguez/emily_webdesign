@@ -560,7 +560,7 @@ function startTime() {
     }
 
     if (h=="13"){
-    document.getElementById('hourlyTask').innerHTML = "Send a text or email to a friend you haven't spoken to in a while.";
+    document.getElementById('hourlyTask').innerHTML = "Send a text <br>or email to a friend <br>you haven't spoken <br>to in a while.";
     document.getElementById('body').style.backgroundColor = "#e78d00";
     }
 
