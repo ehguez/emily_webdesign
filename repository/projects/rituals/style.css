@@ -409,6 +409,14 @@ span {
   z-index: 5;
 }
 
+ #videoPlayerC {
+  display: none;
+  position: absolute;
+  margin-top: -300px;
+  margin-left: 45%;
+  z-index: 5;
+}
+
 /*TOP RIGHT AREA*/
 
 #topRight{
@@ -537,6 +545,8 @@ span {
   margin-top: 32%;
   margin-left: 78%;
   mix-blend-mode: color-burn;
+  transform: translateY(0px) translateX(0px);
+
 }
 
 #bottomRightBack{

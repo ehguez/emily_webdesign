@@ -49,6 +49,8 @@ $('#topLeft').click(function(){
     $('#topImg4Left').toggle();
     $('#videoPlayer').toggle();
     $('#videoPlayerB').toggle();
+    $('#videoPlayerC').toggle();
+
 
 });
 
@@ -76,14 +78,14 @@ $('#bottomRight').hover(function(){
 
     
     //Bottom Left
-    var extraShape = ['url(img/0_frog.png)', 'url(img/1_flower.png)', ]
+    var extraShape = ['url(img/0_frog.png)', 'url(img/1_flower.png)']
     var rand = Math.floor(Math.random() * extraShape.length);
     console.log([rand]);
     $('#bottomLeft').css("background-image", extraShape[rand]);
     console.log(extraShape[rand])
 
     //Top Left
-    var extraShape = ['url(img/0_shell.png)', 'url(img/1_apple.png)']
+    var extraShape = ['url(img/0_shell.png)', 'url(img/1_apple.png)', 'url(img/2_spider.png)']
     var rand0 = Math.floor(Math.random() * extraShape.length);
     console.log([rand0]);
     $('#topLeft').css("background-image", extraShape[rand0]);
@@ -97,7 +99,7 @@ $('#bottomRight').hover(function(){
     console.log(extraShape[rand2])
 
     //Bottom Right
-    var extraShape = ['url(img/0_fish.png)', 'url(img/1_key.png)']
+    var extraShape = ['url(img/0_fish.png)', 'url(img/1_key.png)','url(img/3_comb.png)']
     var rand3 = Math.floor(Math.random() * extraShape.length);
     console.log([rand3]);
     $('#bottomRight').css("background-image", extraShape[rand3]);
@@ -292,7 +294,8 @@ $('#bottomRight').hover(function(){
         document.getElementById('topImg4Left').style.transform = "translateY(-300px) translateX(-50px)";
         document.getElementById('topImg4Left').style.visibility = "hidden";  
         document.getElementById('videoPlayerB').style.visibility = "hidden";
-      
+        document.getElementById('videoPlayerC').style.visibility = "hidden";
+
     }
 
     if (rand0 == '1'){
@@ -319,8 +322,6 @@ $('#bottomRight').hover(function(){
         document.getElementById('topImg1Left').style.zIndex = "5";
         document.getElementById('topImg1Left').style.visibility= "hidden";
 
-        
-
          //img2
         document.getElementById('topImg2Left').style.backgroundImage = "url(img/moon_tide.gif)";
         document.getElementById('topImg2Left').style.transform = "translateY(-450px) translateX(200px)";
@@ -335,7 +336,62 @@ $('#bottomRight').hover(function(){
         document.getElementById('topImg4Left').style.backgroundImage = "url(img/moon_turtle.gif)";
         document.getElementById('topImg4Left').style.transform = "translateY(-300px) translateX(-50px)";
         document.getElementById('topImg4Left').style.visibility = "hidden";    
+        document.getElementById('videoPlayer').style.visibility = "hidden";
+        document.getElementById('videoPlayerC').style.visibility = "hidden";
 
+    
+    }
+
+    if (rand0 == '2'){
+        console.log('spider');
+    //hover
+        document.getElementById('topLeftBack').style.backgroundImage = "url(img/2_spider_bck.png)";
+        document.getElementById('topLeftBack').style.width = "320px";
+        document.getElementById('topLeft').style.width = "320px";
+
+
+        //text
+        document.getElementById('topLeftText').innerHTML = 'Take two steps. Spin. <Br>Take four steps. Spin.';
+        document.getElementById('topLeftContainer').style.height = "130px";
+        document.getElementById('topLeftContainer').style.width = "450px";
+        document.getElementById('topLeftContainer2').style.transform = "translateY(-450px) translateX(150px)";
+        document.getElementById('topLeftContainer2').style.height = "350px";
+        document.getElementById('topLeftContainer').style.backgroundColor = "#836dad";
+
+        document.getElementById('topLeftText2').innerHTML = '“Be happy whenever you can manage it. Enjoy yourself. <br>It’s lighter than you think.”';
+        document.getElementById('quoteName2').innerHTML = 'sister corita kent';
+        document.getElementById('topLeftText2').style.fontSize = '2.6em';
+                document.getElementById('topLeftContainer2').style.visibility = "hidden";
+
+
+         //img1
+        document.getElementById('topImg1Left').style.backgroundImage = "url(img/UrsulaLeguin.png)";
+        document.getElementById('topImg1Left').style.transform = "translateY(-100px) translateX(200px)";
+        document.getElementById('topImg1Left').style.height = "300px";
+        document.getElementById('topImg1Left').style.zIndex = "5";
+        document.getElementById('topImg1Left').style.visibility= "hidden";
+
+
+         //img2
+        document.getElementById('topImg2Left').style.backgroundImage = "url(img/weaving1.jpg)";
+        document.getElementById('topImg2Left').style.transform = "translateY(-450px) translateX(250px)";
+         document.getElementById('topImg2Left').style.height = "600px";
+         document.getElementById('topImg2Left').style.width = "400px";
+
+
+         //img3
+        document.getElementById('topImg3Left').style.backgroundImage = "url(img/weaving2.jpg)";
+        document.getElementById('topImg3Left').style.transform = "translateY(-180px) translateX(45px)";
+         document.getElementById('topImg3Left').style.height = "600px";
+
+
+         //img4
+        document.getElementById('topImg4Left').style.backgroundImage = "url(img/weaving3.png)";
+        document.getElementById('topImg4Left').style.width = "1200px";
+        document.getElementById('topImg4Left').style.height = "300px";
+        document.getElementById('topImg4Left').style.transform = "translateY(-620px) translateX(750px)";
+
+        document.getElementById('videoPlayerB').style.visibility = "hidden";
         document.getElementById('videoPlayer').style.visibility = "hidden";
     
     }
@@ -421,6 +477,51 @@ $('#bottomRight').hover(function(){
 
     }
 
+if (rand3 == '2'){
+        console.log('comb');
+//hover
+        document.getElementById('bottomRightBack').style.backgroundImage = "url(img/3_comb_bck.png)";
+        document.getElementById('bottomRight').style.transform = "translateY(-50px) translateX(0px)";
+        document.getElementById('bottomRightBack').style.transform = "translateY(-50px) translateX(0px)";
+        document.getElementById('bottomRight').style.width = "250px";
+
+
+        //text
+        document.getElementById('bottomRightText').innerHTML = 'Walk between two other people.';
+        document.getElementById('bottomRightContainer').style.height = "80px";
+        document.getElementById('bottomRightContainer').style.width = "630px";
+        document.getElementById('bottomRightContainer').style.backgroundColor = "#fa46b2";
+                document.getElementById('bottomRightContainer').style.transform = "translateY(-300px) translateX(60px)";
+
+        document.getElementById('bottomRightContainer2').style.height = "720px";
+        document.getElementById('bottomRightContainer2').style.visibility = "hidden";
+         //img1
+        document.getElementById('bottomRightText2').innerHTML = 'Leaving the house,<br>I went out to see<br>The frog, for example,<br>in her satiny skin; <br>and her eggs <br>like a slippery veil;<br>and her eyes<br>with their golden rims;<br>and the pond<br>with its risen lilies;<br>and its warmed shores<br>dotted with pink flowers;<br>and the long, windless afternoons;<br>and the white heron<br>like a dropped cloud,<br>taking one slow step<br>then standing awhile then taking<br>another, writing<br>her own soft-footed poem<br>through the still waters.';
+        document.getElementById('quoteName3').innerHTML = 'mary oliver';
+
+
+        //img1
+        document.getElementById('bottomImg1Right').style.backgroundImage = "url(img/knot1.gif)";
+        document.getElementById('bottomImg1Right').style.transform = "translateY(-480px) translateX(1000px)";
+
+         //img2
+        document.getElementById('bottomImg2Right').style.backgroundImage = "url(img/knot2.gif)";
+        document.getElementById('bottomImg2Right').style.transform = "translateY(-540px) translateX(80px)";
+
+         //img3
+        document.getElementById('bottomImg3Right').style.backgroundImage = "url(img/knot3.jpg)";
+        document.getElementById('bottomImg3Right').style.transform = "translateY(-580px) translateX(400px)";
+        document.getElementById('bottomImg3Right').style.width = "500px";
+
+         //img4
+        document.getElementById('bottomImg4Right').style.backgroundImage = "url(img/knot4.jpg)";
+        document.getElementById('bottomImg4Right').style.transform = "translateY(-200px) translateX(800px)";
+                document.getElementById('bottomImg4Right').style.width = "200px";
+
+        document.getElementById('videoPlayer2').style.visibility = "hidden";
+        document.getElementById('videoPlayer4').style.visibility = "hidden";
+
+    }
 
 });
 
@@ -435,6 +536,10 @@ dragElement(document.getElementById('topImg1'));
 dragElement(document.getElementById('topImg2'));
 dragElement(document.getElementById('topImg3'));
 dragElement(document.getElementById('topImg4'));
+dragElement(document.getElementById('topImg1Left'));
+dragElement(document.getElementById('topImg2Left'));
+dragElement(document.getElementById('topImg3Left'));
+dragElement(document.getElementById('topImg4Left'));
 dragElement(document.getElementById('topRightContainer'));
 dragElement(document.getElementById('topLeftContainer'));
 dragElement(document.getElementById('topLeftContainer2'));
@@ -535,52 +640,52 @@ function startTime() {
 
     }
     if (h=="09"){
-    document.getElementById('hourlyTask').innerHTML = "Spend 5 minutes imagining living someone else's life.";
+    document.getElementById('hourlyTask').innerHTML = "Spend 5 minutes imagining living someone else's life.<br><br>";
     document.getElementById('body').style.backgroundColor = "#bc59c8";
     document.getElementById('morning').innerHTML = " AM";
     }
 
 
     if (h=="10"){
-    document.getElementById('hourlyTask').innerHTML = "In a notebook, write without stopping for 15 minutes.";
+    document.getElementById('hourlyTask').innerHTML = "In a notebook, write without stopping for 15 minutes.<br><br>";
     document.getElementById('body').style.backgroundColor = "#c9b6be";
     document.getElementById('morning').innerHTML = " AM";
     }
 
     if (h=="11"){
-    document.getElementById('hourlyTask').innerHTML = "Have a short conversation with someone near you.";
+    document.getElementById('hourlyTask').innerHTML = "Have a short conversation with someone near you.<br><br>";
     document.getElementById('body').style.backgroundColor = "#212155";
     document.getElementById('morning').innerHTML = " AM";
     }
 
     if (h=="12"){
-    document.getElementById('hourlyTask').innerHTML = "Knock on a table 3 times. Eat something. Knock on a table 3 times.";
+    document.getElementById('hourlyTask').innerHTML = "Knock on a table 3 times. Eat something. Knock on a table <br>3 times.";
     document.getElementById('body').style.backgroundColor = "#f960e2";
     document.getElementById('morning').innerHTML = " AM";
     }
 
     if (h=="13"){
-    document.getElementById('hourlyTask').innerHTML = "Send a text <br>or email to a friend <br>you haven't spoken <br>to in a while.";
+    document.getElementById('hourlyTask').innerHTML = "Send a text or <br>email to a friend <br>you haven't spoken <br>to in a while.";
     document.getElementById('body').style.backgroundColor = "#e78d00";
     }
 
     if (h=="14"){
-    document.getElementById('hourlyTask').innerHTML = "Step outside. Breathe in the air for 10 minutes.";
+    document.getElementById('hourlyTask').innerHTML = "Step outside. <br>Breathe in the air for 10 minutes.<br><br>";
     document.getElementById('body').style.backgroundColor = "#89253c";
     }
 
     if (h=="15"){
-    document.getElementById('hourlyTask').innerHTML = "Focus your eyes on something at least 20 feet away for a minute.";
+    document.getElementById('hourlyTask').innerHTML = "Focus your eyes <br>on something <br>at least 20 feet away for a minute.";
     document.getElementById('body').style.backgroundColor = "#f5f5f5";
     }
 
     if (h=="16"){
-    document.getElementById('hourlyTask').innerHTML = "Take a walk outside for 15 minutes. Look around.";
+    document.getElementById('hourlyTask').innerHTML = "Take a walk  <br>outside for 15 minutes. Look around.";
     document.getElementById('body').style.backgroundColor = "#213531";
     }
 
     if (h=="17"){
-    document.getElementById('hourlyTask').innerHTML = "Spend 10 minutes drawing in a notebook.";
+    document.getElementById('hourlyTask').innerHTML = "Spend<br> 10 minutes drawing <br>in a notebook. <br> <br>";
     document.getElementById('body').style.backgroundColor = "#b26d2b";
     }
 
@@ -590,7 +695,7 @@ function startTime() {
     }
 
     if (h=="19"){
-    document.getElementById('hourlyTask').innerHTML = "Sing a song <br>out loud. Maybe dance, too.";
+    document.getElementById('hourlyTask').innerHTML = "Sing a song <br>out loud. Maybe dance, too.<br><br>";
     document.getElementById('body').style.backgroundColor = "#4c2f9e";
     }
 
@@ -622,7 +727,7 @@ function startTime() {
     }
 
     if (h=="01"){
-    document.getElementById('hourlyTask').innerHTML = "Close your eyes, and breathe deeply through your nose for 15 minutes. Breathe into your stomach.";
+    document.getElementById('hourlyTask').innerHTML = "Close your eyes. Breathe deeply through your nose for 15 minutes. ";
     document.getElementById('body').style.backgroundColor = "#0b4a08";
     document.getElementById('morning').innerHTML = " AM";
 
