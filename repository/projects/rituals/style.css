@@ -195,7 +195,7 @@ span {
   background-image: url(img/bckElement_2.png) ;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 100%;
+  width: 200px;
   height: 200px;
   position: absolute;
   transform: translateY(0px) translateX(0px);
@@ -208,7 +208,7 @@ span {
   background-image: url(img/bckElement_2.png) ;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 100%;
+  width:  200px;
   height: 200px;
   position: absolute;
   transform: translateY(0px) translateX(0px);
@@ -221,7 +221,7 @@ span {
   background-image: url(img/bckElement_2.png) ;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 100%;
+  width:  200px;
   height: 200px;
   position: absolute;
   transform: translateY(0px) translateX(0px);
@@ -235,7 +235,7 @@ span {
   background-image: url(img/bckElement_2.png) ;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 100%;
+  width:  200px;
   height: 200px;
   position: absolute;
   transform: translateY(0px) translateX(0px);
@@ -401,6 +401,13 @@ span {
   z-index: 5;
 }
 
+ #videoPlayerB {
+  display: none;
+  position: absolute;
+  margin-top: -300px;
+  margin-left: 45%;
+  z-index: 5;
+}
 
 /*TOP RIGHT AREA*/
 
@@ -517,7 +524,7 @@ span {
 
 
 
-/*BOTTOM LEFT AREA*/
+/*BOTTOM RIGHT AREA*/
 
 #bottomRight{
   background-image: url(img/bckElement_2.png) ;
@@ -658,7 +665,7 @@ span {
  #videoPlayer4 {
   display: none;
   position: absolute;
-  margin-top: -600px;
+  margin-top: -500px;
   margin-left: 22%;
   z-index: 5;
 }
