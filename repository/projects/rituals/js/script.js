@@ -10,13 +10,19 @@ $(document).ready(function(){
          window.location("index.html"); 
     });
 
-    $('#bottomLeft').click(function(){
-    $('#wisdomDiv').toggle();
-    $('#wisdomDiv2').toggle();
+
+$('#bottomLeft').click(function(){
+    $('#bottomLeftContainer').toggle();
+    $('#bottomLeftContainer2').toggle();
+    $('#bottomImg1Left').toggle();
+    $('#bottomImg2Left').toggle();
+    $('#bottomImg3Left').toggle();
+    $('#bottomImg4Left').toggle();
+    $('#videoPlayer2').toggle();
     });
  
 $('#bottomLeft').hover(function(){
-    $('#wisdomBck').toggle();
+    $('#bottomLeftBack').toggle();
     });
 
 
@@ -42,7 +48,6 @@ $('#topLeft').click(function(){
     $('#topImg3Left').toggle();
     $('#topImg4Left').toggle();
     $('#videoPlayer').toggle();
-
 });
 
 
@@ -51,9 +56,25 @@ $('#topLeft').click(function(){
     });
 
 
+
+$('#bottomRight').click(function(){
+    $('#bottomRightContainer').toggle();
+    $('#bottomRightContainer2').toggle();
+    $('#bottomImg1Right').toggle();
+    $('#bottomImg2Right').toggle();
+    $('#bottomImg3Right').toggle();
+    $('#bottomImg4Right').toggle();
+    $('#videoPlayer2').toggle();
+    });
+ 
+$('#bottomRight').hover(function(){
+    $('#bottomRightBack').toggle();
+    });
+
+
     
     //Bottom Left
-    var extraShape = ['url(img/0_EmilyDickinson.png)', 'url(img/1_OctaviaButler.png)', 'url(img/2_SisterCorita.png)']
+    var extraShape = ['url(img/0_frog.png)', 'url(img/1_flower.png)', ]
     var rand = Math.floor(Math.random() * extraShape.length);
     console.log([rand]);
     $('#bottomLeft').css("background-image", extraShape[rand]);
@@ -74,7 +95,7 @@ $('#topLeft').click(function(){
     console.log(extraShape[rand2])
 
     //Bottom Right
-    var extraShape = ['url(img/0_moon.png)', 'url(img/1_rock.png)']
+    var extraShape = ['url(img/0_fish.png)', 'url(img/1_key.png)']
     var rand3 = Math.floor(Math.random() * extraShape.length);
     console.log([rand3]);
     $('#bottomRight').css("background-image", extraShape[rand3]);
@@ -82,27 +103,47 @@ $('#topLeft').click(function(){
   
   
 
-    //Wisdom Clickables
+    //Bottom Left Clickables
     if (rand == '0'){
-        console.log('dickinson');
-        document.getElementById('wordsWisdom').innerHTML = '"I’m nobody! Who are you?  <br> Are you — Nobody — too?<br>  Then there’s a pair of us! <br> Don’t tell!  they ’d advertise - you know! <br><br> How dreary - to be - Somebody!  <br> How public - like a frog  - <br> To tell one’s name - the livelong June - <br>To an admiring Bog!"';
-        document.getElementById('wisdomDiv').style.height = "300px";
-        document.getElementById('wisdomDiv').style.width = "440px";
-        document.getElementById('wisdomDiv').style.fontSize = "0.8em";
-        document.getElementById('wordsWisdom').style.height = "400px";
-        document.getElementById('wisdomDiv').style.backgroundColor = "#46e66c";
-        document.getElementById('bottomLeft').style.width = "210px";
-        document.getElementById('wisdomBck').style.backgroundImage = "url(img/DickinsonBck.png)";
-        document.getElementById('wisdomBck').style.width = "208px";
-        document.getElementById('wordsWisdom2').innerHTML = '“If I read a book [and] it makes my whole body so cold no fire can ever warm me, I know <i>that</i> is poetry. If I feel physically as if the top of my head were taken off, I know <i>that</i> is poetry. These are the only ways I know it. Is there any other way?”';
-        document.getElementById('wisdomDiv2').style.backgroundColor = "#c470e0";
-        document.getElementById('wisdomDiv2').style.height = "350px";
-        document.getElementById('wisdomDiv2').style.transform = "translateY(-600px) translateX(210px)";
+     console.log('frog');
+        //text
+        document.getElementById('bottomLeftText').innerHTML = 'Put your hands on your hips, <br>then squat down twice.';
+       document.getElementById('bottomLeftContainer').style.height = "120px";
+        document.getElementById('bottomLeftContainer').style.width = "620px";
+        document.getElementById('bottomLeftContainer').style.backgroundColor = "#e48433";
+        document.getElementById('bottomLeftContainer2').style.height = "720px";
+         //img1
+        document.getElementById('bottomLeftText2').innerHTML = 'Leaving the house,<br>I went out to see<br>The frog, for example,<br>in her satiny skin; <br>and her eggs <br>like a slippery veil;<br>and her eyes<br>with their golden rims;<br>and the pond<br>with its risen lilies;<br>and its warmed shores<br>dotted with pink flowers;<br>and the long, windless afternoons;<br>and the white heron<br>like a dropped cloud,<br>taking one slow step<br>then standing awhile then taking<br>another, writing<br>her own soft-footed poem<br>through the still waters.';
+        document.getElementById('quoteName3').innerHTML = 'mary oliver';
 
+         //img1
+        document.getElementById('bottomImg1Left').style.backgroundImage = "url(img/MaryOliver.png)";
+        document.getElementById('bottomImg1Left').style.transform = "translateY(-500px) translateX(1120px)";
+        document.getElementById('bottomImg1Left').style.height = "320px";
+        document.getElementById('bottomImg1Left').style.zIndex = "5";
+         //img2
+        document.getElementById('bottomImg2Left').style.backgroundImage = "url(img/moon_tide.gif)";
+        document.getElementById('bottomImg2Left').style.transform = "translateY(-450px) translateX(200px)";
+        document.getElementById('bottomImg2Left').style.visibility = "hidden";
+
+         //img3
+        document.getElementById('bottomImg3Left').style.backgroundImage = "url(img/moon_dolphin.gif)";
+        document.getElementById('bottomImg3Left').style.transform = "translateY(-180px) translateX(900px)";
+        document.getElementById('bottomImg3Left').style.visibility = "hidden";
+
+         //img4
+        document.getElementById('bottomImg4Left').style.backgroundImage = "url(img/moon_turtle.gif)";
+        document.getElementById('bottomImg4Left').style.transform = "translateY(-300px) translateX(-50px)";
+        document.getElementById('bottomImg4Left').style.visibility = "hidden";
+
+        //hover
+        document.getElementById('bottomLeftBack').style.backgroundImage = "url(img/0_frog_bck.png)";
+
+       
     }
 
     if (rand == '1'){
-        console.log('butler');
+        console.log('flower');
         document.getElementById('wordsWisdom').innerHTML = '“You don’t start out writing good stuff. <br>You start out writing crap and thinking it’s good stuff, and then gradually you get better at it. That’s why I say one of the most <br>valuable traits is persistence.”';
         document.getElementById('wisdomDiv').style.height = "210px";
         document.getElementById('wisdomDiv2').style.backgroundColor = "#c470e0";
@@ -112,34 +153,6 @@ $('#topLeft').click(function(){
     }
 
 
-    if (rand == '2'){
-        console.log('corita');
-        //image 
-        document.getElementById('bottomLeft').style.width = "380px";
-        document.getElementById('bottomLeft').style.transform = "translateY(-10px) translateX(-30px)";
-   
-        //image background
-        document.getElementById('wisdomBck').style.backgroundImage = "url(img/2_SisterCorita_Bck.png)";
-        document.getElementById('wisdomBck').style.width = "380px";
-        document.getElementById('wisdomBck').style.transform = "translateY(-10px) translateX(-30px)";
-
-        //text 1
-        document.getElementById('wordsWisdom').innerHTML = '“Be happy whenever you can manage it. Enjoy yourself. It’s lighter than you think.”';
-        document.getElementById('wisdomDiv').style.height = "180px";
-        document.getElementById('wisdomDiv').style.fontSize = "1.3em";
-        document.getElementById('wisdomDiv').style.backgroundColor = "#0c2342";
-        document.getElementById('wisdomDiv').style.boxShadow = "4px 4px 15px #dff208";
-
-
-        //text 2
-        document.getElementById('wordsWisdom2').innerHTML = '“Consider everything <br> an experiment.”';
-        document.getElementById('wisdomDiv2').style.backgroundColor = "#0011ff";
-        document.getElementById('wisdomDiv2').style.boxShadow = "4px 4px 15px #dff208";
-        document.getElementById('wisdomDiv2').style.fontSize = "1.6em";
-        document.getElementById('wisdomDiv2').style.height = "180px";
-        document.getElementById('wisdomDiv2').style.transform = "translateY(-400px) translateX(610px)";
-
-    }
 
 
 //Top Right Clickables
@@ -208,7 +221,7 @@ $('#topLeft').click(function(){
         document.getElementById('topLeftContainer').style.backgroundColor = "#737bee";
         document.getElementById('topLeftContainer2').style.height = "350px";
 
-        document.getElementById('topLeftText2').innerHTML = '“When you speak a word to a listener, the speaking is an act. And it is a mutual act: the listener’s listening enables the speaker’s speaking. It is a shared event, intersubjective: the listener and speaker entrain with each other. Both the amoebas are equally responsible, equally physically, immediately involved in sharing bits of themselves.”';
+        document.getElementById('topLeftText2').innerHTML = 'When you speak a word to a listener, <br>the speaking is an act. And it is a mutual act: the listener’s listening enables the speaker’s speaking. It is a shared event, intersubjective: the listener and speaker entrain with each other. Both the amoebas are equally responsible, equally physically, immediately involved in sharing bits of themselves.”';
         document.getElementById('quoteName2').innerHTML = 'ursula k. leguin';
 
          //img1
@@ -231,11 +244,54 @@ $('#topLeft').click(function(){
          //img4
         document.getElementById('topImg4Left').style.backgroundImage = "url(img/moon_turtle.gif)";
         document.getElementById('topImg4Left').style.transform = "translateY(-300px) translateX(-50px)";
-        document.getElementById('topImg4Left').style.visibility = "hidden";
-
-
-        
+        document.getElementById('topImg4Left').style.visibility = "hidden";        
     }
+
+
+//Bottom Right Clickables
+    if (rand3 == '0'){
+     console.log('fish');
+      //hover
+        document.getElementById('bottomRightBack').style.backgroundImage = "url(img/0_fish_bck.png)";
+
+        //text
+        document.getElementById('bottomRightText').innerHTML = 'Jump forward, then back. <br> Three times.';
+        document.getElementById('bottomRightContainer').style.height = "120px";
+        document.getElementById('bottomRightContainer').style.width = "560px";
+        document.getElementById('bottomRightContainer').style.backgroundColor = "#0078d3";
+        document.getElementById('bottomRightContainer2').style.height = "720px";
+         //img1
+        document.getElementById('bottomRightText2').innerHTML = 'Leaving the house,<br>I went out to see<br>The frog, for example,<br>in her satiny skin; <br>and her eggs <br>like a slippery veil;<br>and her eyes<br>with their golden rims;<br>and the pond<br>with its risen lilies;<br>and its warmed shores<br>dotted with pink flowers;<br>and the long, windless afternoons;<br>and the white heron<br>like a dropped cloud,<br>taking one slow step<br>then standing awhile then taking<br>another, writing<br>her own soft-footed poem<br>through the still waters.';
+        document.getElementById('quoteName3').innerHTML = 'mary oliver';
+
+         //img1
+        document.getElementById('bottomImg1Right').style.backgroundImage = "url(img/MaryOliver.png)";
+        document.getElementById('bottomImg1Right').style.transform = "translateY(-500px) translateX(1120px)";
+        document.getElementById('bottomImg1Right').style.height = "320px";
+        document.getElementById('bottomImg1Right').style.zIndex = "5";
+         //img2
+        document.getElementById('bottomImg2Right').style.backgroundImage = "url(img/moon_tide.gif)";
+        document.getElementById('bottomImg2Right').style.transform = "translateY(-450px) translateX(200px)";
+        document.getElementById('bottomImg2Right').style.visibility = "hidden";
+
+         //img3
+        document.getElementById('bottomImg3Right').style.backgroundImage = "url(img/moon_dolphin.gif)";
+        document.getElementById('bottomImg3Right').style.transform = "translateY(-180px) translateX(900px)";
+        document.getElementById('bottomImg3Right').style.visibility = "hidden";
+
+         //img4
+        document.getElementById('bottomImg4Right').style.backgroundImage = "url(img/moon_turtle.gif)";
+        document.getElementById('bottomImg4Right').style.transform = "translateY(-300px) translateX(-50px)";
+        document.getElementById('bottomImg4Right').style.visibility = "hidden";
+
+       
+    }
+
+    if (rand3 == '1'){
+        console.log('key');
+
+    }
+
 
 });
 
@@ -253,7 +309,16 @@ dragElement(document.getElementById('topImg4'));
 dragElement(document.getElementById('topRightContainer'));
 dragElement(document.getElementById('topLeftContainer'));
 dragElement(document.getElementById('topLeftContainer2'));
+dragElement(document.getElementById('topImg1Left'));
 dragElement(document.getElementById('videoPlayer'));
+dragElement(document.getElementById('videoPlayer2'));
+dragElement(document.getElementById('bottomLeftContainer'));
+dragElement(document.getElementById('bottomLeftContainer2'));
+dragElement(document.getElementById('bottomImg1Left'));
+dragElement(document.getElementById('bottomRightContainer'));
+dragElement(document.getElementById('bottomLeftContainer'));
+
+
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
