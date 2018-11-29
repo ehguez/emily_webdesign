@@ -64,7 +64,7 @@ $('#bottomRight').click(function(){
     $('#bottomImg2Right').toggle();
     $('#bottomImg3Right').toggle();
     $('#bottomImg4Right').toggle();
-    $('#videoPlayer2').toggle();
+    $('#videoPlayer3').toggle();
     });
  
 $('#bottomRight').hover(function(){
@@ -165,10 +165,10 @@ $('#bottomRight').hover(function(){
         document.getElementById('topRightContainer').style.backgroundColor = "#46e66c";
          //img1
         document.getElementById('topImg1').style.backgroundImage = "url(img/moon_wave.gif)";
-        document.getElementById('topImg1').style.transform = "translateY(20px) translateX(400px)";
+        document.getElementById('topImg1').style.transform = "translateY(-160px) translateX(400px)";
          //img2
         document.getElementById('topImg2').style.backgroundImage = "url(img/moon_tide.gif)";
-        document.getElementById('topImg2').style.transform = "translateY(-450px) translateX(200px)";
+        document.getElementById('topImg2').style.transform = "translateY(-550px) translateX(200px)";
          //img3
         document.getElementById('topImg3').style.backgroundImage = "url(img/moon_dolphin.gif)";
         document.getElementById('topImg3').style.transform = "translateY(-180px) translateX(900px)";
@@ -226,7 +226,7 @@ $('#bottomRight').hover(function(){
 
          //img1
         document.getElementById('topImg1Left').style.backgroundImage = "url(img/UrsulaLeguin.png)";
-        document.getElementById('topImg1Left').style.transform = "translateY(20px) translateX(200px)";
+        document.getElementById('topImg1Left').style.transform = "translateY(-100px) translateX(200px)";
         document.getElementById('topImg1Left').style.height = "300px";
         document.getElementById('topImg1Left').style.zIndex = "5";
         
@@ -260,35 +260,69 @@ $('#bottomRight').hover(function(){
         document.getElementById('bottomRightContainer').style.width = "560px";
         document.getElementById('bottomRightContainer').style.backgroundColor = "#0078d3";
         document.getElementById('bottomRightContainer2').style.height = "720px";
+        document.getElementById('bottomRightContainer2').style.visibility = "hidden";
          //img1
         document.getElementById('bottomRightText2').innerHTML = 'Leaving the house,<br>I went out to see<br>The frog, for example,<br>in her satiny skin; <br>and her eggs <br>like a slippery veil;<br>and her eyes<br>with their golden rims;<br>and the pond<br>with its risen lilies;<br>and its warmed shores<br>dotted with pink flowers;<br>and the long, windless afternoons;<br>and the white heron<br>like a dropped cloud,<br>taking one slow step<br>then standing awhile then taking<br>another, writing<br>her own soft-footed poem<br>through the still waters.';
         document.getElementById('quoteName3').innerHTML = 'mary oliver';
 
-         //img1
-        document.getElementById('bottomImg1Right').style.backgroundImage = "url(img/MaryOliver.png)";
-        document.getElementById('bottomImg1Right').style.transform = "translateY(-500px) translateX(1120px)";
-        document.getElementById('bottomImg1Right').style.height = "320px";
-        document.getElementById('bottomImg1Right').style.zIndex = "5";
+        //img1
+        document.getElementById('bottomImg1Right').style.backgroundImage = "url(img/fish_lava.gif)";
+        document.getElementById('bottomImg1Right').style.transform = "translateY(-280px) translateX(300px)";
+        //document.getElementById('bottomImg2Right').style.visibility = "hidden";
+
          //img2
-        document.getElementById('bottomImg2Right').style.backgroundImage = "url(img/moon_tide.gif)";
-        document.getElementById('bottomImg2Right').style.transform = "translateY(-450px) translateX(200px)";
-        document.getElementById('bottomImg2Right').style.visibility = "hidden";
+        document.getElementById('bottomImg2Right').style.backgroundImage = "url(img/fish_chemistry.gif)";
+        document.getElementById('bottomImg2Right').style.transform = "translateY(-540px) translateX(80px)";
+        //document.getElementById('bottomImg2Right').style.visibility = "hidden";
 
          //img3
-        document.getElementById('bottomImg3Right').style.backgroundImage = "url(img/moon_dolphin.gif)";
-        document.getElementById('bottomImg3Right').style.transform = "translateY(-180px) translateX(900px)";
-        document.getElementById('bottomImg3Right').style.visibility = "hidden";
+        document.getElementById('bottomImg3Right').style.backgroundImage = "url(img/fish_cat.gif)";
+        document.getElementById('bottomImg3Right').style.transform = "translateY(-380px) translateX(1000px)";
+       // document.getElementById('bottomImg3Right').style.visibility = "hidden";
 
          //img4
-        document.getElementById('bottomImg4Right').style.backgroundImage = "url(img/moon_turtle.gif)";
-        document.getElementById('bottomImg4Right').style.transform = "translateY(-300px) translateX(-50px)";
-        document.getElementById('bottomImg4Right').style.visibility = "hidden";
+        document.getElementById('bottomImg4Right').style.backgroundImage = "url(img/fish_physics.gif)";
+        document.getElementById('bottomImg4Right').style.transform = "translateY(-500px) translateX(800px)";
+      //  document.getElementById('bottomImg4Right').style.visibility = "hidden";
 
        
     }
 
     if (rand3 == '1'){
         console.log('key');
+//hover
+        document.getElementById('bottomRightBack').style.backgroundImage = "url(img/1_key_bck.png)";
+
+        //text
+        document.getElementById('bottomRightText').innerHTML = 'Stretch your back, head, and arms. <br>Take a large step to the left.';
+        document.getElementById('bottomRightContainer').style.height = "120px";
+        document.getElementById('bottomRightContainer').style.width = "690px";
+        document.getElementById('bottomRightContainer').style.backgroundColor = "#fa46b2";
+        document.getElementById('bottomRightContainer2').style.height = "720px";
+        document.getElementById('bottomRightContainer2').style.visibility = "hidden";
+         //img1
+        document.getElementById('bottomRightText2').innerHTML = 'Leaving the house,<br>I went out to see<br>The frog, for example,<br>in her satiny skin; <br>and her eggs <br>like a slippery veil;<br>and her eyes<br>with their golden rims;<br>and the pond<br>with its risen lilies;<br>and its warmed shores<br>dotted with pink flowers;<br>and the long, windless afternoons;<br>and the white heron<br>like a dropped cloud,<br>taking one slow step<br>then standing awhile then taking<br>another, writing<br>her own soft-footed poem<br>through the still waters.';
+        document.getElementById('quoteName3').innerHTML = 'mary oliver';
+
+        //img1
+        document.getElementById('bottomImg1Right').style.backgroundImage = "url(img/fish_lava.gif)";
+        document.getElementById('bottomImg1Right').style.transform = "translateY(-280px) translateX(300px)";
+        //document.getElementById('bottomImg2Right').style.visibility = "hidden";
+
+         //img2
+        document.getElementById('bottomImg2Right').style.backgroundImage = "url(img/fish_chemistry.gif)";
+        document.getElementById('bottomImg2Right').style.transform = "translateY(-540px) translateX(80px)";
+        //document.getElementById('bottomImg2Right').style.visibility = "hidden";
+
+         //img3
+        document.getElementById('bottomImg3Right').style.backgroundImage = "url(img/fish_cat.gif)";
+        document.getElementById('bottomImg3Right').style.transform = "translateY(-380px) translateX(1000px)";
+       // document.getElementById('bottomImg3Right').style.visibility = "hidden";
+
+         //img4
+        document.getElementById('bottomImg4Right').style.backgroundImage = "url(img/fish_physics.gif)";
+        document.getElementById('bottomImg4Right').style.transform = "translateY(-500px) translateX(800px)";
+      //  document.getElementById('bottomImg4Right').style.visibility = "hidden";
 
     }
 
@@ -318,8 +352,12 @@ dragElement(document.getElementById('bottomImg1Left'));
 dragElement(document.getElementById('bottomRightContainer'));
 dragElement(document.getElementById('bottomLeftContainer'));
 
-
-
+dragElement(document.getElementById('bottomRightContainer'));
+dragElement(document.getElementById('bottomRightContainer2'));
+dragElement(document.getElementById('bottomImg1'));
+dragElement(document.getElementById('bottomImg2'));
+dragElement(document.getElementById('bottomImg3'));
+dragElement(document.getElementById('bottomImg4'));
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
   if (document.getElementById(elmnt.id + "header")) {
@@ -378,7 +416,7 @@ function startTime() {
 
 
     if (h=="06"){
-    document.getElementById('hourlyTask').innerHTML = "Make a cup of tea. Sit quietly with it, doing nothing, until it's done.";
+    document.getElementById('hourlyTask').innerHTML = "Make a cup of tea. <br>Sit quietly with it, doing nothing, until it's empty.";
     document.getElementById('body').style.backgroundColor = "#dea1ec";
     document.getElementById('morning').innerHTML = " AM";
 
@@ -514,7 +552,7 @@ function startTime() {
     }
 
     if (h=="05"){
-    document.getElementById('hourlyTask').innerHTML = "Stretch your body out fully. Three times.";
+    document.getElementById('hourlyTask').innerHTML = "Stretch your body out, three times, <br>as exhaustively <br>as you can.";
     document.getElementById('body').style.backgroundColor = "#c69879";
     document.getElementById('morning').innerHTML = " AM";
 
