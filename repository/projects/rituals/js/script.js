@@ -21,9 +21,12 @@ $('#bottomLeft').hover(function(){
 
 $('#topRight').click(function(){
     $('#topRightContainer').toggle();
-    $('topRightContent').toggle();});
+    $('#topImg1').toggle();
+    $('#topImg2').toggle();
+    $('#topImg3').toggle();
+    $('#topImg4').toggle();
 
-
+});
  
 $('#topRight').hover(function(){
     $('#topRightBack').toggle();
@@ -130,16 +133,16 @@ $('#topRight').hover(function(){
         document.getElementById('topRightContainer').style.backgroundColor = "#46e66c";
          //img1
         document.getElementById('topImg1').style.backgroundImage = "url(img/moon_wave.gif)";
-        document.getElementById('topImg1').style.transform = "translateY(250px) translateX(-250px)";
+        document.getElementById('topImg1').style.transform = "translateY(20px) translateX(400px)";
          //img2
         document.getElementById('topImg2').style.backgroundImage = "url(img/moon_tide.gif)";
-        document.getElementById('topImg2').style.transform = "translateY(-220px) translateX(-360px)";
+        document.getElementById('topImg2').style.transform = "translateY(-450px) translateX(200px)";
          //img3
         document.getElementById('topImg3').style.backgroundImage = "url(img/moon_dolphin.gif)";
-        document.getElementById('topImg3').style.transform = "translateY(200px) translateX(-500px)";
+        document.getElementById('topImg3').style.transform = "translateY(-180px) translateX(900px)";
          //img4
         document.getElementById('topImg4').style.backgroundImage = "url(img/moon_turtle.gif)";
-        document.getElementById('topImg4').style.transform = "translateY(80px) translateX(550px)";
+        document.getElementById('topImg4').style.transform = "translateY(-300px) translateX(-50px)";
 
         //hover
         document.getElementById('topRightBack').style.backgroundImage = "url(img/0_moon_bck.png)";
@@ -154,6 +157,8 @@ $('#topRight').hover(function(){
 });
 
 
+
+
 //Dragging
 
 dragElement(document.getElementById("wisdomDiv"));
@@ -162,7 +167,7 @@ dragElement(document.getElementById('topImg1'));
 dragElement(document.getElementById('topImg2'));
 dragElement(document.getElementById('topImg3'));
 dragElement(document.getElementById('topImg4'));
-dragElement(document.getElementById('topRightText'));
+dragElement(document.getElementById('topRightContainer'));
 
 
 function dragElement(elmnt) {
