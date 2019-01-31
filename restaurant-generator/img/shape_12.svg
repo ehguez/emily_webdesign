@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="251px" height="235px" viewBox="0 0 251 235" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle Copy 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="99.2426658%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.898082),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-1">
+            <stop stop-color="#0056FF" offset="0%"></stop>
+            <stop stop-color="#1D2668" offset="100%"></stop>
+        </radialGradient>
+        <path d="M25.3791201,83.434455 C35.2287104,47.4822319 70.1207454,-34.7675809 124.067571,-9.65242347 C178.014398,15.4627339 206.089655,24.0084883 210.298269,47.7737479 C213.468609,65.6760641 186.702906,82.1428802 206.732164,100.279526 C226.761422,118.416171 237.108946,138.520372 204.436501,179.147243 C158.451083,236.328261 114.46579,218.218459 98.0088302,190.266547 C81.5518707,162.314635 147.085967,120.191508 134.251833,83.1741655 C132.76678,78.8908447 117.720249,68.6498158 107.457521,93.32625 C97.1947922,118.002684 68.2961856,159.989678 44.7420495,155.767546 C20.4539577,151.41385 9.59963066,141.031544 25.3791201,83.434455 Z" id="path-2"></path>
+        <filter x="-14.2%" y="-20.1%" width="130.4%" height="127.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="2" dy="-15" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.602227078   0 0 0 0 0.924824617   0 0 0 0 0.655262815  0 0 0 0.823596014 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle-Copy-6" transform="translate(121.720471, 101.171562) rotate(500.000000) translate(-121.720471, -101.171562) ">
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            <use fill="url(#radialGradient-1)" fill-rule="evenodd" style="mix-blend-mode: overlay;" xlink:href="#path-2"></use>
+        </g>
+    </g>
+</svg>

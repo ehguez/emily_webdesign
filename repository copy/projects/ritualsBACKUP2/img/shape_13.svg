@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="481px" height="274px" viewBox="0 0 481 274" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M107.5,146 C141.5,137 129.5,176.5 200,182 C270.5,187.5 251.5,268 308,273 C364.5,278 389.5,211.5 397,180.5 C404.5,149.5 444.5,153 469,118.5 C493.5,84 477.5,30.5 436.5,34 C395.5,37.5 383.5,75 334,57.5 C284.5,40 245,-27 185,12.5 C125,52 26,-6 4,65 C-18,136 73.5,155 107.5,146 Z" id="path-1"></path>
+        <filter x="-7.0%" y="-12.3%" width="114.0%" height="124.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="23" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="21.5" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.153385222   0 0 0 0 0.0374944531   0 0 0 0 0.466384991  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Path-6">
+            <use fill="#E4C2B3" fill-rule="evenodd" xlink:href="#path-1"></use>
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

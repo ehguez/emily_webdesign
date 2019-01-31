@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="257px" height="379px" viewBox="0 0 257 379" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval Copy 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M78.5252629,358.201502 C103.279555,363.236274 145.896018,338.226306 177.025263,288.701502 C208.154508,239.176698 189.5,159.568826 225.5,118.771401 C261.5,77.9739765 204,-8.22859871 145.025263,29.2015023 C89.8302945,64.2326588 12.221292,97.5668459 42.5252629,167.201502 C66.0252629,221.201502 31.0252629,266.701502 23.0252629,290.201502 C15.0252629,313.701502 19.5252629,346.201502 78.5252629,358.201502 Z" id="path-1"></path>
+        <filter x="-13.8%" y="-8.9%" width="127.7%" height="117.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.683002538   0 0 0 0 0.226011162   0 0 0 0 0.894026361  0 0 0 0.372961957 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Oval-Copy-8">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#829DBB" fill-rule="evenodd" style="mix-blend-mode: screen;" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
