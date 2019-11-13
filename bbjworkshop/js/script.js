@@ -1,4 +1,6 @@
-$(document).ready(function(){
+$(document).ready(function()
+
+console.log(hello world)
 
 $('.elm').click(function (){
     $('.elmfall').toggle();
