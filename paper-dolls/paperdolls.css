@@ -56,7 +56,7 @@ h2 {
 	line-height:55%;
 	position: absolute;
  	margin-left: 40%;
-  	margin-top: -13%;
+  	margin-top: -14%;
 }
 
 .topic {
@@ -89,9 +89,46 @@ h2 {
 }
 
 .dressdescription{
-	
+  height: 175px;
+  width: 70%;
+  background-color: #563c32;
+  border-radius: 20px 20px 20px 0px;
+  display: inline-block;
+  margin-top:3%;
+  margin-left:1%;
 }
 
+
+#green{
+   color: #07ed52;
+
+}
+h3 {
+	font-family:"acumin-pro-extra-condensed";
+	font-weight:61;
+	font-size: 2em;
+	margin-left: 0.5%;
+	font-style: normal;
+	color:rgb(255, 255, 255);
+	line-height:55%;
+	position: absolute;
+	line-height:55%;
+ 	margin-left: 5%;
+  	margin-top: 5%;
+}
+
+h4 {
+	font-family:"acumin-pro-condensed";
+	font-weight:500;
+	font-size: 2em;
+	margin-left: 0.5%;
+	font-style: normal;
+	color:rgb(255, 255, 255);
+	position: absolute;
+	line-height:100%;
+ 	margin-left: 5%;
+  	margin-top: 10%;
+}
 
 
 .fashionbaby{
@@ -102,6 +139,9 @@ h2 {
   height: 600px;
   position: absolute;
   margin-left: 2%;
-  margin-top: 2%;
+  margin-top: 40%;
   display: all;
 }
+
+
+
