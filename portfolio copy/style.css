@@ -1,0 +1,498 @@
+/* Text */
+@import url("https://use.typekit.net/ers2ngk.css");
+
+
+.intro {
+  width: 130px;
+  height: 40px;
+  margin-top: 60px;
+  margin-left: 60px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+}
+
+.work {
+  width: 500px;
+  height: 260px;
+  margin-top: 320px;
+  margin-left: 540px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  }
+
+
+/*
+
+.extra {
+  width: 500px;
+  height: 40px;
+  margin-top: 580px;
+  margin-left: 540px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  text-align: center;
+  color: red;
+}
+ */ 
+.intro-text {
+  padding: 7%;
+  margin-left: 7px;
+  font-size: 1.1em;
+}
+
+.work-text {
+  padding: 9%;
+}
+
+.extra-text {
+  padding: 2%;
+}
+
+
+.refresh{
+  width: 40px;
+  height: 40px;
+  margin-top: 260px;
+  margin-left: 1000px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+}
+
+#refreshButton {
+  margin-top: 7px;
+  margin-left: 8px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+ }
+
+#refresh-button{
+  fill:#000;
+}
+
+#intro-arrow-1{
+  fill:#000;
+}
+
+#intro-arrow-2{
+  fill:#000;
+}
+
+#intro-arrow-3{
+  fill:#000;
+}
+
+#intro-arrow-4{
+  fill:#000;
+}
+
+#list-arrow-1{
+  fill:#000;
+}
+
+#list-arrow-2{
+  fill:#000;
+}
+
+#list-arrow-3{
+  fill:#000;
+}
+
+#list-arrow-4{
+  fill:#000;
+}
+
+#list-arrow-5{
+  fill:#000;
+}
+
+
+.refreshButton:hover {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  z-index: 3;
+  cursor: pointer;
+  background: url(img/reload-button-2.svg);
+}
+
+.moreInfo{
+  width: 30px;
+  height: 40px;
+  margin-top: 420px;
+  margin-left: 1060px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+}
+
+#moreInfoButton {
+  margin-top: 7px;
+  margin-left: 3px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+ }
+
+.moreInfoTextBox{
+  width: 230px;
+  height: 90px;
+  margin-top: 420px;
+  margin-left: 1090px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  display: none;
+}
+
+#moreInfoText{
+  font-size: 0.9em;
+  padding: 10px;
+  line-height: 18px;
+  margin-left: 3px;
+}
+
+
+em {
+  font-weight: bold;
+  font-style: normal;
+  font-size:1.1em;
+  letter-spacing: 2px;
+}
+
+#grey{
+  color:grey
+}
+
+.moreCode{
+  width: 40px;
+  height: 40px;
+  margin-top: 500px;
+  margin-left: 430px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+}
+
+#moreCodeButton {
+  margin-top: 3px;
+  margin-left: 3px;
+  width: 33px;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+ }  
+
+.moreCodeBox{
+  width: 220px;
+  height: 60px;
+  margin-top: 440px;
+  margin-left: 250px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  display: none;
+}
+
+#moreCodeText{
+  font-size: 0.9em;
+  padding: 12px;
+  line-height: 18px;
+  margin-right: 3px;
+  text-align: right;
+}
+
+
+
+video {
+  width: 660px; 
+  padding-top: 20px;
+}
+
+.pixelByPixel{
+  width: 60px;
+  height: 40px;
+  margin-top: 200px;
+  margin-left: 270px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+}
+
+#pixelByPixelButton {
+  margin-top: 8px;
+  margin-left: 5px;
+  width: 50px;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+ }  
+
+.pixelBox{
+  width: 700px;
+  height: 610px;
+  margin-top: 200px;
+  margin-left: 330px;
+  position: absolute;
+  z-index: 3;
+  background-color: white;
+  display: none;
+
+}
+
+#pixelByPixelText{
+  font-size: 1.2em;
+padding-top: 10px;
+  margin-left: 20px;
+  line-height: 25px;
+  margin-right: 3px;
+  text-align: left;
+}
+
+#pixelByPixelTextBody{
+  font-size: 1em;
+  margin-left: 20px;
+  line-height: 23px;
+  margin-right: 3px;
+  text-align: left;
+  font-family: sans-serif;
+  max-width: 95%;
+  padding-top: 5px;
+
+}
+
+
+
+.scannerPortraits{
+  width: 60px;
+  height: 60px;
+  margin-top: 390px;
+  margin-left: 540px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+}
+
+#scannerPortraitsButton {
+  margin-top: 8px;
+  margin-left: 5px;
+  width: 50px;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+ }  
+
+.scannerBox{
+  width: 500px;
+  height: 610px;
+  margin-top: 390px;
+  margin-left: 600px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  display: none;
+
+}
+
+#scannerText{
+  font-size: 1.2em;
+  padding-top: 10px;
+  margin-left: 20px;
+  line-height: 25px;
+  margin-right: 3px;
+  text-align: left;
+}
+
+#scannerTextBody{
+  font-size: 1em;
+  margin-left: 20px;
+  line-height: 23px;
+  margin-right: 3px;
+  text-align: left;
+  font-family: sans-serif;
+  max-width: 90%;
+  padding-top: 5px;
+
+}
+
+
+
+
+
+
+
+p {
+ font-family: lores-21-serif, sans-serif;
+ font-size: 1.2em;
+}
+
+.main {
+ font-family: lores-21-serif, sans-serif;
+ font-size: 1.5em;
+ line-height: 140%;
+}
+
+a {
+  color: #000;
+}
+
+#a2 {
+  color: #000;
+}
+
+#a3 {
+  color: #000;
+}
+
+#a4:hover {
+  color: #000;
+}
+
+a:hover{
+  color: #fff;
+ /* cursor: url('img/refresh-button.svg'), auto;*/
+}
+
+a:visited {
+  color: #505050;
+}
+
+a:active {
+    color: #ff00ff;
+}
+
+/* Background */
+.canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.canvas2 {
+  width: 100%;
+  height: 100%;
+}
+
+.pixel {
+  width: 10px;
+  height: 10px;
+  float: left;
+  background:#fff;
+}
+
+.pixel2 {
+  width: 20px;
+  height: 20px;
+  float: left;
+  background:#fff;
+}
+.pixel:nth-child(odd) {
+  background: #fff;
+}
+
+.pixel:nth-child(3n+0) {
+  background: #fff;
+}
+
+.pixel:nth-child(6n+0) {
+  background: #fff;
+}
+
+.pixel:nth-child(7n+0) {
+  background: #fff;
+}
+
+.pixel:nth-child(8n+1) {
+  background: #fff;
+}
+
+.pixel:nth-child(9n+0) {
+  background: #fff;
+}
+
+.pixel:nth-child(11n+0) {
+  background: #fff;
+}
+
+.pixel:nth-child(13n+1) {
+  background: #fff;
+}
+
+
+.container {
+  display: grid | inline-grid | subgrid;
+  grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+  grid-template-rows: 25% 100px auto;
+
+}
+
+#item1 {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1-start;
+  grid-row-end: 3;
+  background-color:#333333;
+}
+
+/*
+
+
+.flex-container {
+  display: flex;
+}
+
+#shape1 {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+}
+#shape2 {
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+}
+#shape3 {
+  width: 30px;
+  height: 30px;
+  background-color: purple;
+}
+
+.display {
+  display: none;
+}*/
+
+
+* { 
+  padding:0;
+  margin:0;
+  border: 0;
+}
+
+#refresh {
+  width: 100%; 
+  height: 100%;
+  color: white;
+  border:10px solid blue;
+  position: absolute;
+  z-index: -2;
+  margin: 0 0 0 0;
+}
+
+#test {
+  width: 50px; 
+  height: 40px;
+  padding: 10px 50px;
+  color: white;
+  display: inline;
+  float: left;
+  transform: translateY(100px) translateX(130px);
+  }

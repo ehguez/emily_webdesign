@@ -1,0 +1,300 @@
+/* Text */
+@import url("https://use.typekit.net/jen3nzs.css");
+
+body {
+  background-color: #FFF;
+  margin:auto;
+  height: 100%;
+}
+
+.elm{
+  background-image: url(img/elm.png);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 400px;
+  height: 100%;
+  position: absolute;
+  margin-left:-1%;
+  margin-top: 1%;
+  z-index: 2;
+  display: all;
+}
+
+.elmfall{
+  background-image: url(img/elmfall.png);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  margin-left: -15%;
+  margin-top: -20%;
+  transform: rotate(-45deg);
+  display: none;
+}
+
+.elm2{
+  background-image: url(img/elm2.png);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 270px;
+  height: 100%;
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 23%;
+  transform: rotate(-20deg);
+  display: all;
+}
+
+.elmfall2{
+  background-image: url(img/elmfall2.png);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 10%;
+  transform: rotate(-20deg);
+  display: none;
+}
+
+
+.whiteoak{
+  background-image: url(img/whiteoak.png);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 20%;
+  transform: rotate(20deg);
+  display: all;
+}
+
+.whiteoakfall{
+  background-image: url(img/whiteoakfall.png);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  margin-left: 35%;
+  margin-top: 20%;
+  transform: rotate(-40deg);
+  display: none;
+}
+
+
+.whiteoak2{
+  background-image: url(img/whiteoak.png);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  margin-left: 70%;
+  margin-top: -20%;
+  transform: rotate(-100deg);
+  display: all;
+}
+
+.whiteoakfall2{
+  background-image: url(img/whiteoakfall.png);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: -20%;
+  transform: rotate(-120deg);
+  display: none;
+}
+
+.greenaspen{
+  background-image: url(img/greenaspen.png);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 450px;
+  height: 100%;
+  position: absolute;
+  margin-left: 12%;
+  margin-top: -6%;
+  z-index: -1;
+  transform: rotate(40deg);
+  display: all;
+}
+
+.greenaspenfall{
+  background-image: url(img/greenaspenfall.png);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 470px;
+  height: 100%;
+  position: absolute;
+  margin-left: 12%;
+  margin-top: -6%;
+  z-index: -1;
+  transform: rotate(40deg);
+  display: none;
+}
+
+.greenaspen2{
+  background-image: url(img/greenaspen.png);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 450px;
+  height: 100%;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 23%;
+  z-index: -1;
+  transform: rotate(180deg);
+  display: all;
+}
+
+.greenaspenfall2{
+  background-image: url(img/greenaspenfall.png);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 470px;
+  height: 100%;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 23%;
+  z-index: -1;
+  transform: rotate(180deg);
+  display: none;
+}
+
+.maple{
+  background-image: url(img/maple.png);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 1000px;
+  height: 100%;
+  position: absolute;
+  margin-left: 35%;
+  margin-top: -6%;
+  z-index: -1;
+  transform: rotate(0deg);
+  display: all;
+}
+
+.maplefall{
+  background-image: url(img/maplefall.png);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 100%;
+  height: 1000px;
+  position: absolute;
+  margin-left: 35%;
+  margin-top: -6%;
+  z-index: -1;
+  transform: rotate(0deg);
+  display: none;
+}
+
+.birch{
+  background-image: url(img/birch.png);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 600px;
+  height: 100%;
+  position: absolute;
+  margin-left: 3%;
+  margin-top: 35%;
+  z-index: -1;
+  transform: rotate(0deg);
+  display: all;
+}
+
+.birchfall{
+  background-image: url(img/birchfall.png);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 600px;
+  height: 100%;
+  position: absolute;
+  margin-left: 3%;
+  margin-top: 35%;
+  z-index: -1;
+  transform: rotate(0deg);
+  display: none;
+}
+
+.redoak{
+  background-image: url(img/redoak.png);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 500px;
+  height: 100%;
+  position: absolute;
+  margin-left: 3%;
+  margin-top: 20%;
+  z-index: -2;
+  transform: rotate(-30deg);
+  display: all;
+}
+
+.redoakfall{
+  background-image: url(img/redoakfall.png);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  margin-left: -35%;
+  margin-top: 60%;
+  z-index: -2;
+  transform: rotate(90deg);
+  display: none;
+}
+
+
+.snow{
+  background-image: url(img/snow.png);
+  background-size: contain;
+  background-repeat: repeat;  
+  width: 100%;
+  height: 1500px;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 0%;
+  transform: rotate(0deg);
+  display: none;
+  z-index: 4;
+}
+
+.happyfall{
+  background-image: url(img/happyfall.png);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 0%;
+  transform: rotate(0deg);
+  display: none;
+  z-index: 5;
+}
+
+
+.zoetrope{
+  background-image: url(img/zoetrope.gif);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 500px;
+  height: 100%;
+  position: absolute;
+  margin-left:45%;
+  margin-top: 25px;
+  background-blend-mode: saturation;
+display: none;
+}
+
+  background:radial-gradient(farthest-corner, #eef1fd 0%, #c3c9e2 50%, #8999da 100%);
+}

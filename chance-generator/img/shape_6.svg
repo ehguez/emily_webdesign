@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="232px" height="216px" viewBox="0 0 232 216" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 4 Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M62.1409975,49.1252259 C38.7560404,76.9680153 91.071591,99.429961 31.9575633,127.976631 C4.07016684,141.443693 0.265661164,171.780152 12.8942946,188.008978 C25.522928,204.237804 61.1249677,209.422402 92.0158287,206.48004 C150.494222,200.909958 146.353382,149.212702 177.826514,147.297919 C209.299646,145.383137 244.259555,90.3785779 215.020359,70.187031 C200.248546,59.9861436 185.4924,23.5014443 160.355774,11.0049108 C117.458161,-10.3213985 85.5259546,21.2824366 62.1409975,49.1252259 Z" id="path-1"></path>
+        <filter x="-4.5%" y="-3.9%" width="109.1%" height="109.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.949460887   0 0 0 0 1   0 0 0 0 0.116990215  0 0 0 0.790789176 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-4.8%" y="-4.2%" width="109.5%" height="110.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="6" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.25161774   0 0 0 0 0.25161774  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Path-4-Copy-2">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#FFA3A3" fill-rule="evenodd" style="mix-blend-mode: hue;" xlink:href="#path-1"></use>
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

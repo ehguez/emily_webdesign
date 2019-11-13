@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="184px" height="413px" viewBox="0 0 184 413" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle Copy 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="3.09311224%" fx="50%" fy="3.09311224%" r="93.3713329%" gradientTransform="translate(0.500000,0.030931),scale(1.000000,0.444744),rotate(90.000000),translate(-0.500000,-0.030931)" id="radialGradient-1">
+            <stop stop-color="#5BEFE3" offset="0%"></stop>
+            <stop stop-color="#A07EFF" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8.45736819,211.887722 C-8.49278929,180.015631 3.38411325,163.96056 14.9573682,128.387722 C26.5306231,92.8148845 10.128522,43.2172453 25.9573682,18.8877225 C52.9573682,-22.6122775 90.6312789,14.0961559 123.248989,35.7000935 C155.866698,57.3040312 143.742747,104.7261 145.70014,117.879778 C156.290305,189.04569 170.545216,179.571449 169.439529,226.010316 C166.474283,350.550663 195.279533,353.515909 177.488055,390.793292 C159.696577,428.070674 116.234838,414.213872 88.9573682,368.387722 C61.6798983,322.561573 58.0193428,305.081179 8.45736819,211.887722 Z" id="Rectangle-Copy-7" fill="url(#radialGradient-1)" style="mix-blend-mode: overlay;"></path>
+    </g>
+</svg>

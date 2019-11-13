@@ -1,0 +1,34 @@
+* {	
+	padding: 0;
+	margin:0;
+}
+
+
+.intro{
+	color:rgb(255, 255, 255);
+	width: auto;
+	height: 80%;
+	background-color:rgb(7, 237, 82);
+}
+
+#name {
+	font-family: 'acumin-pro-wide', sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 7em;
+	line-height: 70%;
+}
+
+em {
+	font-weight: 800;
+	font-style: normal; 
+}
+
+#condensed {
+	font-family:"acumin-pro-extra-condensed";
+	font-weight: 800;
+	font-style: normal;
+	color:rgb(255, 255, 255);
+	line-height:50%;
+
+}
