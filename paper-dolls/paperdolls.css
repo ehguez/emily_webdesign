@@ -6,7 +6,7 @@
 
 
 body {
-  background-color:rgb(7, 237, 82);
+  background-color:rgb(59, 39, 38);
   margin:auto;
   height: 100%;
 
@@ -15,7 +15,7 @@ body {
 	color:rgb(255, 255, 255);
 	width: 100%;
 	height: 100%;
-	background-color:rgb(7, 237, 82);
+	background-color:rgb(59, 39, 38)                                                                                  );
 }
 
 #name {
@@ -49,58 +49,60 @@ h2 {
 .location {
 	font-family:"acumin-pro-condensed";
 	font-weight:61;
-	font-size: 2em;
+	font-size: 1.7em;
 	margin-left: 0.5%;
 	font-style: normal;
 	color:rgb(255, 255, 255);
 	line-height:55%;
 	position: absolute;
- 	margin-left: 40%;
-  	margin-top: -14%;
+ 	margin-left: 3%;
+  	margin-top: 3%;
 }
 
 .topic {
 	font-family:"acumin-pro-condensed";
 	font-weight:61;
-	font-size: 2em;
+	font-size: 1.7em;
 	margin-left: 0.5%;
 	font-style: normal;
 	color:rgb(255, 255, 255);
 	line-height:55%;
 	position: absolute;
- 	margin-left: 40%;
-  	margin-top: -7%;
+ 	margin-left: 34%;
+  	margin-top: 3%;
 }
 
 .dot {
-  height: 23px;
-  width: 23px;
-  background-color: #563c32;
+  height: 20px;
+  width: 20px;
+  background-color: #ffffff;
   border-radius: 50%;
   display: inline-block;
 }
 
 .square {
-  height: 23px;
-  width: 23px;
-  background-color: #563c32;
+  height: 18px;
+  width: 18px;
+  background-color: #ffffff;
   border-radius: 0%;
   display: inline-block;
 }
 
 .dressdescription{
-  height: 175px;
+  height: 170px;
   width: 70%;
-  background-color: #563c32;
+  background-color: #ffffff;
   border-radius: 20px 20px 20px 0px;
   display: inline-block;
-  margin-top:3%;
+  position: absolute;
+  margin-top:80%;
   margin-left:1.5%;
+  z-index: 2;
 }
 
 
-#green {
-   color: #07ed52;
+#purple {
+   color: #b172ff;
 }
 
 h3 {
@@ -109,25 +111,25 @@ h3 {
 	font-size: 2em;
 	margin-left: 0.5%;
 	font-style: normal;
-	color:rgb(255, 255, 255);
+	color:rgb(59, 39, 38);
 	line-height:55%;
 	position: absolute;
 	line-height:55%;
- 	margin-left: 5%;
-  	margin-top: 5%;
+ 	margin-left: 10%;
+  	margin-top: 8%;
 }
 
 h4 {
 	font-family:"acumin-pro-condensed";
 	font-weight:500;
-	font-size: 2em;
-	margin-left: 0.5%;
-	font-style: normal;
-	color:rgb(255, 255, 255);
+	font-size: 1.7em;
+/*	margin-left: 0.5%;
+*/	font-style: normal;
+	color:rgb(86, 60, 50);
 	position: absolute;
 	line-height:100%;
- 	margin-left: 5%;
-  	margin-top: 10%;
+ 	margin-left: 10%;
+  	margin-top: 15%;
 }
 
 
@@ -137,11 +139,11 @@ h5 {
 	font-size: 1.7em;
 	margin-left: 0.5%;
 	font-style: normal;
-	color:rgb(86, 60, 50);
+	color:rgb(177, 114, 255);
 	position: absolute;
-	line-height:100%;
- 	margin-left: 5%;
-  	margin-top: 4%;
+	line-height:110%;
+ 	margin-left: 10%;
+  	margin-top: 5%;
 }
 
 #inverse {
@@ -154,7 +156,7 @@ p {
 	font-weight:500;
 	font-size: 1.5em;
 	font-style: normal;
-	color:rgb(86, 60, 50);
+	color:rgb(255, 255, 255);
 	position: absolute;
 	line-height:120%;
  	margin-left: 3%;
@@ -163,28 +165,28 @@ p {
 }
 
 .robealafrancaise{
-  background-image: url(img/fashionbaby-dress.png);
+  background-image: url(img/robealafrancaise.png);
   background-size: contain;
   background-repeat: no-repeat;  
   width: 100%;
   height: 600px;
   position: absolute;
   margin-left: 5%;
-  margin-top: 5%;
+  margin-top: 15%;
   display: all;
 }
 
-.robealafrancaise2{
-  background-image: url(img/fashionbaby-dress-back.png);
+/*.robealafrancaise2{
+  background-image: url(img/robealafrancaise_back.png);
   background-size: contain;
   background-repeat: no-repeat;  
   width: 100%;
   height: 600px;
   position: absolute;
   margin-left: 5%;
-  margin-top: 5%;
+  margin-top: 15%;
   display: none;
-}
+}*/
 
 .arrow {
  background-image: url(img/arrow.svg);
@@ -193,23 +195,23 @@ p {
   width: 100%;
   height: 50px;
   position: absolute;
-  margin-left: 65%;
-  margin-top: 15%;
+  margin-left: 70%;
+  margin-top: 35%;
   display: all;
 }
 
 .flip {
-	font-family:"acumin-pro-extra-condensed";
+	font-family:"acumin-pro-condensed";
 	font-weight:500;
-	font-size: 1.5em;
+	font-size: 1.7em;
 	margin-left: 0.5%;
 	font-style: normal;
 	/*color:rgb(86, 60, 50);*/
 	color:rgb(255, 255, 255);
 	position: absolute;
 	line-height:100%;
-  	margin-left: 60%;
-  	margin-top: 8%;
+  	margin-left: 63%;
+  	margin-top: 27%;
   	display: all;
 }
 
@@ -245,10 +247,10 @@ p {
 .description_whitebck{
   height: 790px;
   width: 90%;
-  background-color: #ffffff;
-  border-radius: 0px 20px 0px 0px;
+/*  background-color: #ffffff;
+*/  border-radius: 0px 20px 0px 0px;
   display: block;
-  margin-top:130%;
+  margin-top:135%;
   margin-left:1.5%;
 }
 
@@ -256,20 +258,32 @@ p {
   background-image: url(img/fashionbaby_1.png);
   background-size: contain;
   background-repeat: no-repeat;  
-  width: 100%;
+  width: 70%;
   height: 620px;
   position: absolute;
   margin-left: 5%;
-  margin-top: 5%;
+  margin-top: 2%;
   display: all;
+}
+
+.fashionbaby2{
+  background-image: url(img/fashionbaby_2.png);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 70%;
+  height: 620px;
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 2%;
+  display: none;
 }
 
 .description_brownbck{
   height: 480px;
   width: 90%;
-  background-color: #563c32;
+  background-color: #3b2726;
   border-radius: 0px 20px 0px 0px;
   display: block;
-  margin-top:130%;
+  margin-top:110%;
   margin-left:1.5%;
 }
