@@ -3,14 +3,292 @@
 	margin:0;
 }
 
-
-
 body {
   background-color:rgb(59, 39, 38);
   margin:auto;
   height: 100%;
+}
+
+
+.intro{
+	color:rgb(255, 255, 255);
+	width: 100%;
+	height: 100%;
+	background-color:rgb(59, 39, 38)     
+}
+
+#name {
+	font-family: 'acumin-pro-wide', sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 8em;
+	line-height: 77%;
+	margin-left: 40%;
+	margin-top: 1%;
+}
+
+
+em {
+	font-weight: 800;
+	font-style: normal; 
+}
+
+#condensed {
+	font-family:"acumin-pro-extra-condensed";
+	font-weight: 800;
+	margin-left: 0.5%;
+	font-style: normal;
+	color:rgb(255, 255, 255);
+	line-height:65%;
+	font-size: 1.05em;
+}
+
+h2 {
+	font-size: 0.1em;
+	position: relative;
+}
+
+
+.location {
+	font-family:"acumin-pro-condensed";
+	font-weight:61;
+	font-size: 1.7em;
+	font-style: normal;
+	color:rgb(255, 255, 255);
+	line-height:55%;
+	position: absolute;
+ 	margin-left: 40.5%;
+  	margin-top: 1.5%;
+}
+
+.topic {
+	font-family:"acumin-pro-condensed";
+	font-weight:61;
+	font-size: 1.7em;
+	margin-left: 0.5%;
+	font-style: normal;
+	color:rgb(255, 255, 255);
+	line-height:55%;
+	position: absolute;
+ 	margin-left: 34%;
+  	margin-top: 3%;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.square {
+  height: 18px;
+  width: 18px;
+  background-color: #ffffff;
+  border-radius: 0%;
+  display: inline-block;
+}
+
+.dressdescription{
+  height: 150px;
+  width: 25%;
+  background-color: #ffffff;
+  border-radius: 20px 20px 20px 0px;
+  display: inline-block;
+  position: absolute;
+  margin-top:30%;
+  margin-left:13%;
+  z-index: 2;
+}
+
+
+#purple {
+   color: #b172ff;
+}
+
+h3 {
+	font-family:"acumin-pro-extra-condensed";
+	font-weight:61;
+	font-size: 2em;
+	margin-left: 0.5%;
+	font-style: normal;
+	color:rgb(59, 39, 38);
+	line-height:55%;
+	position: absolute;
+	line-height:55%;
+ 	margin-left: 10%;
+  	margin-top: 8%;
+}
+
+h4 {
+	font-family:"acumin-pro-condensed";
+	font-weight:500;
+	font-size: 1.7em;
+/*	margin-left: 0.5%;
+*/	font-style: normal;
+	color:rgb(86, 60, 50);
+	position: absolute;
+	line-height:100%;
+ 	margin-left: 10%;
+  	margin-top: 16%;
+}
+
+
+h5 {
+	font-family:"acumin-pro-condensed";
+	font-weight:550;
+	font-size: 1.7em;
+	font-style: normal;
+	color:rgb(177, 114, 255);
+	position: absolute;
+	line-height:90%;
+ 	margin-left: 2.5%;
+  	margin-top: 4%;
+}
+
+#inverse {
+	color:rgb(255, 255, 255);
 
 }
+
+p {
+	font-family:"acumin-pro-condensed";
+	font-weight:500;
+	font-size: 1.5em;
+	font-style: normal;
+	color:rgb(255, 255, 255);
+	position: absolute;
+	line-height:120%;
+ 	margin-left: 0%;
+ 	margin-right: 12%;
+  	margin-top: 7%;
+}
+
+.robealafrancaise{
+  background-image: url(img/robealafrancaise.png);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 2%;
+  display: all;
+}
+
+.arrow {
+ background-image: url(img/arrow.svg);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 35%;
+  display: all;
+}
+
+.flip {
+	font-family:"acumin-pro-condensed";
+	font-weight:500;
+	font-size: 1.7em;
+	margin-left: 0.5%;
+	font-style: normal;
+	/*color:rgb(86, 60, 50);*/
+	color:rgb(255, 255, 255);
+	position: absolute;
+	line-height:100%;
+  	margin-left: 63%;
+  	margin-top: 27%;
+  	display: all;
+}
+
+
+
+
+.flip2 {
+	font-family:"acumin-pro-extra-condensed";
+	font-weight:500;
+	font-size: 1.5em;
+	margin-left: 0.5%;
+	font-style: normal;
+	/*color:rgb(86, 60, 50);*/
+	color:rgb(255, 255, 255);
+	position: absolute;
+	line-height:100%;
+  	margin-left: 67%;
+  	margin-top: 13%;
+}
+
+.arrow2 {
+ background-image: url(img/arrow.svg);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  margin-left: 72%;
+  margin-top: 20%;
+  display: all;
+}
+
+.description_whitebck{
+  height: 820px;
+  width: 30%;
+/*  background-color: #ffffff;
+*/  border-radius: 0px 20px 0px 0px;
+  display: block;
+  margin-top:3%;
+  margin-left:40%;
+}
+
+.fashionbaby{
+  background-image: url(img/fashionbaby_1.png);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 70%;
+  height: 620px;
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 2%;
+  display: all;
+}
+
+.fashionbaby2{
+  background-image: url(img/fashionbaby_2.png);
+  background-size: contain;
+  background-repeat: no-repeat;  
+  width: 70%;
+  height: 620px;
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 2%;
+  display: none;
+}
+
+.description_brownbck{
+  height: 490px;
+  width: 90%;
+  background-color: #3b2726;
+  border-radius: 0px 20px 0px 0px;
+  display: block;
+  margin-top:120%;
+  margin-left:1.5%;
+}
+
+
+/*Phone size
+*/
+
+@media only screen and (max-width: 600px) {
+  body {
+  background-color:rgb(59, 39, 38);
+  margin:auto;
+  height: 100%;
+}
+
+
 .intro{
 	color:rgb(255, 255, 255);
 	width: 100%;
@@ -24,6 +302,8 @@ body {
 	font-style: normal;
 	font-size: 6.5em;
 	line-height: 77%;
+	margin-left: 2%;
+	margin-top: 1%;
 }
 
 em {
@@ -89,7 +369,7 @@ h2 {
 }
 
 .dressdescription{
-  height: 170px;
+  height: 155px;
   width: 70%;
   background-color: #ffffff;
   border-radius: 20px 20px 20px 0px;
@@ -129,7 +409,7 @@ h4 {
 	position: absolute;
 	line-height:100%;
  	margin-left: 10%;
-  	margin-top: 15%;
+  	margin-top: 16%;
 }
 
 
@@ -250,7 +530,7 @@ p {
 /*  background-color: #ffffff;
 */  border-radius: 0px 20px 0px 0px;
   display: block;
-  margin-top:150%;
+  margin-top:155%;
   margin-left:1.5%;
 }
 
