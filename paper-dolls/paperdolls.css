@@ -275,8 +275,9 @@ p {
 }
 
 
-/*Phone size
-*/
+/*Phone size*/
+/*Phone size*/
+/*Phone size*/
 
 @media only screen and (max-width: 600px) {
   body {
@@ -373,7 +374,7 @@ h2 {
   display: inline-block;
   position: absolute;
   margin-top:80%;
-  margin-left:1.5%;
+  margin-left:2%;
   z-index: 2;
 }
 
@@ -527,7 +528,7 @@ p {
 /*  background-color: #ffffff;
 */  border-radius: 0px 20px 0px 0px;
   display: block;
-  margin-top:155%;
+  margin-top:160%;
   margin-left:1.5%;
 }
 
@@ -539,7 +540,7 @@ p {
   height: 620px;
   position: absolute;
   margin-left: 5%;
-  margin-top: 8%;
+  margin-top: 15%;
   display: all;
 }
 
@@ -551,7 +552,7 @@ p {
   height: 620px;
   position: absolute;
   margin-left: 5%;
-  margin-top: 8%;
+  margin-top: 15%;
   display: none;
 }
 
