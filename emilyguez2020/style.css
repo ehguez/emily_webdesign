@@ -1,0 +1,198 @@
+
+@font-face{
+	font-family: 'compagnon';
+	src: url('Compagnon-Script.otf');
+  	font-weight: bold;
+}
+
+/*Header*/
+
+body {
+/*	background-color: rgb(251,248,241);
+*/	background-color: white;
+	width: 100%;
+	margin:0%;
+	background-size: border;
+}
+
+p {
+	font-size: 1em;
+	line-height: 125%;
+	font-family: arial, sans-serif;
+	font-weight: 400;
+	border: 1px ;
+	border-style: solid;
+	border-left: none;
+	border-top: none;
+	margin-top: 0px;
+	text-align:center;	
+}
+
+.header {
+	display: flex;
+	position: fixed;
+	height: 60px;
+	width: 100%;
+	column-count: 3;
+	padding-top: 0%;
+}
+
+.column-1{
+	width: 75%;
+	padding-top: 0.7%;
+}
+
+.column-2{
+	width: 15%;
+	padding-top: 0.5%;
+	font-family: compagnon, serif;
+}
+
+.column-3{
+	width: 15%;
+	padding-top: 0.5%;
+	border-right: none;
+	font-family: compagnon, serif;
+}
+
+
+
+/*Work*/
+
+.grid-container {
+	padding-top: 65px;
+	display: grid; 
+	margin-left: 8%;
+	margin-right: 8%;
+	grid-template-columns: 300px 300px 300px 200px;
+	grid-template-rows: 300px 300px;
+	grid-gap: 4%;
+	height: 610px;
+/*	width: 84%;
+*/
+}
+
+.grid-item{
+/*	position: absolute;
+*/	align-self: flex-end;
+}
+
+/*Graphic Element - Shapes */
+.project1{
+	width: 200px;
+	height: 250px;
+	background-color: red;
+}
+
+.project2{
+/*	position: absolute;*/
+	width: 300px;
+	height: 170px;
+	background-color: red;
+}
+
+
+.project3{
+	width: 300px;
+	height: 250px;
+	background-color: red;
+}
+
+.projectname{
+	border-style: none;
+	text-align:left;
+	padding-top: 5%;
+	line-height: 100%;
+}
+
+.projectdescriptor{
+/*	border-style: none;
+	text-align:left;
+	padding-top: 0px;*/
+	font-family: compagnon, serif;
+}
+
+
+.rounded-rectangle-2{
+	width: 30px;
+	height: 130px;
+	border-radius: 30px;
+	mix-blend-mode: soft-light;
+	transform: translateY(-27px);
+	background:radial-gradient(farthest-corner, #c23725 0%, #c23725 50%, #d3c8b4 100%);
+}
+
+.rounded-rectangle-3{
+	width: 30px;
+	height: 250px;
+	border-radius: 30px;
+	mix-blend-mode: soft-light;
+	transform: translateY(-52px);
+}
+
+.rounded-rectangle-4{
+	width: 30px;
+	height: 110px;
+	border-radius: 30px;
+	mix-blend-mode: soft-light;
+	transform: translateY(-81px);
+}
+
+.rounded-rectangle-5 {
+	width: 30px;
+	height: 170px;
+	border-radius: 30px;
+	mix-blend-mode: soft-light;
+	transform: translateY(-109px);
+}
+
+/* Graphic Elements - Colors*/
+#grey {
+	background: #6a5e52;
+	background:radial-gradient(farthest-corner, #6a5e52 0%, #6a5e52 50%, #d3c8b4 100%);
+}
+
+#red {
+	background: #c23725;
+	background:radial-gradient(farthest-corner, #c23725 0%, #c23725 50%, #d3c8b4 100%);
+}
+
+#green{
+	background: #7f9040;
+	background:radial-gradient(farthest-corner, #7f9040 0%, #7f9040 50%, #d3c8b4 100%);
+}
+
+#blue {
+	background: #7aa9bf;
+	background:radial-gradient(farthest-corner, #7aa9bf 0%, #7aa9bf 50%, #d3c8b4 100%);
+}
+
+#yellow{
+	background: #eed32a;
+	background:radial-gradient(farthest-corner, #eed32a 0%, #eed32a 50%, #eadfaa 100%);
+}
+
+
+
+/*Footer*/
+
+.column-4{
+	width: 100%;
+	border-top: 1px;
+	border-style: solid;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	padding-top: 1%;
+	font-family: sans-serif;
+}
+
+
+.footer {
+  position: fixed;
+  background-color: white;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}

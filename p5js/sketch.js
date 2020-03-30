@@ -1,3 +1,7 @@
+let blue, red, green, orange;
+let img;
+
+
 console.log("sketch is connected")
 
 // function setup() {
@@ -40,6 +44,10 @@ function draw() {
 
   noFill()
   beginShape();
+  background(33,33,33);
+  strokeWeight(30);
+  stroke(456,34,456);
+
   vertex(0,-220);
   // bezierVertex(0, -190, 2, -190, 0, -180);
   vertex(0,-180)
@@ -60,6 +68,7 @@ function draw() {
 
 
  beginShape();
+ fill(456,0, 34,456);
 
  vertex(60,40)
  vertex(60,240)
