@@ -12,6 +12,7 @@ body {
 */	background-color: white;
 	width: 100%;
 	margin:0%;
+	margin-left: 0%;
 	background-size: border;
 }
 
@@ -19,7 +20,6 @@ p {
 	font-size: 1em;
 	line-height: 125%;
 	font-family: arial, sans-serif;
-	font-weight: 400;
 	border: 1px ;
 	border-style: solid;
 	border-left: none;
@@ -30,6 +30,7 @@ p {
 
 .header {
 	display: flex;
+	background-color: white;
 	position: fixed;
 	height: 60px;
 	width: 100%;
@@ -56,30 +57,89 @@ p {
 }
 
 
+/*arrows*/
+.lineright{
+	position: fixed;
+	width: 1px;
+	background-color: black;
+	height: 100%;
+	margin-left: 97%;
+	margin-top: 43px;
+}
+
+.lineleft{
+	position: fixed;
+	width: 1px;
+	background-color: black;
+	height: 100%;
+	margin-left: 3%;
+	margin-top: 43px;
+}
+
+/*.rightarrow{
+	height: 100%;
+	position: fixed;
+	margin-top: 25%;
+	margin-left: 97%;
+	font-size:1.5em;
+	text-align: center;
+}*/
+
+.rightarrow2{
+	position: fixed;
+	margin: 25%;
+	margin-left: 98%;
+	font-size:1.2em;
+	border:none; 
+	font-family: compagnon, serif;
+}
+
+.leftarrow2{
+	position: fixed;
+	margin: 25%;
+	margin-left: 1%;
+	font-size:1.2em;
+	border:none; 
+	font-family: compagnon, serif;
+}
 
 /*Work*/
 
 .grid-container {
-	padding-top: 65px;
+	padding-top: 1%;
 	display: grid; 
-	margin-left: 8%;
-	margin-right: 8%;
-	grid-template-columns: 300px 300px 300px 200px;
-	grid-template-rows: 300px 300px;
-	grid-gap: 4%;
-	height: 610px;
+	grid-template-columns: 15% 24% 25% 15%;
+	grid-gap: 5%;
+  	margin-left: auto;
+  	margin-right: auto;
+	/*	margin-left: 6%;
+	margin-right: 6%;*/
+/*	position: relative;*/
+/*	
+	border-style: solid;*/
+	width: 90%;
+	height: 280px;
+	align-items: end;
+	grid-template-rows: 300px 45px;
 /*	width: 84%;
 */
 }
 
-.grid-item{
-/*	position: absolute;
-*/	align-self: flex-end;
+#lowerrow{
+grid-template-columns: 15% 25% 30% 15%;
+grid-gap: 3%;
+margin-top: 2%;
+grid-template-rows: 300px 48px;
 }
+/*
+.grid-item{
+	position: absolute;
+	align-self: flex-end;
+}*/
 
 /*Graphic Element - Shapes */
 .project1{
-	width: 200px;
+	width: 80%;
 	height: 250px;
 	background-color: red;
 }
@@ -98,6 +158,12 @@ p {
 	background-color: red;
 }
 
+.project4{
+	width: 220px;
+	height: 250px;
+	background-color: red;
+
+}
 .projectname{
 	border-style: none;
 	text-align:left;
@@ -113,14 +179,7 @@ p {
 }
 
 
-.rounded-rectangle-2{
-	width: 30px;
-	height: 130px;
-	border-radius: 30px;
-	mix-blend-mode: soft-light;
-	transform: translateY(-27px);
-	background:radial-gradient(farthest-corner, #c23725 0%, #c23725 50%, #d3c8b4 100%);
-}
+
 
 .rounded-rectangle-3{
 	width: 30px;
