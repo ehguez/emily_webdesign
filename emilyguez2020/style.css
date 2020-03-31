@@ -28,6 +28,11 @@ p {
 	text-align:center;	
 }
 
+.arrows{
+	cursor:pointer;
+}
+
+
 .header {
 	display: flex;
 	background-color: white;
@@ -58,7 +63,7 @@ p {
 
 
 /*arrows*/
-.lineright{
+/*.lineright{
 	position: fixed;
 	width: 1px;
 	background-color: black;
@@ -75,7 +80,7 @@ p {
 	margin-left: 3%;
 	margin-top: 43px;
 }
-
+*/
 /*.rightarrow{
 	height: 100%;
 	position: fixed;
@@ -85,27 +90,90 @@ p {
 	text-align: center;
 }*/
 
-.rightarrow2{
+#rightarrow{
 	position: fixed;
 	margin: 25%;
 	margin-left: 98%;
 	font-size:1.2em;
 	border:none; 
 	font-family: compagnon, serif;
+	display: normal;
+	color:black;
 }
 
-.leftarrow2{
+#rightarrow2{
+	position: fixed;
+	margin: 25%;
+	margin-left: 98%;
+	font-size:1.2em;
+	border:none; 
+	font-family: compagnon, serif;
+	display: none;
+}
+
+#rightarrow3{
+	position: fixed;
+	margin: 25%;
+	margin-left: 98%;
+	font-size:1.2em;
+	border:none; 
+	font-family: compagnon, serif;
+	display: none;
+}
+
+#leftarrow{
 	position: fixed;
 	margin: 25%;
 	margin-left: 1%;
 	font-size:1.2em;
 	border:none; 
 	font-family: compagnon, serif;
+	display: normal;
+}
+
+#leftarrow2{
+	position: fixed;
+	margin: 25%;
+	margin-left: 1%;
+	font-size:1.2em;
+	border:none; 
+	font-family: compagnon, serif;
+	display: none;
+}
+
+#leftarrow3{
+	position: fixed;
+	margin: 25%;
+	margin-left: 1%;
+	font-size:1.2em;
+	border:none; 
+	font-family: compagnon, serif;
+	display: none;
 }
 
 /*Work*/
 
 .grid-container {
+	padding-top: 1%;
+	display: grid; 
+	grid-template-columns: 15% 24% 25% 15%;
+	grid-gap: 5%;
+  	margin-left: auto;
+  	margin-right: auto;
+	/*	margin-left: 6%;
+	margin-right: 6%;*/
+/*	position: relative;*/
+/*	
+	border-style: solid;*/
+	width: 90%;
+	height: 280px;
+	align-items: end;
+	grid-template-rows: 300px 45px;
+/*	width: 84%;
+*/
+}
+
+.grid-container-2 {
 	padding-top: 1%;
 	display: grid; 
 	grid-template-columns: 15% 24% 25% 15%;
@@ -171,6 +239,16 @@ grid-template-rows: 300px 48px;
 	line-height: 100%;
 }
 
+.project5{
+	width: 80%;
+	height: 250px;
+	background-color: blue;
+}
+
+#blue{
+	background-color: blue;
+}
+
 .projectdescriptor{
 /*	border-style: none;
 	text-align:left;
@@ -218,13 +296,8 @@ grid-template-rows: 300px 48px;
 
 #green{
 	background: #7f9040;
-	background:radial-gradient(farthest-corner, #7f9040 0%, #7f9040 50%, #d3c8b4 100%);
 }
 
-#blue {
-	background: #7aa9bf;
-	background:radial-gradient(farthest-corner, #7aa9bf 0%, #7aa9bf 50%, #d3c8b4 100%);
-}
 
 #yellow{
 	background: #eed32a;
@@ -232,6 +305,17 @@ grid-template-rows: 300px 48px;
 }
 
 
+#page1 {
+	display: normal;
+}
+
+#page2{
+	display: none;
+}
+
+#page3{
+	display: none;
+}
 
 /*Footer*/
 
