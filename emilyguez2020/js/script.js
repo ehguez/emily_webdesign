@@ -10,9 +10,74 @@ $(document).ready(function(){
         $('#leftarrow3').toggle();
     });
 
- //   $('#rightarrow').on(function(){
- //    document.getElementById('rightarrow').style.color= "blue";
+   $('#mirrormaze').mouseenter(function(){
+    console.log('mirrormirror')
+    document.getElementById('mirrormaze').style.backgroundColor= "CornflowerBlue";
+    });
+
+    $("#mirrormaze" ).mouseout(function(){
+    console.log('eatyourfoot')
+    document.getElementById('mirrormaze').style.backgroundColor="black";
+    });
+
+
+    $('#room402').mouseenter(function(){
+    document.getElementById('room402').style.backgroundColor= "Purple";
+    });
+
+    $("#room402" ).mouseout(function(){
+    document.getElementById('room402').style.backgroundColor="black";
+    });
+
+      $('#fiftyfifty').mouseenter(function(){
+    document.getElementById('fiftyfifty').style.backgroundColor= "LawnGreen";
+    });
+
+    $("#fiftyfifty" ).mouseout(function(){
+    document.getElementById('fiftyfifty').style.backgroundColor="black";
+    });
+
+ // $('#mirrormaze').mouseover(function(){
+ //    console.log('mirrormirror')
+ //    document.getElementById('mirrormaze').style.backgroundColor= "green";
+ //    $(this)mouseout(function){
+ //    document.getElementById('mirrormaze').style.backgroundColor= "none";
+ //    }
  // });
+
+// $( "#mirrormaze").hover(
+//   function() {
+//     console.log('what')
+//     $(this).getElementById('mirrormaze').style.backgroundColor= "green"}, 
+//     function() {
+//     $(this).getElementById('mirrormaze').style.backgroundColor= "none"
+//   }
+// );
+
+// document.getElementById("mirrormaze").addEventListener("hover", function(){
+// document.getElementById('mirrormaze').style.backgroundColor= "green"
+// ;});
+// $( "mirrormaze" ).off( "mouseenter mouseleave" );
+
+
+ //   $('#mirrormaze').hover(function(){
+ //    getElementById('mirrormaze').style.backgroundColor= "green";
+ // });
+  
+ //   $('#mirrormaze').hover(function(){
+ //    var element = document.getElementById("mirrormaze");
+ //  style.backgroundColor.toggle= "green";
+ // });
+  
+
+ // $("#mirrormaze").hover(function(){
+ //    $(this).css("background-color", "green");
+ //    // }, function(){
+ //    // $(this).css("background-color", "pink");
+ //  });
+
+
+// $("element").unbind('mouseover mouseout');
 
    $('#rightarrow2').click(function(){ 
         $('#page2').toggle();

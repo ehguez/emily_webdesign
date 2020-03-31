@@ -32,6 +32,9 @@ p {
 	cursor:pointer;
 }
 
+.grid-item {
+	cursor:pointer;
+}
 
 .header {
 	display: flex;
@@ -151,6 +154,7 @@ p {
 	display: none;
 }
 
+
 /*Work*/
 
 .grid-container {
@@ -176,7 +180,7 @@ p {
 .grid-container-2 {
 	padding-top: 1%;
 	display: grid; 
-	grid-template-columns: 15% 24% 25% 15%;
+	grid-template-columns: 309px 300px 320px 15%;
 	grid-gap: 5%;
   	margin-left: auto;
   	margin-right: auto;
@@ -205,11 +209,51 @@ grid-template-rows: 300px 48px;
 	align-self: flex-end;
 }*/
 
-/*Graphic Element - Shapes */
+/* PROJECTS */
 .project1{
 	width: 80%;
 	height: 250px;
 	background-color: red;
+}
+
+#mirrormaze{
+	width: 272px;
+	height: 220px;
+	background-image:url(img/maze_test_bitmap.jpg);
+	background-repeat: no-repeat;
+	background-color: none;
+	background-blend-mode: screen;
+  	background-size: contain;
+}
+
+#room402{
+	width: 285px;
+	height: 215px;
+	background-image:url(img/402.jpg);
+	background-repeat: no-repeat;
+	background-color: none;
+	background-blend-mode: screen;
+  	background-size: contain;
+}
+
+#fiftyfifty{
+	width: 320px;
+	height: 219px;
+	background-image:url(img/5050.jpg);
+	background-repeat: no-repeat;
+	background-color: none;
+	background-blend-mode: screen;
+  	background-size: contain;
+}
+
+#futurelooms{
+	width: 170px;
+	height: 241px;
+	background-image:url(img/futurelooms.jpg);
+	background-repeat: no-repeat;
+	background-color: none;
+	background-blend-mode: screen;
+  	background-size: contain;
 }
 
 .project2{
