@@ -15,27 +15,46 @@ $(document).ready(function(){
     document.getElementById('mirrormaze').style.backgroundColor= "CornflowerBlue";
     });
 
-    $("#mirrormaze" ).mouseout(function(){
-    console.log('eatyourfoot')
-    document.getElementById('mirrormaze').style.backgroundColor="black";
+     $('#mirrormaze').click(function(){
+    console.log('mirrormirror')
+    document.getElementById('mirrormaze').style.backgroundColor= "DarkViolet";
     });
+
+    // $("#mirrormaze" ).mouseout(function(){
+    // console.log('eatyourfoot')
+    // document.getElementById('mirrormaze').style.backgroundColor="black";
+    // });
 
 
     $('#room402').mouseenter(function(){
     document.getElementById('room402').style.backgroundColor= "Purple";
     });
 
-    $("#room402" ).mouseout(function(){
-    document.getElementById('room402').style.backgroundColor="black";
+     $('#room402').click(function(){
+    document.getElementById('room402').style.backgroundColor= "red";
     });
 
-      $('#fiftyfifty').mouseenter(function(){
+
+    // $("#room402" ).mouseout(function(){
+    // document.getElementById('room402').style.backgroundColor="black";
+    // });
+
+    $('#fiftyfifty').mouseenter(function(){
     document.getElementById('fiftyfifty').style.backgroundColor= "LawnGreen";
     });
 
-    $("#fiftyfifty" ).mouseout(function(){
-    document.getElementById('fiftyfifty').style.backgroundColor="black";
+    // $("#fiftyfifty" ).mouseout(function(){
+    // document.getElementById('fiftyfifty').style.backgroundColor="black";
+    // });
+
+     $('#futurelooms').mouseenter(function(){
+    document.getElementById('futurelooms').style.backgroundColor= "orange";
     });
+
+    // $("#futurelooms" ).mouseout(function(){
+    // document.getElementById('futurelooms').style.backgroundColor="black";
+    // });
+
 
  // $('#mirrormaze').mouseover(function(){
  //    console.log('mirrormirror')
