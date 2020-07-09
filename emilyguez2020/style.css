@@ -5,6 +5,7 @@
   	font-weight: bold;
 }
 
+
 /*Header*/
 
 body {
@@ -28,13 +29,15 @@ p {
 	text-align:center;	
 }
 
-.arrows{
-	cursor:pointer;
-}
 
 .grid-item {
 	cursor:pointer;
 }
+
+.arrows{
+	cursor:pointer;
+}
+
 
 .header {
 	display: flex;
@@ -196,6 +199,7 @@ p {
 /*	width: 84%;
 */
 }
+
 
 #lowerrow{
 grid-template-columns: 15% 25% 30% 15%;

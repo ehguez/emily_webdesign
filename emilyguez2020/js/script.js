@@ -10,20 +10,13 @@ $(document).ready(function(){
         $('#leftarrow3').toggle();
     });
 
-   $('#mirrormaze').mouseenter(function(){
-    console.log('mirrormirror')
-    document.getElementById('mirrormaze').style.backgroundColor= "CornflowerBlue";
-    });
-
+  
      $('#mirrormaze').click(function(){
     console.log('mirrormirror')
-    document.getElementById('mirrormaze').style.backgroundColor= "DarkViolet";
+        document.getElementById('mirrormaze').style.backgroundColor= "CornflowerBlue";
     });
 
-    // $("#mirrormaze" ).mouseout(function(){
-    // console.log('eatyourfoot')
-    // document.getElementById('mirrormaze').style.backgroundColor="black";
-    // });
+    
 
 
     $('#room402').mouseenter(function(){

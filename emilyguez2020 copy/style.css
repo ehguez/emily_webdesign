@@ -1,0 +1,389 @@
+
+@font-face{
+	font-family: 'compagnon';
+	src: url('Compagnon-Script.otf');
+  	font-weight: bold;
+}
+
+
+/*Header*/
+
+body {
+/*	background-color: rgb(251,248,241);
+*/	background-color: white;
+	width: 100%;
+	margin:0%;
+	margin-left: 0%;
+	background-size: border;
+}
+
+p {
+	font-size: 1em;
+	line-height: 125%;
+	font-family: arial, sans-serif;
+	border: 1px ;
+	border-style: solid;
+	border-left: none;
+	border-top: none;
+	margin-top: 0px;
+	text-align:center;	
+}
+
+
+.grid-item {
+	cursor:pointer;
+}
+
+.arrows{
+	cursor:pointer;
+}
+
+
+.header {
+	display: flex;
+	background-color: white;
+	position: fixed;
+	height: 60px;
+	width: 100%;
+	column-count: 3;
+	padding-top: 0%;
+}
+
+.column-1{
+	width: 75%;
+	padding-top: 0.7%;
+}
+
+.column-2{
+	width: 15%;
+	padding-top: 0.5%;
+	font-family: compagnon, serif;
+}
+
+.column-3{
+	width: 15%;
+	padding-top: 0.5%;
+	border-right: none;
+	font-family: compagnon, serif;
+}
+
+
+/*arrows*/
+/*.lineright{
+	position: fixed;
+	width: 1px;
+	background-color: black;
+	height: 100%;
+	margin-left: 97%;
+	margin-top: 43px;
+}
+
+.lineleft{
+	position: fixed;
+	width: 1px;
+	background-color: black;
+	height: 100%;
+	margin-left: 3%;
+	margin-top: 43px;
+}
+*/
+/*.rightarrow{
+	height: 100%;
+	position: fixed;
+	margin-top: 25%;
+	margin-left: 97%;
+	font-size:1.5em;
+	text-align: center;
+}*/
+
+#rightarrow{
+	position: fixed;
+	margin: 25%;
+	margin-left: 98%;
+	font-size:1.2em;
+	border:none; 
+	font-family: compagnon, serif;
+	display: normal;
+	color:black;
+}
+
+#rightarrow2{
+	position: fixed;
+	margin: 25%;
+	margin-left: 98%;
+	font-size:1.2em;
+	border:none; 
+	font-family: compagnon, serif;
+	display: none;
+}
+
+#rightarrow3{
+	position: fixed;
+	margin: 25%;
+	margin-left: 98%;
+	font-size:1.2em;
+	border:none; 
+	font-family: compagnon, serif;
+	display: none;
+}
+
+#leftarrow{
+	position: fixed;
+	margin: 25%;
+	margin-left: 1%;
+	font-size:1.2em;
+	border:none; 
+	font-family: compagnon, serif;
+	display: normal;
+}
+
+#leftarrow2{
+	position: fixed;
+	margin: 25%;
+	margin-left: 1%;
+	font-size:1.2em;
+	border:none; 
+	font-family: compagnon, serif;
+	display: none;
+}
+
+#leftarrow3{
+	position: fixed;
+	margin: 25%;
+	margin-left: 1%;
+	font-size:1.2em;
+	border:none; 
+	font-family: compagnon, serif;
+	display: none;
+}
+
+
+/*Work*/
+
+.grid-container {
+	padding-top: 1%;
+	display: grid; 
+	grid-template-columns: 15% 24% 25% 15%;
+	grid-gap: 5%;
+  	margin-left: auto;
+  	margin-right: auto;
+	/*	margin-left: 6%;
+	margin-right: 6%;*/
+/*	position: relative;*/
+/*	
+	border-style: solid;*/
+	width: 90%;
+	height: 280px;
+	align-items: end;
+	grid-template-rows: 300px 45px;
+/*	width: 84%;
+*/
+}
+
+.grid-container-2 {
+	padding-top: 1%;
+	display: grid; 
+	grid-template-columns: 309px 300px 320px 15%;
+	grid-gap: 5%;
+  	margin-left: auto;
+  	margin-right: auto;
+	/*	margin-left: 6%;
+	margin-right: 6%;*/
+/*	position: relative;*/
+/*	
+	border-style: solid;*/
+	width: 90%;
+	height: 280px;
+	align-items: end;
+	grid-template-rows: 300px 45px;
+/*	width: 84%;
+*/
+}
+
+
+#lowerrow{
+grid-template-columns: 15% 25% 30% 15%;
+grid-gap: 3%;
+margin-top: 2%;
+grid-template-rows: 300px 48px;
+}
+/*
+.grid-item{
+	position: absolute;
+	align-self: flex-end;
+}*/
+
+/* PROJECTS */
+.project1{
+	width: 80%;
+	height: 250px;
+	background-color: red;
+}
+
+#mirrormaze{
+	width: 272px;
+	height: 220px;
+	background-image:url(img/maze_test_bitmap.jpg);
+	background-repeat: no-repeat;
+	background-color: none;
+	background-blend-mode: screen;
+  	background-size: contain;
+}
+
+#room402{
+	width: 285px;
+	height: 215px;
+	background-image:url(img/402.jpg);
+	background-repeat: no-repeat;
+	background-color: none;
+	background-blend-mode: screen;
+  	background-size: contain;
+}
+
+#fiftyfifty{
+	width: 320px;
+	height: 219px;
+	background-image:url(img/5050.jpg);
+	background-repeat: no-repeat;
+	background-color: none;
+	background-blend-mode: screen;
+  	background-size: contain;
+}
+
+#futurelooms{
+	width: 170px;
+	height: 241px;
+	background-image:url(img/futurelooms.jpg);
+	background-repeat: no-repeat;
+	background-color: none;
+	background-blend-mode: screen;
+  	background-size: contain;
+}
+
+.project2{
+/*	position: absolute;*/
+	width: 300px;
+	height: 170px;
+	background-color: red;
+}
+
+
+.project3{
+	width: 300px;
+	height: 250px;
+	background-color: red;
+}
+
+.project4{
+	width: 220px;
+	height: 250px;
+	background-color: red;
+
+}
+.projectname{
+	border-style: none;
+	text-align:left;
+	padding-top: 5%;
+	line-height: 100%;
+}
+
+.project5{
+	width: 80%;
+	height: 250px;
+	background-color: blue;
+}
+
+#blue{
+	background-color: blue;
+}
+
+.projectdescriptor{
+/*	border-style: none;
+	text-align:left;
+	padding-top: 0px;*/
+	font-family: compagnon, serif;
+}
+
+
+
+
+.rounded-rectangle-3{
+	width: 30px;
+	height: 250px;
+	border-radius: 30px;
+	mix-blend-mode: soft-light;
+	transform: translateY(-52px);
+}
+
+.rounded-rectangle-4{
+	width: 30px;
+	height: 110px;
+	border-radius: 30px;
+	mix-blend-mode: soft-light;
+	transform: translateY(-81px);
+}
+
+.rounded-rectangle-5 {
+	width: 30px;
+	height: 170px;
+	border-radius: 30px;
+	mix-blend-mode: soft-light;
+	transform: translateY(-109px);
+}
+
+/* Graphic Elements - Colors*/
+#grey {
+	background: #6a5e52;
+	background:radial-gradient(farthest-corner, #6a5e52 0%, #6a5e52 50%, #d3c8b4 100%);
+}
+
+#red {
+	background: #c23725;
+	background:radial-gradient(farthest-corner, #c23725 0%, #c23725 50%, #d3c8b4 100%);
+}
+
+#green{
+	background: #7f9040;
+}
+
+
+#yellow{
+	background: #eed32a;
+	background:radial-gradient(farthest-corner, #eed32a 0%, #eed32a 50%, #eadfaa 100%);
+}
+
+
+#page1 {
+	display: normal;
+}
+
+#page2{
+	display: none;
+}
+
+#page3{
+	display: none;
+}
+
+/*Footer*/
+
+.column-4{
+	width: 100%;
+	border-top: 1px;
+	border-style: solid;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	padding-top: 1%;
+	font-family: sans-serif;
+}
+
+
+.footer {
+  position: fixed;
+  background-color: white;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
